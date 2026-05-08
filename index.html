@@ -184,7 +184,7 @@
       <h4>Contacto</h4>
       <ul>
         <li><a href="https://wa.me/5491153116412" target="_blank" rel="noopener">WhatsApp · 11 5311 6412</a></li>
-        <li><a href="mailto:ivan@bivasil.store">ivan@bivasil.store</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#8ae3fcebe4cae8e3fcebf9e3e6a4f9fee5f8ef"><span class="__cf_email__" data-cfemail="86eff0e7e8c6e4eff0e7f5efeaa8f5f2e9f4e3">[email&#160;protected]</span></a></li>
         <li><a href="https://instagram.com/bivasil.store" target="_blank" rel="noopener">@bivasil.store</a></li>
       </ul>
     </div>
@@ -202,10 +202,13 @@
 .hero-full {
   position: relative;
   background: var(--blanco-roto);
-  padding: 120px 0 96px;
+  padding: 40px 0 56px;
   border-bottom: 1px solid rgba(51,51,48,0.08);
   overflow: hidden;
   isolation: isolate;
+  min-height: min(78vh, 720px);
+  display: flex;
+  align-items: center;
 }
 .hf-carousel {
   position: absolute;
@@ -267,37 +270,44 @@
   text-align: center;
   gap: 0;
 }
-.hf-content { max-width: 920px; }
+.hf-content { max-width: 980px; }
 .hf-display {
-  font-size: clamp(52px, 8vw, 128px);
-  margin-top: 28px;
-  line-height: 1.02;
+  font-size: clamp(40px, 5.6vw, 84px);
+  margin-top: 20px;
+  line-height: 1.04;
   text-wrap: balance;
 }
 .hf-display .sage { color: var(--salvia-dark); font-style: italic; }
 .hf-sub {
-  margin: 32px auto 40px;
-  max-width: 56ch;
-  font-size: clamp(15px, 1.3vw, 18px);
+  margin: 22px auto 32px;
+  max-width: 54ch;
+  font-size: clamp(14px, 1.15vw, 17px);
 }
-.hf-ctas { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; justify-content: center; }
+.hf-ctas { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; justify-content: center; }
+/* CTA con más protagonismo */
+.hf-ctas .btn-dark {
+  padding: 16px 28px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  box-shadow: 0 6px 20px rgba(51,51,48,0.18);
+}
 
 .hf-meta {
-  margin-top: 80px;
+  margin-top: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 40px;
   flex-wrap: wrap;
-  padding-top: 32px;
+  padding-top: 24px;
   border-top: 1px solid rgba(51,51,48,0.12);
   width: 100%;
-  max-width: 880px;
+  max-width: 760px;
 }
 .hf-meta > div { display: flex; flex-direction: column; gap: 4px; align-items: center; }
 .hf-meta .num {
   font-family: var(--font-display);
-  font-size: clamp(24px, 2.4vw, 32px);
+  font-size: clamp(20px, 2vw, 26px);
   color: var(--salvia-dark);
   line-height: 1;
 }
@@ -314,8 +324,8 @@
   background: rgba(51,51,48,0.15);
 }
 @media (max-width: 720px) {
-  .hero-full { padding: 80px 0 64px; }
-  .hf-meta { gap: 24px; }
+  .hero-full { padding: 32px 0 40px; min-height: 0; }
+  .hf-meta { gap: 24px; margin-top: 32px; }
   .hf-meta .sep { display: none; }
 }
 .btn-link {
@@ -338,7 +348,7 @@
 /* Catálogo · grid + filtros */
 .catalog {
   background: var(--blanco-roto);
-  padding: 72px 0 140px;
+  padding: 56px 0 140px;
 }
 .catalog-head {
   display: grid;
@@ -734,7 +744,7 @@
 }
 </style>
 
-<script src="catalog.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="catalog.js"></script>
 <script src="site.js"></script>
 <script>
 /* Render del catálogo + filtros + acordeón + JSON-LD + WhatsApp prefilled */
