@@ -1,0 +1,143 @@
+{
+  "$schema": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+  "site": {
+    "name": "BIVA",
+    "url": "https://bivasil.store",
+    "description": "Importadora y distribuidora mayorista de productos para el hogar. Mar del Plata · Costa Atlántica.",
+    "areaServed": "Costa Atlántica, Argentina",
+    "businessModel": "B2B wholesale",
+    "currency": "ARS",
+    "contact": {
+      "whatsapp": "+5491153116412",
+      "email": "ivan@bivasil.store",
+      "instagram": "https://instagram.com/bivasil.store"
+    }
+  },
+  "categories": [
+    { "id": "cocina", "name": "Cocina", "url": "/cocina.html" },
+    { "id": "jardin", "name": "Jardín", "url": "/jardin.html" }
+  ],
+  "products": [
+    {
+      "id": "set-utensilios-magneticos-1",
+      "sku": "BV-COC-01",
+      "name": "Set utensilios magnéticos · Esencial",
+      "shortDescription": "Cuchara, espumadera, cucharón. Mango magnético, listos en la pared.",
+      "description": "Set 1 — base esencial. Tres piezas que cubren la cocina diaria. Mango magnético que se adhiere a portacuchillos o barras de pared, manteniendo la mesada despejada. Cabezal de acero inoxidable y silicona apta para uso en sartenes antiadherentes.",
+      "category": "cocina",
+      "tags": ["cocina diaria", "magnético", "set"],
+      "image": "images/cocina/01-utensilios-magneticos-1.jpg",
+      "imageFit": "contain",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["cocina diaria", "uso doméstico intensivo"],
+      "materials": ["acero inoxidable", "silicona alimentaria"],
+      "url": "cocina.html#set-utensilios-magneticos-1"
+    },
+    {
+      "id": "set-utensilios-magneticos-2",
+      "sku": "BV-COC-02",
+      "name": "Set utensilios magnéticos · Extendido",
+      "shortDescription": "Set extendido. Más piezas, mismas reglas. Materiales que aguantan.",
+      "description": "Set 2 — extendido. Suma piezas al set esencial: pala, espátula plana, batidor de varillas. Mismo sistema magnético, mismo estándar de materiales. Pensado para cocinas que cocinan en serio.",
+      "category": "cocina",
+      "tags": ["cocina extendida", "magnético", "set"],
+      "image": "images/cocina/02-utensilios-magneticos-2.jpg",
+      "imageFit": "contain",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["cocina diaria", "repostería", "cocina profesional doméstica"],
+      "materials": ["acero inoxidable", "silicona alimentaria"],
+      "url": "cocina.html#set-utensilios-magneticos-2"
+    },
+    {
+      "id": "set-espatulas",
+      "sku": "BV-COC-03",
+      "name": "Set espátulas",
+      "shortDescription": "Tres tamaños, una sola filosofía: flexibilidad real, mango firme, lavado simple.",
+      "description": "Tres espátulas en escalera de tamaños — chica, media, grande. Cabezal de silicona alimentaria con flexión real (no las que se quedan duras al primer uso). Mango de madera tratado, agarre firme, lavables sin problema.",
+      "category": "cocina",
+      "tags": ["repostería", "cocina", "silicona"],
+      "image": "images/cocina/03-espatulas.jpg",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["repostería", "cocina diaria"],
+      "materials": ["silicona alimentaria", "madera"],
+      "url": "cocina.html#set-espatulas"
+    },
+    {
+      "id": "guantes",
+      "sku": "BV-COC-04",
+      "name": "Guantes térmicos",
+      "shortDescription": "Aislación que cumple. Para horno, para parrilla, para todo lo que quema.",
+      "description": "Guantes de silicona con interior de algodón. Aislación térmica real para horno y parrilla. Antideslizantes en la palma. Lavables. No de los que se ponen rígidos al primer uso intenso.",
+      "category": "cocina",
+      "tags": ["protección térmica", "horno", "parrilla"],
+      "image": "images/cocina/04-guantes.jpg",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["horno", "parrilla", "cocción"],
+      "materials": ["silicona", "algodón"],
+      "url": "cocina.html#guantes"
+    },
+    {
+      "id": "batidores",
+      "sku": "BV-COC-05",
+      "name": "Batidores",
+      "shortDescription": "Mano firme, varillas que no se abren. Para huevos, salsas y emulsiones.",
+      "description": "Batidor de varillas de acero inoxidable, mango ergonómico. Las varillas mantienen la forma — no se abren después de tres usos. Para huevos, salsas, vinagretas y todo lo que necesite emulsionar.",
+      "category": "cocina",
+      "tags": ["repostería", "salsas"],
+      "image": "images/cocina/05-batidores.jpg",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["repostería", "salsas", "emulsiones"],
+      "materials": ["acero inoxidable"],
+      "url": "cocina.html#batidores"
+    },
+    {
+      "id": "lamina-hornear",
+      "sku": "BV-COC-06",
+      "name": "Lámina para hornear",
+      "shortDescription": "Antiadherente real, reutilizable. Reemplaza el papel manteca y dura temporadas enteras.",
+      "description": "Lámina de silicona alimentaria reutilizable. Antiadherente verdadero — no necesita aceite ni papel manteca. Resiste temperaturas de horno convencional. Se lava y vuelve a usarse durante temporadas enteras.",
+      "category": "cocina",
+      "tags": ["horno", "repostería", "reutilizable"],
+      "image": "images/cocina/06-lamina-hornear.jpg",
+      "imageFit": "contain",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["horno", "repostería"],
+      "materials": ["silicona alimentaria"],
+      "url": "cocina.html#lamina-hornear"
+    },
+    {
+      "id": "enrollador-manguera",
+      "sku": "BV-JAR-01",
+      "name": "Enrollador de manguera",
+      "shortDescription": "La manguera siempre fue un quilombo. Ya no.",
+      "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa. Footprint chico — se monta en pared o se apoya. Pensado para vender en bazares y casas del hogar de la Costa Atlántica.",
+      "category": "jardin",
+      "tags": ["jardín", "manguera", "patio"],
+      "image": "images/jardin/01-enrollador.jpg",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": ["patio", "jardín", "vivero", "uso comercial costa"],
+      "materials": ["materiales resistentes a intemperie"],
+      "features": [
+        "Mecanismo simple — enrolla parejo, sin atascos",
+        "Materiales para sol, salitre y frío",
+        "Footprint chico — montaje o apoyo",
+        "Pensado para vender, no para mostrar"
+      ],
+      "url": "jardin.html#enrollador-manguera"
+    }
+  ]
+}

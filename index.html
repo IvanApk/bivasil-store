@@ -3,37 +3,38 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>BIVA — Pragmatismo · Diseño · Calidad</title>
-<meta name="description" content="Importadora y distribuidora mayorista de productos para el hogar. Mar del Plata · Costa Atlántica. Solo mayoristas." />
+<title>BIVA — Catálogo mayorista · Mar del Plata</title>
+<meta name="description" content="Catálogo mayorista BIVA. Cocina y jardín bien elegidos, stock local en Mar del Plata, entrega 24–72h en Costa Atlántica. Solo comercios." />
 
-<template id="__bundler_thumbnail" data-bg-color="#333330">
-  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
-    <rect width="1200" height="800" fill="#333330"/>
-    <text x="600" y="430" font-family="Georgia, serif" font-size="220" fill="#f3f3f3" text-anchor="middle" font-weight="400">BI<tspan fill="#8e9b79">V</tspan>A</text>
-    <line x1="450" y1="500" x2="750" y2="500" stroke="#8e9b79" stroke-width="2" opacity="0.6"/>
-    <text x="600" y="540" font-family="Helvetica, sans-serif" font-size="18" fill="#8e9b79" text-anchor="middle" letter-spacing="6">PRAGMATISMO · DISEÑO · CALIDAD</text>
-  </svg>
-</template>
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="BIVA — Catálogo mayorista" />
+<meta property="og:description" content="Productos bien elegidos. Stock en Mar del Plata. Solo mayoristas." />
+<meta property="og:url" content="https://bivasil.store/" />
+<meta property="og:locale" content="es_AR" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- JSON-LD: Organization + ItemList del catálogo -->
+<script type="application/ld+json" id="biva-jsonld"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="catalog.css" />
 </head>
 <body>
 
-<!-- ============================================ Banner mayorista ============================================ -->
 <div class="wholesale-banner">
   Solo mayoristas <span class="dot"></span> Mar del Plata · Costa Atlántica
-  <a href="#mayoristas">Cómo comprar →</a>
+  <a href="#proceso">Cómo comprar →</a>
 </div>
 
-<!-- ============================================ Nav ============================================ -->
-<nav class="nav" data-hero-dark="true">
+<nav class="nav">
   <div class="nav-inner">
     <a href="index.html" class="wordmark">BI<span class="v">V</span>A</a>
     <div class="nav-links">
-      <a href="index.html" class="active">Inicio</a>
+      <a href="#catalogo" class="active">Catálogo</a>
       <a href="cocina.html">Cocina</a>
       <a href="jardin.html">Jardín</a>
       <a href="nosotros.html">Nosotros</a>
@@ -46,199 +47,105 @@
   </div>
 </nav>
 
-<!-- ============================================ HERO · Full Dark ============================================ -->
-<section class="hero">
-  <div class="hero-bg">
-    <!-- Video loop placeholder: capa de fondo carbón con glow radial sage animado -->
-    <div class="hero-glow" aria-hidden="true"></div>
-    <div class="hero-grid" aria-hidden="true"></div>
-  </div>
-
-  <div class="corner-marks" aria-hidden="true">
-    <span class="tl"></span><span class="tr"></span>
-    <span class="bl"></span><span class="br"></span>
-  </div>
-
-  <div class="hero-inner">
-    <div class="hero-eyebrow eyebrow light reveal">Mayorista · Mar del Plata · 2026</div>
-
-    <h1 class="hero-title h-display reveal delay-1">
-      Productos bien elegidos.<br/>
-      <em class="sage">Disponibles acá.</em>
-    </h1>
-
-    <p class="hero-sub h-tagline light reveal delay-2">
-      Bazar y jardín para comercios de la Costa Atlántica.<br/>
-      Selección curada, stock local, precio mayorista.
-    </p>
-
-    <div class="hero-ctas reveal delay-3">
-      <a class="btn btn-primary" href="https://wa.me/5491153116412" target="_blank" rel="noopener">
-        Consultar precio mayorista
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-      </a>
-      <a class="btn btn-ghost" href="#catalogo">Ver catálogo</a>
-    </div>
-
-    <div class="hero-meta reveal delay-4">
-      <div><span class="num">MDQ</span><span class="lbl">Stock local</span></div>
-      <div><span class="num">24–72 hs</span><span class="lbl">Entrega regional</span></div>
-      <div><span class="num">B2B</span><span class="lbl">Solo mayoristas</span></div>
+<!-- ============ HERO FULL-BLEED + CARRUSEL DE FONDO ============ -->
+<section class="hero-full">
+  <!-- Carrusel blurred de productos -->
+  <div class="hf-carousel" aria-hidden="true">
+    <div class="hf-track" id="hf-track">
+      <!-- Tiles se inyectan por JS desde products.json -->
     </div>
   </div>
 
-  <div class="hero-scroll" aria-hidden="true">
-    <span>SCROLL</span>
-    <div class="scroll-line"></div>
+  <!-- Velos de legibilidad -->
+  <div class="hf-veil" aria-hidden="true"></div>
+
+  <!-- Contenido -->
+  <div class="wrap hf-inner">
+    <div class="hf-content">
+      <div class="eyebrow reveal">Mayorista · MDQ · 2026</div>
+      <h1 class="h-display reveal delay-1 hf-display">
+        Productos bien elegidos.<br/>
+        <em class="sage">Disponibles acá.</em>
+      </h1>
+      <p class="h-tagline reveal delay-2 hf-sub">
+        Bazar y jardín para comercios de la Costa Atlántica. Selección curada, stock local, precio mayorista.
+      </p>
+      <div class="hf-ctas reveal delay-3">
+        <a class="btn btn-dark" href="#catalogo">
+          Ver catálogo
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a class="btn btn-link" href="https://wa.me/5491153116412" target="_blank" rel="noopener">
+          Consultar por WhatsApp →
+        </a>
+      </div>
+    </div>
+
+    <div class="hf-meta reveal delay-3">
+      <div><span class="num">7</span><span class="lbl">Productos en stock</span></div>
+      <div><span class="sep"></span></div>
+      <div><span class="num">24–72h</span><span class="lbl">Entrega regional</span></div>
+      <div><span class="sep"></span></div>
+      <div><span class="num">B2B</span><span class="lbl">Solo comercios</span></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ CATÁLOGO · GRID + ACORDEÓN ============ -->
+<section class="catalog" id="catalogo">
+  <div class="wrap">
+    <div class="catalog-head">
+      <div>
+        <div class="eyebrow reveal">Catálogo completo</div>
+        <h2 class="h-section reveal delay-1">El depósito, en una página.</h2>
+      </div>
+      <div class="catalog-tools reveal delay-2">
+        <div class="filter-bar" role="tablist" aria-label="Filtrar por categoría">
+          <button class="fb-btn active" data-filter="all" role="tab">Todos <span class="fb-count" data-count="all"></span></button>
+          <button class="fb-btn" data-filter="cocina" role="tab">Cocina <span class="fb-count" data-count="cocina"></span></button>
+          <button class="fb-btn" data-filter="jardin" role="tab">Jardín <span class="fb-count" data-count="jardin"></span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog-grid" id="catalog-grid">
+      <!-- Cards renderizadas por JS -->
+    </div>
+
+    <div class="catalog-empty" hidden>
+      Nada coincide con esa búsqueda en este filtro.
+    </div>
   </div>
 </section>
 
-<!-- ============================================ MANIFIESTO ============================================ -->
-<section class="manifesto">
-  <div class="wrap">
+<!-- ============ MANIFIESTO COMPACTO ============ -->
+<section class="manifesto-compact">
+  <div class="wrap mc-inner">
     <div class="eyebrow reveal">Quiénes somos</div>
-    <h2 class="manifesto-text h-section reveal delay-1">
-      Bien diseñado.<br/>
-      Bien hecho.<br/>
-      <span class="sage-dark">A un precio que tiene sentido.</span>
+    <h2 class="h-section reveal delay-1 mc-text">
+      Bien diseñado. Bien hecho. <em class="sage-dark">A un precio que tiene sentido.</em>
     </h2>
-    <hr class="rule reveal delay-2" style="margin: 64px 0 40px; max-width: 280px;" />
-    <p class="manifesto-foot h-tagline reveal delay-2">
-      Importamos, seleccionamos y distribuimos para bazares, ferreterías y casas de cocina de la Costa Atlántica. Lo que entra a nuestro depósito pasó por una pregunta simple: <em>¿lo compraría yo?</em>
+    <p class="reveal delay-2 mc-foot">
+      Importamos, seleccionamos y distribuimos para bazares, ferreterías y casas de cocina de la Costa Atlántica. Lo que entra al depósito pasó por una pregunta simple: <em>¿lo compraría yo?</em>
+      <a href="nosotros.html" class="mc-link">Conocer la historia →</a>
     </p>
   </div>
 </section>
 
-<!-- ============================================ PILARES · Full Light Grid ============================================ -->
-<section class="pillars">
-  <div class="pillars-bar"></div>
-  <div class="wrap">
-    <div class="pillars-head">
-      <div class="eyebrow reveal">Tres pilares</div>
-      <h2 class="h-section reveal delay-1">Tres principios.<br/>Una sola idea: hacer las cosas bien.</h2>
-    </div>
-
-    <div class="pillars-grid">
-      <article class="pillar reveal">
-        <div class="pillar-num">01</div>
-        <h3>Innovación</h3>
-        <p>Productos que el mercado local aún no conoce. Llegamos antes — y con stock.</p>
-      </article>
-      <article class="pillar reveal delay-1">
-        <div class="pillar-num">02</div>
-        <h3>Calidad</h3>
-        <p>Selección deliberada. Materiales que resisten el uso real, no la góndola.</p>
-      </article>
-      <article class="pillar reveal delay-2">
-        <div class="pillar-num">03</div>
-        <h3>Elegancia</h3>
-        <p>Lo bello no es un lujo. Es una decisión de diseño que el cliente final reconoce.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ CATEGORÍAS · Split ============================================ -->
-<section class="categories" id="catalogo">
-  <div class="wrap">
-    <div class="cat-head">
-      <div class="eyebrow reveal">Catálogo</div>
-      <h2 class="h-section reveal delay-1">Dos categorías. Curaduría obsesiva.</h2>
-    </div>
-  </div>
-
-  <div class="cat-grid">
-    <a class="cat-card cocina reveal" href="cocina.html">
-      <div class="cat-media">
-        <div class="product-frame wide">
-          <img class="product-img" src="images/cocina/cocina-lifestyle.jpg" alt="Línea Cocina BIVA" loading="lazy" />
-        </div>
-      </div>
-      <div class="cat-body">
-        <div class="cat-meta">
-          <span class="pill">01 · Cocina</span>
-          <span class="cat-count">6 productos</span>
-        </div>
-        <h3 class="h-section">Cocina</h3>
-        <p>Utensilios magnéticos, espátulas, batidores, guantes, láminas para hornear. Lo que se usa todos los días, hecho como corresponde.</p>
-        <span class="cat-link">Ver vitrina <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
-      </div>
-    </a>
-
-    <a class="cat-card jardin reveal delay-1" href="jardin.html">
-      <div class="cat-media">
-        <div class="product-frame wide" style="background-color: var(--salvia-pale);">
-          <img class="product-img" src="images/jardin/01-enrollador.jpg" alt="Enrollador de manguera BIVA en patio" loading="lazy" />
-        </div>
-      </div>
-      <div class="cat-body">
-        <div class="cat-meta">
-          <span class="pill">02 · Jardín</span>
-          <span class="cat-count">1 producto</span>
-        </div>
-        <h3 class="h-section">Jardín</h3>
-        <p>La manguera siempre fue un enredo Ya no. Empezamos con el enrollador. Estamos sumando más.</p>
-        <span class="cat-link">Ver vitrina <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
-      </div>
-    </a>
-  </div>
-</section>
-
-<!-- ============================================ FEATURED · Split Vertical ============================================ -->
-<section class="featured">
-  <div class="featured-grid">
-    <div class="featured-media">
-      <img class="product-img" src="images/jardin/01-enrollador.jpg" alt="Enrollador de manguera BIVA — hero" loading="lazy" style="width:100%; height:100%; object-fit: cover;" />
-    </div>
-    <div class="featured-body">
-      <div class="eyebrow reveal">Producto destacado</div>
-      <h2 class="h-section reveal delay-1">El enrollador<br/>que hace el trabajo.</h2>
-      <hr class="rule reveal delay-1" style="margin: 32px 0; max-width: 220px;" />
-      <ul class="feat-list">
-        <li class="reveal delay-2"><span>01</span> Manguera siempre lista, sin nudos.</li>
-        <li class="reveal delay-2"><span>02</span> Materiales que aguantan sol, frío y costa.</li>
-        <li class="reveal delay-3"><span>03</span> Diseño que ocupa lo justo en el patio.</li>
-        <li class="reveal delay-3"><span>04</span> Pensado para el comercio, no para la góndola.</li>
-      </ul>
-      <a class="btn btn-dark reveal delay-4" href="jardin.html" style="margin-top: 40px;">
-        Ver ficha
-        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ CÓMO COMPRAR ============================================ -->
-<section class="how" id="mayoristas">
+<!-- ============ PROCESO COMPACTO ============ -->
+<section class="how" id="proceso">
   <div class="wrap">
     <div class="how-head">
       <div class="eyebrow light reveal">Cómo comprar mayorista</div>
       <h2 class="h-section reveal delay-1" style="color: var(--blanco-roto);">Cuatro pasos.<br/>Sin fricción innecesaria.</h2>
     </div>
-
     <div class="steps">
-      <div class="step reveal">
-        <div class="step-num">01</div>
-        <h4>Escribinos</h4>
-        <p>Por WhatsApp, contanos qué tipo de comercio tenés y qué te interesa.</p>
-      </div>
-      <div class="step reveal delay-1">
-        <div class="step-num">02</div>
-        <h4>Te pasamos lista</h4>
-        <p>Catálogo completo con precios mayoristas, foto y stock real.</p>
-      </div>
-      <div class="step reveal delay-2">
-        <div class="step-num">03</div>
-        <h4>Visita con muestra</h4>
-        <p>En MDQ y zona, vamos al local con producto físico. Decidís viendo y tocando.</p>
-      </div>
-      <div class="step reveal delay-3">
-        <div class="step-num">04</div>
-        <h4>Entrega 24–72 hs</h4>
-        <p>Stock en Mar del Plata. Sin esperar contenedores ni reposiciones eternas.</p>
-      </div>
+      <div class="step reveal"><div class="step-num">01</div><h4>Escribinos</h4><p>Por WhatsApp, contanos qué tipo de comercio tenés y qué te interesa.</p></div>
+      <div class="step reveal delay-1"><div class="step-num">02</div><h4>Te pasamos lista</h4><p>Catálogo completo con precios mayoristas, foto y stock real.</p></div>
+      <div class="step reveal delay-2"><div class="step-num">03</div><h4>Visita con muestra</h4><p>En MDQ y zona, vamos al local con producto físico. Decidís viendo y tocando.</p></div>
+      <div class="step reveal delay-3"><div class="step-num">04</div><h4>Entrega 24–72 hs</h4><p>Stock en Mar del Plata. Sin esperar contenedores ni reposiciones eternas.</p></div>
     </div>
-
     <div class="how-cta reveal delay-4">
       <a class="btn btn-primary" href="https://wa.me/5491153116412" target="_blank" rel="noopener">
         Consultar por WhatsApp
@@ -249,63 +156,7 @@
   </div>
 </section>
 
-<!-- ============================================ FAQ ============================================ -->
-<section class="faq">
-  <div class="wrap">
-    <div class="faq-head">
-      <div class="eyebrow reveal">FAQ mayoristas</div>
-      <h2 class="h-section reveal delay-1">Lo que nos preguntan los comercios.</h2>
-    </div>
-
-    <div class="faq-list">
-      <details class="faq-item reveal" open>
-        <summary>¿Cuál es el mínimo de compra?</summary>
-        <div class="faq-body">No trabajamos con un mínimo rígido. Sí pedimos que la compra tenga sentido logístico — te lo explicamos en la primera charla por WhatsApp y armamos el pedido juntos.</div>
-      </details>
-      <details class="faq-item reveal delay-1">
-        <summary>¿Atienden minoristas o consumidor final?</summary>
-        <div class="faq-body">No. BIVA es exclusivamente B2B mayorista para bazares, ferreterías, casas de cocina y comercios afines. El consumidor final nos encuentra a través de nuestros clientes.</div>
-      </details>
-      <details class="faq-item reveal delay-1">
-        <summary>¿Qué ventaja tiene comprar a BIVA?</summary>
-        <div class="faq-body">Selección curada, stock local en Mar del Plata y entrega rápida en toda la Costa Atlántica. Trato directo, sin intermediarios.</div>
-      </details>
-      <details class="faq-item reveal delay-2">
-        <summary>¿Hacen envíos fuera de MDQ?</summary>
-        <div class="faq-body">Sí. Cubrimos toda la Costa Atlántica. Entregas habituales en 24 a 72 horas según zona. Coordinamos por WhatsApp.</div>
-      </details>
-      <details class="faq-item reveal delay-2">
-        <summary>¿Pueden visitar mi local con muestras?</summary>
-        <div class="faq-body">Es nuestra forma preferida de empezar. En MDQ y alrededores vamos al comercio con producto físico para que decidas viendo y tocando, no por foto.</div>
-      </details>
-      <details class="faq-item reveal delay-3">
-        <summary>¿Qué métodos de pago manejan?</summary>
-        <div class="faq-body">Transferencia bancaria, efectivo y opciones según volumen. Lo conversamos cuando armamos el primer pedido.</div>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ CIERRE ============================================ -->
-<section class="closing">
-  <div class="wrap">
-    <div class="closing-marks corner-marks" aria-hidden="true">
-      <span class="tl"></span><span class="tr"></span>
-      <span class="bl"></span><span class="br"></span>
-    </div>
-    <p class="closing-quote h-section reveal">
-      Bien diseñado.<br/>
-      Bien hecho.<br/>
-      <em class="sage">A un precio que tiene sentido.</em>
-    </p>
-    <a class="btn btn-primary reveal delay-2" href="https://wa.me/5491153116412" target="_blank" rel="noopener" style="margin-top: 56px;">
-      Empezar conversación
-      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-    </a>
-  </div>
-</section>
-
-<!-- ============================================ FOOTER ============================================ -->
+<!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="footer-inner">
     <div>
@@ -318,6 +169,7 @@
       <ul>
         <li><a href="cocina.html">Cocina</a></li>
         <li><a href="jardin.html">Jardín</a></li>
+        <li><a href="#catalogo">Todo el catálogo</a></li>
       </ul>
     </div>
     <div>
@@ -325,14 +177,14 @@
       <ul>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="#mayoristas">Cómo comprar</a></li>
+        <li><a href="#proceso">Cómo comprar</a></li>
       </ul>
     </div>
     <div>
       <h4>Contacto</h4>
       <ul>
         <li><a href="https://wa.me/5491153116412" target="_blank" rel="noopener">WhatsApp · 11 5311 6412</a></li>
-        <li><a href="/cdn-cgi/l/email-protection#244d52454a64464d5245574d480a57504b5641"><span class="__cf_email__" data-cfemail="0d647b6c634d6f647b6c7e6461237e79627f68">[email&#160;protected]</span></a></li>
+        <li><a href="mailto:ivan@bivasil.store">ivan@bivasil.store</a></li>
         <li><a href="https://instagram.com/bivasil.store" target="_blank" rel="noopener">@bivasil.store</a></li>
       </ul>
     </div>
@@ -344,304 +196,484 @@
 </footer>
 
 <style>
-/* =============================================
-   HOME · estilos específicos
-   ============================================= */
+/* ============ Variant A · estilos específicos ============ */
 
-/* HERO */
-.hero {
+/* Hero full-bleed con carrusel detrás */
+.hero-full {
   position: relative;
-  min-height: 100vh;
-  background: var(--carbon);
-  color: var(--blanco-roto);
+  background: var(--blanco-roto);
+  padding: 120px 0 96px;
+  border-bottom: 1px solid rgba(51,51,48,0.08);
   overflow: hidden;
+  isolation: isolate;
+}
+.hf-carousel {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.hf-track {
+  display: flex;
+  gap: 32px;
+  height: 100%;
+  align-items: center;
+  padding: 0 24px;
+  width: max-content;
+  animation: hf-marquee 80s linear infinite;
+  will-change: transform;
+}
+.hf-tile {
+  flex: 0 0 auto;
+  width: clamp(240px, 22vw, 320px);
+  aspect-ratio: 4/5;
+  border-radius: 18px;
+  background: var(--crema) center/cover no-repeat;
+  transform: translateZ(0);
+  transition: filter .5s var(--ease-out), opacity .5s var(--ease-out);
+}
+/* Tiles del fondo (blur suave) */
+.hf-tile {
+  filter: blur(6px) saturate(0.9) brightness(1.03);
+  opacity: 0.65;
+}
+@keyframes hf-marquee {
+  from { transform: translate3d(0,0,0); }
+  to   { transform: translate3d(-50%,0,0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hf-track { animation: none; }
+}
+
+/* Velo: fade lateral + suave wash superior/inferior para legibilidad */
+.hf-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(247,245,240,0.45) 0%, rgba(247,245,240,0.25) 40%, rgba(247,245,240,0.80) 100%),
+    radial-gradient(ellipse 80% 60% at 50% 50%, rgba(247,245,240,0.25), rgba(247,245,240,0.65) 100%),
+    linear-gradient(90deg, var(--blanco-roto) 0%, rgba(247,245,240,0) 12%, rgba(247,245,240,0) 88%, var(--blanco-roto) 100%);
+}
+
+.hf-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0;
+}
+.hf-content { max-width: 920px; }
+.hf-display {
+  font-size: clamp(52px, 8vw, 128px);
+  margin-top: 28px;
+  line-height: 1.02;
+  text-wrap: balance;
+}
+.hf-display .sage { color: var(--salvia-dark); font-style: italic; }
+.hf-sub {
+  margin: 32px auto 40px;
+  max-width: 56ch;
+  font-size: clamp(15px, 1.3vw, 18px);
+}
+.hf-ctas { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; justify-content: center; }
+
+.hf-meta {
+  margin-top: 80px;
   display: flex;
   align-items: center;
-  padding: 120px var(--gutter) 80px;
-}
-.hero-bg { position: absolute; inset: 0; pointer-events: none; }
-.hero-glow {
-  position: absolute;
-  inset: -10%;
-  background:
-    radial-gradient(ellipse 60% 50% at 30% 30%, rgba(142, 155, 121, 0.18), transparent 60%),
-    radial-gradient(ellipse 50% 60% at 75% 75%, rgba(142, 155, 121, 0.12), transparent 65%),
-    radial-gradient(ellipse 80% 70% at 50% 100%, rgba(142, 155, 121, 0.08), transparent 70%);
-  filter: blur(40px);
-  animation: drift 22s ease-in-out infinite alternate;
-}
-@keyframes drift {
-  0%   { transform: translate(0, 0) scale(1); }
-  50%  { transform: translate(2%, -1%) scale(1.05); }
-  100% { transform: translate(-1.5%, 1.5%) scale(1.02); }
-}
-.hero-grid {
-  position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(243,243,243,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(243,243,243,0.04) 1px, transparent 1px);
-  background-size: 80px 80px;
-  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 90%);
-  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 90%);
-}
-
-.hero-inner {
-  position: relative;
-  z-index: 2;
-  max-width: var(--max);
-  margin: 0 auto;
-  width: 100%;
-}
-.hero-eyebrow { margin-bottom: 28px; }
-.hero-title { color: var(--blanco-roto); margin-bottom: 28px; max-width: 18ch; }
-.hero-title em { font-style: italic; }
-.hero-title .sage { color: var(--salvia); }
-.hero-sub { margin-bottom: 44px; }
-.hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
-
-.hero-meta {
-  margin-top: 88px;
-  display: grid;
-  grid-template-columns: repeat(3, max-content);
-  gap: 64px;
-  border-top: 1px solid rgba(243,243,243,0.12);
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
   padding-top: 32px;
-  max-width: 720px;
+  border-top: 1px solid rgba(51,51,48,0.12);
+  width: 100%;
+  max-width: 880px;
 }
-.hero-meta > div { display: flex; flex-direction: column; gap: 4px; }
-.hero-meta .num {
+.hf-meta > div { display: flex; flex-direction: column; gap: 4px; align-items: center; }
+.hf-meta .num {
   font-family: var(--font-display);
-  font-size: 34px;
-  color: var(--salvia);
+  font-size: clamp(24px, 2.4vw, 32px);
+  color: var(--salvia-dark);
   line-height: 1;
 }
-.hero-meta .lbl {
-  font-size: 11px;
-  letter-spacing: 0.18em;
+.hf-meta .lbl {
+  font-size: 10px;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: rgba(243,243,243,0.55);
+  color: var(--slate);
+}
+.hf-meta .sep {
+  display: block;
+  width: 1px;
+  height: 28px;
+  background: rgba(51,51,48,0.15);
 }
 @media (max-width: 720px) {
-  .hero-meta { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .hero-full { padding: 80px 0 64px; }
+  .hf-meta { gap: 24px; }
+  .hf-meta .sep { display: none; }
 }
+.btn-link {
+  background: transparent;
+  color: var(--carbon);
+  border: 0;
+  padding: 8px 0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid rgba(51,51,48,0.25);
+  border-radius: 0;
+  transition: border-color .25s var(--ease-out);
+}
+.btn-link:hover { border-color: var(--salvia); color: var(--salvia-dark); }
 
-.hero-scroll {
-  position: absolute;
-  bottom: 32px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 9px;
-  letter-spacing: 0.32em;
-  color: rgba(243,243,243,0.5);
-  display: flex; flex-direction: column; align-items: center; gap: 12px;
-  z-index: 2;
-}
-.hero-scroll .scroll-line {
-  width: 1px; height: 36px;
-  background: linear-gradient(to bottom, var(--salvia), transparent);
-  animation: scrollPulse 2.4s ease-in-out infinite;
-}
-@keyframes scrollPulse {
-  0%,100% { opacity: 0.3; transform: scaleY(0.6); transform-origin: top; }
-  50%     { opacity: 1; transform: scaleY(1); transform-origin: top; }
-}
+/* (hero-compact legacy bits removidos: ahora usamos .hero-full con carrusel) */
 
-/* MANIFIESTO */
-.manifesto {
+/* Catálogo · grid + filtros */
+.catalog {
   background: var(--blanco-roto);
-  padding: 160px 0 140px;
+  padding: 72px 0 140px;
 }
-.manifesto-text { color: var(--carbon); }
-.manifesto-text .sage-dark { color: var(--salvia-dark); font-style: italic; }
-.manifesto-foot { margin-top: 0; }
-
-/* PILARES */
-.pillars {
-  position: relative;
-  background: var(--salvia-pale);
-  padding: 140px 0;
-}
-.pillars-bar {
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 4px; background: var(--salvia);
-}
-.pillars-head { margin-bottom: 88px; }
-.pillars-head .eyebrow { margin-bottom: 24px; }
-.pillars-grid {
+.catalog-head {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: end;
+  margin-bottom: 56px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(51,51,48,0.12);
+}
+.catalog-head .eyebrow { margin-bottom: 16px; }
+.catalog-head h2 { max-width: 18ch; }
+
+.filter-bar {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--crema);
+  border-radius: 999px;
+}
+.fb-btn {
+  background: transparent;
+  border: 0;
+  padding: 9px 18px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--slate);
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all .25s var(--ease-out);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.fb-btn:hover { color: var(--carbon); }
+.fb-btn.active {
+  background: var(--carbon);
+  color: var(--blanco-roto);
+}
+.fb-count {
+  font-size: 10px;
+  font-feature-settings: "tnum";
+  opacity: 0.65;
+  font-weight: 400;
+}
+.fb-btn.active .fb-count { color: var(--salvia); opacity: 1; }
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 0;
   border-top: 1px solid rgba(51,51,48,0.12);
 }
-.pillar {
-  padding: 56px 40px 56px 0;
-  border-right: 1px solid rgba(51,51,48,0.12);
+.catalog-empty {
+  padding: 80px 0;
+  text-align: center;
+  color: var(--slate);
+  font-size: 14px;
 }
-.pillar:last-child { border-right: 0; }
-.pillar:not(:first-child) { padding-left: 40px; }
-.pillar-num {
+
+/* Item de catálogo · acordeón */
+.cat-item {
+  border-bottom: 1px solid rgba(51,51,48,0.12);
+  transition: background .35s var(--ease-out);
+}
+.cat-item.open { background: var(--crema); }
+.cat-item-summary {
+  display: grid;
+  grid-template-columns: 96px 80px 1fr auto auto;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 0;
+  cursor: pointer;
+  position: relative;
+  transition: padding .35s var(--ease-out);
+}
+.cat-item.open .cat-item-summary { padding: 28px 0 20px; }
+.ci-thumb {
+  width: 96px; height: 96px;
+  background: var(--crema) center/cover no-repeat;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform .5s var(--ease-out);
+}
+.ci-thumb img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: contrast(1.06) saturate(0.92) brightness(1.015);
+  transition: filter .35s var(--ease-out);
+}
+.ci-thumb img.contain { object-fit: contain; padding: 12%; }
+.cat-item:hover .ci-thumb { transform: scale(1.03); }
+.cat-item.open .ci-thumb img { filter: contrast(1.04) saturate(1) brightness(1.02); }
+
+.ci-num {
   font-family: var(--font-display);
   font-size: 22px;
   color: var(--salvia-dark);
-  margin-bottom: 32px;
   letter-spacing: 0.04em;
 }
-.pillar h3 {
+.ci-main { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.ci-cat {
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--salvia-dark);
+}
+.ci-title {
   font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1.1;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 1;
-  margin-bottom: 20px;
   color: var(--carbon);
 }
-.pillar p {
-  font-size: 15px;
-  line-height: 1.6;
+.ci-desc {
+  font-size: 13px;
   color: var(--slate);
-  max-width: 30ch;
+  line-height: 1.5;
+  max-width: 56ch;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-@media (max-width: 880px) {
-  .pillars-grid { grid-template-columns: 1fr; }
-  .pillar { border-right: 0; border-bottom: 1px solid rgba(51,51,48,0.12); padding: 40px 0 !important; }
+.cat-item.open .ci-desc { -webkit-line-clamp: unset; }
+
+.ci-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid rgba(142,155,121,0.4);
+  background: rgba(142,155,121,0.08);
+  border-radius: 999px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--salvia-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+.ci-status::before {
+  content: "";
+  width: 6px; height: 6px;
+  border-radius: 999px;
+  background: var(--salvia);
+}
+.ci-toggle {
+  width: 36px; height: 36px;
+  border-radius: 999px;
+  border: 1px solid rgba(51,51,48,0.15);
+  background: transparent;
+  color: var(--carbon);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1;
+  transition: all .35s var(--ease-out);
+  font-family: var(--font-body);
+  font-weight: 300;
+}
+.cat-item:hover .ci-toggle { border-color: var(--salvia); color: var(--salvia-dark); }
+.cat-item.open .ci-toggle {
+  background: var(--carbon);
+  color: var(--blanco-roto);
+  border-color: var(--carbon);
+  transform: rotate(45deg);
 }
 
-/* CATEGORÍAS */
-.categories {
-  background: var(--blanco-roto);
-  padding: 140px 0;
-}
-.cat-head { margin-bottom: 80px; }
-.cat-head .eyebrow { margin-bottom: 20px; }
-
-.cat-grid {
+/* Acordeón abierto */
+.cat-item-detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  background: rgba(51,51,48,0.1);
-  border-top: 1px solid rgba(51,51,48,0.1);
-  border-bottom: 1px solid rgba(51,51,48,0.1);
+  gap: 64px;
+  padding: 0 0 40px;
+  margin-left: 128px;  /* alinea con el contenido más allá del thumb */
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height .55s var(--ease-out), opacity .35s var(--ease-out), padding .55s var(--ease-out);
 }
-.cat-card {
-  background: var(--blanco-roto);
-  display: grid;
-  grid-template-rows: 1fr auto;
-  padding: 0;
+.cat-item.open .cat-item-detail {
+  max-height: 1200px;
+  opacity: 1;
+}
+.cid-stage {
   position: relative;
+  background: var(--blanco-roto);
+  aspect-ratio: 4/3;
+  border-radius: 12px;
   overflow: hidden;
-  transition: background .5s var(--ease-out);
+  isolation: isolate;
 }
-.cat-card.cocina { background: var(--crema); }
-.cat-card.jardin { background: var(--salvia-pale); }
-.cat-media {
-  overflow: hidden;
-  padding: 56px 56px 0;
+.cid-stage img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: contrast(1.06) saturate(0.92) brightness(1.015);
 }
-.cat-media .product-placeholder {
-  aspect-ratio: 5 / 4;
-  transition: transform .8s var(--ease-out);
+.cid-stage img.contain { object-fit: contain; padding: 8%; }
+.cid-stage::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 70% at 50% 45%, transparent 50%, rgba(51,51,48,0.18) 100%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 2;
 }
-.cat-card:hover .cat-media .product-placeholder { transform: scale(1.03); }
-.cat-body { padding: 40px 56px 56px; }
-.cat-meta {
+
+.cid-info { display: flex; flex-direction: column; gap: 24px; }
+.cid-section h5 {
+  font-family: var(--font-body);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--salvia-dark);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cid-section p, .cid-section li {
+  font-size: 14px;
+  color: var(--slate);
+  line-height: 1.6;
+}
+.cid-section ul { list-style: none; }
+.cid-section li {
+  padding: 8px 0;
+  border-top: 1px solid rgba(51,51,48,0.08);
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
+  gap: 12px;
 }
-.cat-count {
+.cid-section li:first-child { border-top: 0; }
+.cid-section li::before {
+  content: "·";
+  color: var(--salvia);
+  font-weight: 700;
+}
+
+.cid-meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 32px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(51,51,48,0.08);
+  border-bottom: 1px solid rgba(51,51,48,0.08);
+}
+.cid-meta-row { display: flex; flex-direction: column; gap: 4px; }
+.cid-meta-row span:first-child {
+  font-size: 9px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--salvia-dark);
+}
+.cid-meta-row span:last-child {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--carbon);
+}
+
+.cid-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cid-actions .btn { padding: 12px 22px; font-size: 12px; }
+.cid-permalink {
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--slate);
+  border-bottom: 1px solid rgba(51,51,48,0.15);
+  padding-bottom: 1px;
 }
-.cat-card h3 { color: var(--carbon); margin-bottom: 16px; max-width: 12ch; }
-.cat-card p {
+.cid-permalink:hover { color: var(--salvia-dark); border-color: var(--salvia); }
+
+@media (max-width: 880px) {
+  .catalog-head { grid-template-columns: 1fr; align-items: stretch; }
+  .cat-item-summary { grid-template-columns: 64px 1fr auto; gap: 16px; }
+  .ci-num, .ci-status { display: none; }
+  .ci-thumb { width: 64px; height: 64px; }
+  .ci-title { font-size: 19px; }
+  .cat-item-detail { grid-template-columns: 1fr; gap: 32px; margin-left: 0; }
+}
+@media (max-width: 600px) {
+  .filter-bar { width: 100%; justify-content: space-between; }
+  .fb-btn { padding: 9px 12px; flex: 1; justify-content: center; }
+}
+
+/* Manifiesto compacto */
+.manifesto-compact {
+  background: var(--salvia-pale);
+  padding: 100px 0;
+  position: relative;
+}
+.manifesto-compact::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0;
+  height: 4px; background: var(--salvia);
+}
+.mc-inner { max-width: 980px; }
+.mc-text {
+  margin-top: 24px;
+  text-wrap: balance;
+  max-width: 24ch;
+}
+.mc-text .sage-dark { color: var(--salvia-dark); font-style: italic; }
+.mc-foot {
+  margin-top: 40px;
+  font-size: 16px;
   color: var(--slate);
-  font-size: 15px;
-  line-height: 1.6;
-  max-width: 42ch;
-  margin-bottom: 28px;
+  line-height: 1.65;
+  max-width: 64ch;
 }
-.cat-link {
-  display: inline-flex; align-items: center; gap: 10px;
+.mc-foot em { font-style: italic; color: var(--carbon); }
+.mc-link {
+  display: inline-block;
+  margin-top: 20px;
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--salvia-dark);
   font-weight: 500;
-}
-.cat-link .arrow { width: 14px; height: 14px; transition: transform .35s var(--ease-out); }
-.cat-card:hover .cat-link .arrow { transform: translateX(6px); }
-@media (max-width: 880px) {
-  .cat-grid { grid-template-columns: 1fr; }
-  .cat-media { padding: 32px 32px 0; }
-  .cat-body { padding: 32px; }
+  border-bottom: 1px solid rgba(142,155,121,0.4);
+  padding-bottom: 1px;
 }
 
-/* FEATURED */
-.featured {
-  background: var(--carbon);
-  color: var(--blanco-roto);
-  padding: 0;
-}
-.featured-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 80vh;
-}
-.featured-media {
-  background: #2a2a27;
-  display: flex;
-  align-items: stretch;
-}
-.featured-media .product-placeholder {
-  aspect-ratio: auto;
-  width: 100%;
-  height: 100%;
-  background-color: #2a2a27;
-  background-image: repeating-linear-gradient(
-    135deg,
-    rgba(142, 155, 121, 0.07) 0px,
-    rgba(142, 155, 121, 0.07) 1px,
-    transparent 1px,
-    transparent 14px
-  );
-}
-.featured-media .product-placeholder .label { color: var(--salvia); opacity: 0.55; }
-.featured-body {
-  padding: clamp(48px, 8vw, 120px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.featured-body .eyebrow { color: var(--salvia); margin-bottom: 28px; }
-.featured-body h2 { color: var(--blanco-roto); }
-.feat-list { list-style: none; }
-.feat-list li {
-  display: grid;
-  grid-template-columns: 40px 1fr;
-  gap: 16px;
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(243,243,243,0.08);
-  font-size: 16px;
-  color: rgba(243,243,243,0.85);
-}
-.feat-list li span {
-  font-family: var(--font-display);
-  color: var(--salvia);
-  font-size: 14px;
-  letter-spacing: 0.04em;
-}
-@media (max-width: 880px) {
-  .featured-grid { grid-template-columns: 1fr; }
-  .featured-media { min-height: 60vh; }
-}
-
-/* HOW */
+/* HOW (reusada del index) */
 .how {
   background: var(--carbon-soft);
   color: var(--blanco-roto);
-  padding: 140px 0;
+  padding: 120px 0;
   position: relative;
 }
 .how::before {
@@ -649,7 +681,7 @@
   background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(142,155,121,0.08), transparent 70%);
   pointer-events: none;
 }
-.how-head { margin-bottom: 80px; position: relative; }
+.how-head { margin-bottom: 64px; position: relative; }
 .how-head .eyebrow { margin-bottom: 24px; }
 .steps {
   position: relative;
@@ -662,20 +694,20 @@
 }
 .step {
   background: var(--carbon-soft);
-  padding: 48px 32px 56px;
+  padding: 40px 28px 48px;
 }
 .step-num {
   font-family: var(--font-display);
   font-size: 22px;
   color: var(--salvia);
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 .step h4 {
   font-family: var(--font-display);
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   color: var(--blanco-roto);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   line-height: 1.1;
 }
 .step p {
@@ -684,7 +716,7 @@
   color: rgba(243,243,243,0.65);
 }
 .how-cta {
-  margin-top: 56px;
+  margin-top: 48px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -700,75 +732,197 @@
 @media (max-width: 880px) {
   .steps { grid-template-columns: 1fr 1fr; }
 }
-
-/* FAQ */
-.faq {
-  background: var(--blanco-roto);
-  padding: 140px 0;
-}
-.faq-head { margin-bottom: 72px; }
-.faq-head .eyebrow { margin-bottom: 20px; }
-.faq-list {
-  max-width: 880px;
-  border-top: 1px solid rgba(51,51,48,0.12);
-}
-.faq-item {
-  border-bottom: 1px solid rgba(51,51,48,0.12);
-  padding: 4px 0;
-}
-.faq-item summary {
-  list-style: none;
-  cursor: pointer;
-  padding: 28px 40px 28px 0;
-  font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 400;
-  color: var(--carbon);
-  position: relative;
-  transition: color .25s var(--ease-out);
-}
-.faq-item summary::-webkit-details-marker { display: none; }
-.faq-item summary::after {
-  content: "+";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 22px;
-  color: var(--salvia);
-  transition: transform .35s var(--ease-out);
-  font-family: var(--font-body);
-  font-weight: 300;
-}
-.faq-item[open] summary::after { transform: translateY(-50%) rotate(45deg); }
-.faq-item summary:hover { color: var(--salvia-dark); }
-.faq-body {
-  padding: 0 40px 28px 0;
-  font-size: 15px;
-  color: var(--slate);
-  line-height: 1.65;
-  max-width: 64ch;
-}
-
-/* CIERRE */
-.closing {
-  background: var(--carbon);
-  color: var(--blanco-roto);
-  padding: 160px var(--gutter);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.closing-marks { position: absolute; }
-.closing-quote {
-  max-width: 22ch;
-  margin: 0 auto;
-  color: var(--blanco-roto);
-}
-.closing-quote em { font-style: italic; }
-.closing-quote .sage { color: var(--salvia); }
 </style>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="site.js"></script>
+<script src="catalog.js"></script>
+<script src="site.js"></script>
+<script>
+/* Render del catálogo + filtros + acordeón + JSON-LD + WhatsApp prefilled */
+(async function() {
+  const data = await window.BIVAUtils.loadCatalog();
+  if (!data) return;
+
+  /* Hero carousel: tiles duplicados para marquee infinito */
+  const track = document.getElementById('hf-track');
+  if (track) {
+    const tiles = data.products.map(p =>
+      `<div class="hf-tile" style="background-image:url('${p.image}')"></div>`
+    ).join('');
+    // Duplicado para loop continuo
+    track.innerHTML = tiles + tiles;
+  }
+
+
+
+  /* JSON-LD: Organization + ItemList */
+  const ld = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": data.site.name,
+        "url": data.site.url,
+        "description": data.site.description,
+        "areaServed": data.site.areaServed,
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": data.site.contact.whatsapp,
+          "contactType": "Sales",
+          "areaServed": "AR",
+          "availableLanguage": "Spanish"
+        },
+        "sameAs": [data.site.contact.instagram]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Catálogo BIVA",
+        "numberOfItems": data.products.length,
+        "itemListElement": data.products.map((p, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "item": {
+            "@type": "Product",
+            "name": p.name,
+            "sku": p.sku,
+            "description": p.description,
+            "image": data.site.url + '/' + p.image,
+            "category": p.category,
+            "url": data.site.url + '/' + p.url,
+            "offers": {
+              "@type": "Offer",
+              "availability": p.availability === 'in_stock' ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
+              "priceCurrency": data.site.currency,
+              "price": "0",
+              "priceSpecification": { "@type": "PriceSpecification", "valueAddedTaxIncluded": false },
+              "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
+              "seller": { "@type": "Organization", "name": "BIVA" }
+            }
+          }
+        }))
+      }
+    ]
+  };
+  document.getElementById('biva-jsonld').textContent = JSON.stringify(ld);
+
+  /* Render grid */
+  const grid = document.getElementById('catalog-grid');
+  const empty = document.querySelector('.catalog-empty');
+
+  function categoryLabel(id) {
+    return id === 'cocina' ? 'Cocina' : 'Jardín';
+  }
+
+  function buildItemHTML(p, index) {
+    const containCls = p.imageFit === 'contain' ? 'contain' : '';
+    const num = String(index + 1).padStart(2, '0');
+    const features = (p.features || []).map(f => `<li>${f}</li>`).join('');
+    const useCases = (p.useCases || []).join(' · ');
+    const materials = (p.materials || []).join(' · ');
+    const waLink = window.BIVAUtils.buildWhatsAppLink(p);
+
+    return `
+      <article class="cat-item" data-id="${p.id}" data-category="${p.category}" id="${p.id}">
+        <div class="cat-item-summary" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-${p.id}">
+          <div class="ci-thumb"><img src="${p.image}" alt="${p.name}" loading="lazy" class="${containCls}" /></div>
+          <span class="ci-num">${num}</span>
+          <div class="ci-main">
+            <span class="ci-cat">${categoryLabel(p.category)} · ${p.sku}</span>
+            <h3 class="ci-title">${p.name}</h3>
+            <p class="ci-desc">${p.shortDescription}</p>
+          </div>
+          <span class="ci-status">${p.availability === 'in_stock' ? 'En stock' : 'Próximo'}</span>
+          <button class="ci-toggle" aria-label="Abrir detalle">+</button>
+        </div>
+        <div class="cat-item-detail" id="detail-${p.id}">
+          <div class="cid-stage">
+            <img src="${p.image}" alt="${p.name}" loading="lazy" class="${containCls}" />
+          </div>
+          <div class="cid-info">
+            <div class="cid-section">
+              <h5>Descripción</h5>
+              <p>${p.description}</p>
+            </div>
+            ${features ? `<div class="cid-section"><h5>Características</h5><ul>${features}</ul></div>` : ''}
+            <div class="cid-meta-grid">
+              <div class="cid-meta-row"><span>SKU</span><span>${p.sku}</span></div>
+              <div class="cid-meta-row"><span>Disponibilidad</span><span>${p.availability === 'in_stock' ? 'Stock MDQ' : 'Próximo'}</span></div>
+              ${materials ? `<div class="cid-meta-row"><span>Materiales</span><span>${materials}</span></div>` : ''}
+              ${useCases ? `<div class="cid-meta-row"><span>Para</span><span>${useCases}</span></div>` : ''}
+            </div>
+            <div class="cid-actions">
+              <a class="btn btn-primary" href="${waLink}" target="_blank" rel="noopener">
+                Consultar este producto
+                <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+              <a class="cid-permalink" href="#${p.id}">Link directo →</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
+  function renderList(filter) {
+    const filtered = window.BIVAUtils.filterByCategory(data.products, filter);
+    if (!filtered.length) {
+      grid.innerHTML = '';
+      empty.hidden = false;
+      return;
+    }
+    empty.hidden = true;
+    grid.innerHTML = filtered.map((p, i) => buildItemHTML(p, i)).join('');
+
+    // Wire acordeón
+    grid.querySelectorAll('.cat-item').forEach(item => {
+      const summary = item.querySelector('.cat-item-summary');
+      const open = () => {
+        const wasOpen = item.classList.contains('open');
+        // Cerrar todos
+        grid.querySelectorAll('.cat-item.open').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.cat-item-summary').setAttribute('aria-expanded', 'false');
+          i.querySelector('.ci-toggle').textContent = '+';
+        });
+        if (!wasOpen) {
+          item.classList.add('open');
+          summary.setAttribute('aria-expanded', 'true');
+          item.querySelector('.ci-toggle').textContent = '+';
+        }
+      };
+      summary.addEventListener('click', open);
+      summary.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+      });
+    });
+
+    // Si la URL tiene un hash que matchea, abrir ese item
+    if (location.hash) {
+      const target = grid.querySelector(`.cat-item[id="${location.hash.slice(1)}"]`);
+      if (target) {
+        target.classList.add('open');
+        target.querySelector('.cat-item-summary').setAttribute('aria-expanded', 'true');
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }), 200);
+      }
+    }
+  }
+
+  // Counts
+  document.querySelector('[data-count="all"]').textContent = data.products.length;
+  document.querySelector('[data-count="cocina"]').textContent = data.products.filter(p => p.category === 'cocina').length;
+  document.querySelector('[data-count="jardin"]').textContent = data.products.filter(p => p.category === 'jardin').length;
+
+  // Filter bar
+  document.querySelectorAll('.fb-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.fb-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderList(btn.dataset.filter);
+    });
+  });
+
+  renderList('all');
+})();
+</script>
+
 </body>
 </html>

@@ -385,13 +385,21 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ============================================
-   Imagen de producto (reemplaza placeholder)
+   Imagen de producto · tratamiento cinematográfico unificado
+   - contraste +6%, saturación -8%, leve brillo
+   - tinte sage cálido sutil (mezcla con verde salvia oscuro)
+   - frames con viñeteado interno y fondo crema
    ============================================ */
 .product-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  filter:
+    contrast(1.06)
+    saturate(0.92)
+    brightness(1.015);
+  transition: filter .6s var(--ease-out), transform .8s var(--ease-out);
 }
 .product-img.contain { object-fit: contain; padding: 8%; }
 
@@ -403,10 +411,51 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
   isolation: isolate;
 }
+/* Tinte cinematográfico unificado: capa salvia oscura en multiply muy suave
+   + viñeteado radial para anclar el sujeto al centro */
+.product-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 70% at 50% 45%,
+      transparent 50%,
+      rgba(51, 51, 48, 0.18) 100%);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+  transition: opacity .5s var(--ease-out);
+}
+/* Tinte sage en overlay muy bajo para unificar paleta entre fotos */
+.product-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(142, 155, 121, 0.05);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: soft-light;
+}
 .product-frame.square { aspect-ratio: 1/1; }
 .product-frame.wide { aspect-ratio: 5/4; }
 .product-frame.hero-ratio { aspect-ratio: 16/10; }
 .product-frame.dark { background-color: #2a2a27; }
+.product-frame.dark::before {
+  background:
+    radial-gradient(ellipse 80% 70% at 50% 45%,
+      transparent 55%,
+      rgba(0, 0, 0, 0.35) 100%);
+}
+
+/* Hover: la foto "despierta" — sube saturación, suaviza viñeta */
+.cat-card:hover .product-img,
+.vit-item:hover .product-img,
+.featured:hover .product-img {
+  filter: contrast(1.04) saturate(1.0) brightness(1.02);
+  transform: scale(1.02);
+}
+.cat-card:hover .product-frame::before,
+.vit-item:hover .product-frame::before { opacity: 0.55; }
 
 /* ============================================
    Placeholder de producto (rayas + label)
