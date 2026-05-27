@@ -14,59 +14,137 @@
     }
   },
   "categories": [
-    { "id": "cocina", "name": "Cocina", "url": "/cocina.html" },
-    { "id": "jardin", "name": "Jardín", "url": "/jardin.html" }
+    {
+      "id": "cocina",
+      "name": "Cocina",
+      "url": "/cocina.html"
+    },
+    {
+      "id": "jardin",
+      "name": "Jardín",
+      "url": "/jardin.html"
+    }
   ],
   "products": [
     {
       "id": "set-utensilios-magneticos-1",
       "sku": "BV-COC-01",
-      "name": "Set utensilios magnéticos · Esencial",
+      "name": "Set utensilios magnéticos Metal · Esencial",
       "shortDescription": "Cuchara, espumadera, cucharón. Mango magnético, listos en la pared.",
-      "description": "Set 1 — base esencial. Tres piezas que cubren la cocina diaria. Mango magnético que se adhiere a portacuchillos o barras de pared, manteniendo la mesada despejada. Cabezal de acero inoxidable y silicona apta para uso en sartenes antiadherentes.",
+      "description": "Set 1 — base esencial. Cinco piezas que cubren la cocina diaria. Mango magnético que se adhiere a portacuchillos o barras de pared, manteniendo la mesada despejada. Cabezal de acero inoxidable y silicona apta para uso en sartenes antiadherentes.",
       "category": "cocina",
-      "tags": ["cocina diaria", "magnético", "set"],
+      "tags": [
+        "cocina diaria",
+        "magnético",
+        "set"
+      ],
       "image": "images/cocina/01-utensilios-magneticos-1.jpg",
       "imageFit": "contain",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["cocina diaria", "uso doméstico intensivo"],
-      "materials": ["acero inoxidable", "silicona alimentaria"],
-      "url": "cocina.html#set-utensilios-magneticos-1"
+      "useCases": [
+        "cocina diaria",
+        "uso doméstico intensivo"
+      ],
+      "materials": [
+        "acero inoxidable",
+        "silicona alimentaria"
+      ],
+      "url": "cocina.html#set-utensilios-magneticos-1",
+      "features": [],
+      "images": [
+        "images/cocina/01-utensilios-magneticos-1.jpg"
+      ]
     },
     {
-      "id": "set-utensilios-magneticos-2",
+      "id": "set-utensilios-completo-2",
       "sku": "BV-COC-02",
-      "name": "Set utensilios magnéticos · Extendido",
-      "shortDescription": "Set extendido. Más piezas, mismas reglas. Materiales que aguantan.",
-      "description": "Set 2 — extendido. Suma piezas al set esencial: pala, espátula plana, batidor de varillas. Mismo sistema magnético, mismo estándar de materiales. Pensado para cocinas que cocinan en serio.",
+      "name": "Set utensilios completo · Esenciales ",
+      "shortDescription": "Set completo. Más piezas, mismas reglas. Materiales que aguantan.",
+      "description": "Set 2 — Esenciales. Suma piezas al set esencial: pala, espátula plana, batidor de varillas. Durabilidad y calidad estándar de materiales. Pensado para cocinas que cocinan en serio.",
       "category": "cocina",
-      "tags": ["cocina extendida", "magnético", "set"],
+      "tags": [
+        "cocina extendida",
+        "set"
+      ],
       "image": "images/cocina/02-utensilios-magneticos-2.jpg",
       "imageFit": "contain",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["cocina diaria", "repostería", "cocina profesional doméstica"],
-      "materials": ["acero inoxidable", "silicona alimentaria"],
-      "url": "cocina.html#set-utensilios-magneticos-2"
+      "useCases": [
+        "cocina diaria",
+        "repostería",
+        "cocina profesional doméstica"
+      ],
+      "materials": [
+        "acero inoxidable",
+        "silicona alimentaria"
+      ],
+      "url": "cocina.html#set-utensilios-magneticos-2",
+      "features": [],
+      "images": [
+        "images/cocina/02-utensilios-magneticos-2.jpg"
+      ]
     },
     {
       "id": "set-espatulas",
       "sku": "BV-COC-03",
       "name": "Set espátulas",
-      "shortDescription": "Tres tamaños, una sola filosofía: flexibilidad real, mango firme, lavado simple.",
-      "description": "Tres espátulas en escalera de tamaños — chica, media, grande. Cabezal de silicona alimentaria con flexión real (no las que se quedan duras al primer uso). Mango de madera tratado, agarre firme, lavables sin problema.",
+      "shortDescription": "Cinco tamaños, una sola filosofía: flexibilidad real, mango firme, lavado simple.",
+      "description": "Cinco espátulas en escalera de tamaños — chicas, medias, grandes. Cabezal de silicona alimentaria con flexión real (no las que se quedan duras al primer uso). Mango de madera tratado, agarre firme, lavables sin problema.",
       "category": "cocina",
-      "tags": ["repostería", "cocina", "silicona"],
+      "tags": [
+        "repostería",
+        "cocina",
+        "silicona"
+      ],
       "image": "images/cocina/03-espatulas.jpg",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["repostería", "cocina diaria"],
-      "materials": ["silicona alimentaria", "madera"],
-      "url": "cocina.html#set-espatulas"
+      "useCases": [
+        "repostería",
+        "cocina diaria"
+      ],
+      "materials": [
+        "silicona alimentaria",
+        "madera"
+      ],
+      "url": "cocina.html#set-espatulas",
+      "features": [],
+      "images": [
+        "images/cocina/03-espatulas.jpg"
+      ]
+    },
+    {
+      "id": "lamina-secado-silicona",
+      "sku": "BV-COC-07",
+      "name": "Lámina de secado de Silicona",
+      "shortDescription": "Con rendijas especiales para escurrir el agua de manera sencilla",
+      "description": "Falta espacio para escurrir tu vajilla? Con esta lámina de silicona es sencillo agrandar tu espacio de secado y liberarlo cuando lo necesites",
+      "category": "cocina",
+      "tags": [
+        "cocina",
+        "silicona",
+        "lavado"
+      ],
+      "image": "images/cocina/lamina-secado-silicona-1.jpg",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "cocina diaria"
+      ],
+      "materials": [
+        "silicona alimentaria"
+      ],
+      "url": "cocina.html#set-espatulas-copia",
+      "features": [],
+      "images": [
+        "images/cocina/lamina-secado-silicona-1.jpg"
+      ]
     },
     {
       "id": "guantes",
@@ -75,30 +153,59 @@
       "shortDescription": "Aislación que cumple. Para horno, para parrilla, para todo lo que quema.",
       "description": "Guantes de silicona con interior de algodón. Aislación térmica real para horno y parrilla. Antideslizantes en la palma. Lavables. No de los que se ponen rígidos al primer uso intenso.",
       "category": "cocina",
-      "tags": ["protección térmica", "horno", "parrilla"],
+      "tags": [
+        "protección térmica",
+        "horno",
+        "parrilla"
+      ],
       "image": "images/cocina/04-guantes.jpg",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["horno", "parrilla", "cocción"],
-      "materials": ["silicona", "algodón"],
-      "url": "cocina.html#guantes"
+      "useCases": [
+        "horno",
+        "parrilla",
+        "cocción"
+      ],
+      "materials": [
+        "silicona",
+        "algodón"
+      ],
+      "url": "cocina.html#guantes",
+      "features": [],
+      "images": [
+        "images/cocina/04-guantes.jpg"
+      ]
     },
     {
       "id": "batidores",
       "sku": "BV-COC-05",
-      "name": "Batidores",
-      "shortDescription": "Mano firme, varillas que no se abren. Para huevos, salsas y emulsiones.",
-      "description": "Batidor de varillas de acero inoxidable, mango ergonómico. Las varillas mantienen la forma — no se abren después de tres usos. Para huevos, salsas, vinagretas y todo lo que necesite emulsionar.",
+      "name": "Batidor con fleje",
+      "shortDescription": "Mano firme, varillas que no se abren, fleje para llevarte todo. Para huevos, salsas y emulsiones.",
+      "description": "Batidor de varillas de acero inoxidable, mango ergonómico y con fleje de silicona perfecto para no desperdiciar nada. Las varillas mantienen la forma — no se abren después de tres usos. Para huevos, salsas, vinagretas y todo lo que necesite emulsionar.",
       "category": "cocina",
-      "tags": ["repostería", "salsas"],
+      "tags": [
+        "repostería",
+        "salsas"
+      ],
       "image": "images/cocina/05-batidores.jpg",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["repostería", "salsas", "emulsiones"],
-      "materials": ["acero inoxidable"],
-      "url": "cocina.html#batidores"
+      "useCases": [
+        "repostería",
+        "salsas",
+        "emulsiones"
+      ],
+      "materials": [
+        "acero inoxidable",
+        "silicona"
+      ],
+      "url": "cocina.html#batidores",
+      "features": [],
+      "images": [
+        "images/cocina/05-batidores.jpg"
+      ]
     },
     {
       "id": "lamina-hornear",
@@ -107,37 +214,109 @@
       "shortDescription": "Antiadherente real, reutilizable. Reemplaza el papel manteca y dura temporadas enteras.",
       "description": "Lámina de silicona alimentaria reutilizable. Antiadherente verdadero — no necesita aceite ni papel manteca. Resiste temperaturas de horno convencional. Se lava y vuelve a usarse durante temporadas enteras.",
       "category": "cocina",
-      "tags": ["horno", "repostería", "reutilizable"],
+      "tags": [
+        "horno",
+        "repostería",
+        "reutilizable"
+      ],
       "image": "images/cocina/06-lamina-hornear.jpg",
       "imageFit": "contain",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["horno", "repostería"],
-      "materials": ["silicona alimentaria"],
-      "url": "cocina.html#lamina-hornear"
+      "useCases": [
+        "horno",
+        "repostería"
+      ],
+      "materials": [
+        "silicona alimentaria"
+      ],
+      "url": "cocina.html#lamina-hornear",
+      "features": [],
+      "images": [
+        "images/cocina/06-lamina-hornear.jpg"
+      ]
     },
     {
       "id": "enrollador-manguera",
       "sku": "BV-JAR-01",
       "name": "Enrollador de manguera",
-      "shortDescription": "La manguera siempre fue un quilombo. Ya no.",
-      "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa. Footprint chico — se monta en pared o se apoya. Pensado para vender en bazares y casas del hogar de la Costa Atlántica.",
+      "shortDescription": "La manguera siempre fue un enredo. Ya no.",
+      "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa.",
       "category": "jardin",
-      "tags": ["jardín", "manguera", "patio"],
+      "tags": [
+        "jardín",
+        "manguera",
+        "patio"
+      ],
       "image": "images/jardin/01-enrollador.jpg",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
-      "useCases": ["patio", "jardín", "vivero", "uso comercial costa"],
-      "materials": ["materiales resistentes a intemperie"],
+      "useCases": [
+        "patio",
+        "jardín",
+        "vivero",
+        "uso comercial costa"
+      ],
+      "materials": [
+        "materiales resistentes a intemperie"
+      ],
       "features": [
         "Mecanismo simple — enrolla parejo, sin atascos",
         "Materiales para sol, salitre y frío",
-        "Footprint chico — montaje o apoyo",
         "Pensado para vender, no para mostrar"
       ],
-      "url": "jardin.html#enrollador-manguera"
+      "url": "jardin.html#enrollador-manguera",
+      "images": [
+        "images/jardin/01-enrollador.jpg"
+      ]
+    },
+    {
+      "id": "tablas_corte_acacia",
+      "sku": "BV-COC-08",
+      "name": "Tablas de corte",
+      "shortDescription": "Tablas de Acacia especiales para cuidar los filos de tus cuchillos",
+      "description": "Tablas de madera de acacia. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus elementos de corte. ",
+      "category": "cocina",
+      "tags": [],
+      "image": "images/cocina/tablas_corte_acacia-1.jpg",
+      "images": [
+        "images/cocina/tablas_corte_acacia-1.jpg",
+        "images/cocina/tablas_corte_acacia-2.jpg"
+      ],
+      "imageFit": "cover",
+      "availability": "pre_order",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "Acacia"
+      ],
+      "features": [],
+      "url": "cocina.html#tablas_corte_acacia"
+    },
+    {
+      "id": "Containers-Vidrio-Acacia",
+      "sku": "BV-COC-09",
+      "name": "Contenedores de Vidrio y Acacia",
+      "shortDescription": "Contenedores transparentes con tapa de acacia para ordernar cualquier cocina",
+      "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que queres. Fácil identificación y hermosa visual",
+      "category": "cocina",
+      "tags": [],
+      "image": "images/cocina/Containers-Vidrio-Acacia-2.jpg",
+      "images": [
+        "images/cocina/Containers-Vidrio-Acacia-1.jpg",
+        "images/cocina/Containers-Vidrio-Acacia-2.jpg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [],
+      "features": [],
+      "url": "cocina.html#Containers-Vidrio-Acacia"
     }
   ]
 }
