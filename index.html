@@ -82,7 +82,7 @@
     </div>
 
     <div class="hf-meta reveal delay-3">
-      <div><span class="num">7</span><span class="lbl">Productos en stock</span></div>
+      <div><span class="num" data-count="in-stock">7</span><span class="lbl">Productos en stock</span></div>
       <div><span class="sep"></span></div>
       <div><span class="num">24–72h</span><span class="lbl">Entrega regional</span></div>
       <div><span class="sep"></span></div>
@@ -184,7 +184,7 @@
       <h4>Contacto</h4>
       <ul>
         <li><a href="https://wa.me/5491153116412" target="_blank" rel="noopener">WhatsApp · 11 5311 6412</a></li>
-        <li><a href="/cdn-cgi/l/email-protection#8ae3fcebe4cae8e3fcebf9e3e6a4f9fee5f8ef"><span class="__cf_email__" data-cfemail="86eff0e7e8c6e4eff0e7f5efeaa8f5f2e9f4e3">[email&#160;protected]</span></a></li>
+        <li><a href="/cdn-cgi/l/email-protection#117867707f517378677062787d3f62657e6374"><span class="__cf_email__" data-cfemail="aec7d8cfc0eeccc7d8cfddc7c280dddac1dccb">[email&#160;protected]</span></a></li>
         <li><a href="https://instagram.com/bivasil.store" target="_blank" rel="noopener">@bivasil.store</a></li>
       </ul>
     </div>
@@ -920,6 +920,8 @@
   document.querySelector('[data-count="all"]').textContent = data.products.length;
   document.querySelector('[data-count="cocina"]').textContent = data.products.filter(p => p.category === 'cocina').length;
   document.querySelector('[data-count="jardin"]').textContent = data.products.filter(p => p.category === 'jardin').length;
+  const inStockEl = document.querySelector('[data-count="in-stock"]');
+  if (inStockEl) inStockEl.textContent = data.products.filter(p => p.availability === 'in_stock').length;
 
   // Filter bar
   document.querySelectorAll('.fb-btn').forEach(btn => {

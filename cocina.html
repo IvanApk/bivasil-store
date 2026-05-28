@@ -45,7 +45,7 @@
           Lo que se usa todos los días. Bien diseñado, bien hecho, a un precio que tiene sentido.
         </p>
         <div class="reveal delay-3" style="margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap;">
-          <span class="pill">6 productos</span>
+          <span class="pill"><span data-count="cocina">—</span> productos</span>
           <span class="pill">Stock MDQ</span>
           <span class="pill">Precio mayorista</span>
         </div>
@@ -64,67 +64,8 @@
   <div class="wrap">
     <hr class="rule" style="margin-bottom: 64px; max-width: 240px;" />
 
-    <div class="vit-grid">
-      <article class="vit-item reveal" data-num="01">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img contain" src="images/cocina/01-utensilios-magneticos-1.jpg" alt="Set utensilios magnéticos 1 — acero y silicona negra" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">01</span>
-          <h3>Set utensilios magnéticos</h3>
-          <p class="vit-desc">Set 1 — base esencial. Cuchara, espumadera, cucharón. Mango magnético, listos en la pared.</p>
-          <span class="vit-tag">Cocina diaria</span>
-        </div>
-      </article>
-
-      <article class="vit-item reveal delay-1" data-num="02">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img contain" src="images/cocina/02-utensilios-magneticos-2.jpg" alt="Set utensilios magnéticos 2 — extendido" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">02</span>
-          <h3>Set utensilios magnéticos</h3>
-          <p class="vit-desc">Set 2 — extendido. Más piezas, mismas reglas. Mango magnético, materiales que aguantan.</p>
-          <span class="vit-tag">Cocina extendida</span>
-        </div>
-      </article>
-
-      <article class="vit-item reveal" data-num="03">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img" src="images/cocina/03-espatulas.jpg" alt="Set espátulas de silicona con mango de madera" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">03</span>
-          <h3>Set espátulas</h3>
-          <p class="vit-desc">Tres tamaños, una sola filosofía: flexibilidad real, mango firme, lavado simple.</p>
-          <span class="vit-tag">Repostería · Cocina</span>
-        </div>
-      </article>
-
-      <article class="vit-item reveal delay-1" data-num="04">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img" src="images/cocina/04-guantes.jpg" alt="Guantes de silicona para horno y parrilla" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">04</span>
-          <h3>Guantes</h3>
-          <p class="vit-desc">Aislación que cumple. Para horno, para parrilla, para todo lo que quema.</p>
-          <span class="vit-tag">Protección térmica</span>
-        </div>
-      </article>
-
-      <article class="vit-item reveal" data-num="05">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img" src="images/cocina/05-batidores.jpg" alt="Batidor de varillas con mango firme" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">05</span>
-          <h3>Batidores</h3>
-          <p class="vit-desc">Mano firme, varillas que no se abren. Para huevos, salsas y todo lo que hay que emulsionar.</p>
-          <span class="vit-tag">Repostería</span>
-        </div>
-      </article>
-
-      <article class="vit-item reveal delay-1" data-num="06">
-        <div class="vit-media"><div class="product-frame square"><img class="product-img contain" src="images/cocina/06-lamina-hornear.jpg" alt="Lámina de silicona reutilizable para hornear" loading="lazy" /></div></div>
-        <div class="vit-body">
-          <span class="vit-num">06</span>
-          <h3>Lámina para hornear</h3>
-          <p class="vit-desc">Antiadherente real, reutilizable. Reemplaza el papel manteca y dura temporadas enteras.</p>
-          <span class="vit-tag">Horno</span>
-        </div>
-      </article>
-    </div>
+    <div class="vit-grid" id="vit-grid"></div>
+    <div class="vit-empty" id="vit-empty" hidden style="padding:80px 0; text-align:center; color:var(--slate);">No hay productos disponibles en esta categoría por ahora.</div>
   </div>
 </section>
 
@@ -176,7 +117,7 @@
       <h4>Contacto</h4>
       <ul>
         <li><a href="https://wa.me/5491153116412" target="_blank" rel="noopener">WhatsApp · 11 5311 6412</a></li>
-        <li><a href="/cdn-cgi/l/email-protection#0a637c6b644a68637c6b79636624797e65786f"><span class="__cf_email__" data-cfemail="533a25323d13313a2532203a3f7d20273c2136">[email&#160;protected]</span></a></li>
+        <li><a href="/cdn-cgi/l/email-protection#aec7d8cfc0eeccc7d8cfddc7c280dddac1dccb"><span class="__cf_email__" data-cfemail="91f8e7f0ffd1f3f8e7f0e2f8fdbfe2e5fee3f4">[email&#160;protected]</span></a></li>
         <li><a href="https://instagram.com/bivasil.store" target="_blank" rel="noopener">@bivasil.store</a></li>
       </ul>
     </div>
@@ -266,6 +207,18 @@
   text-transform: uppercase;
   color: var(--salvia-dark);
 }
+.vit-status {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--carbon);
+  background: var(--salvia-pale);
+  padding: 4px 10px;
+  border-radius: 999px;
+  align-self: flex-start;
+}
 
 .cat-cta {
   background: var(--carbon);
@@ -285,6 +238,52 @@
 }
 </style>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="site.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="catalog.js"></script>
+<script>
+/* Render dinámico del catálogo de Cocina desde products.json */
+(async function() {
+  const data = await window.BIVAUtils.loadCatalog();
+  if (!data) return;
+  const products = window.BIVAUtils.filterByCategory(data.products, 'cocina');
+
+  // Update count pill
+  const countEl = document.querySelector('[data-count="cocina"]');
+  if (countEl) countEl.textContent = products.length;
+
+  const grid = document.getElementById('vit-grid');
+  const empty = document.getElementById('vit-empty');
+  if (!grid) return;
+
+  if (!products.length) {
+    grid.hidden = true;
+    if (empty) empty.hidden = false;
+    return;
+  }
+
+  const pad2 = n => String(n).padStart(2, '0');
+  grid.innerHTML = products.map((p, i) => {
+    const fit = p.imageFit === 'contain' ? 'contain' : '';
+    const tag = (p.tags && p.tags[0]) ? p.tags[0] : (p.category === 'cocina' ? 'Cocina' : 'Jardín');
+    const delay = i % 2 === 1 ? 'delay-1' : '';
+    const cover = (p.images && p.images[0]) || p.image || '';
+    return `
+      <article class="vit-item reveal ${delay}" data-num="${pad2(i+1)}">
+        <div class="vit-media"><div class="product-frame square"><img class="product-img ${fit}" src="${cover}" alt="${(p.name||'').replace(/"/g,'&quot;')}" loading="lazy" /></div></div>
+        <div class="vit-body">
+          <span class="vit-num">${pad2(i+1)}</span>
+          <h3>${p.name || ''}</h3>
+          <p class="vit-desc">${p.shortDescription || ''}</p>
+          ${tag ? `<span class="vit-tag">${tag}</span>` : ''}
+          ${p.availability === 'pre_order' ? '<span class="vit-status">Próximo</span>' : ''}
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  // Re-trigger reveal observer if present (site.js manages it)
+  document.dispatchEvent(new CustomEvent('biva:rendered'));
+})();
+</script>
+<script src="site.js"></script>
 </body>
 </html>

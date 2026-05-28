@@ -45,7 +45,7 @@
           Empezamos con lo que más rompe los nervios: la manguera. Estamos sumando más.
         </p>
         <div class="reveal delay-3" style="margin-top: 40px; display: flex; gap: 12px; flex-wrap: wrap;">
-          <span class="pill">1 producto</span>
+          <span class="pill"><span data-count="jardin">—</span> producto<span data-count-plural="jardin"></span></span>
           <span class="pill">Stock MDQ</span>
           <span class="pill">Más en camino</span>
         </div>
@@ -59,45 +59,12 @@
   </div>
 </section>
 
-<!-- PRODUCTO destacado tipo Apple -->
-<section class="hero-product">
+<!-- VITRINA -->
+<section class="vitrina">
   <div class="wrap">
-    <div class="hp-head">
-      <div class="eyebrow reveal">Producto</div>
-      <h2 class="h-section reveal delay-1" style="margin-top: 20px;">Enrollador de manguera.</h2>
-      <p class="h-tagline reveal delay-2" style="margin-top: 24px; max-width: 52ch;">
-        “La manguera siempre fue un quilombo. Ya no.” Un objeto pensado para el patio real, no para el showroom.
-      </p>
-    </div>
-
-    <div class="hp-stage reveal delay-2">
-      <div class="product-frame hero-ratio" style="background-color: transparent;">
-        <img class="product-img" src="images/jardin/01-enrollador.jpg" alt="Enrollador de manguera BIVA — vista 3/4" loading="lazy" style="object-position: center;" />
-      </div>
-    </div>
-
-    <div class="hp-specs">
-      <div class="hp-spec reveal">
-        <div class="spec-num">01</div>
-        <h4>Mecanismo simple</h4>
-        <p>Enrolla parejo, sin atascos. La manguera vuelve a su lugar como debería.</p>
-      </div>
-      <div class="hp-spec reveal delay-1">
-        <div class="spec-num">02</div>
-        <h4>Materiales para costa</h4>
-        <p>Sol, salitre, frío. Pensado para aguantar lo que el patio le tira encima.</p>
-      </div>
-      <div class="hp-spec reveal delay-2">
-        <div class="spec-num">03</div>
-        <h4>Footprint chico</h4>
-        <p>Ocupa lo justo. Se monta o se apoya. No invade.</p>
-      </div>
-      <div class="hp-spec reveal delay-3">
-        <div class="spec-num">04</div>
-        <h4>Pensado para vender</h4>
-        <p>Un producto que el cliente final reconoce y vuelve a recomendar.</p>
-      </div>
-    </div>
+    <hr class="rule" style="margin-bottom: 64px; max-width: 240px;" />
+    <div class="vit-grid" id="vit-grid"></div>
+    <div class="vit-empty" id="vit-empty" hidden style="padding:80px 0; text-align:center; color:var(--slate);">No hay productos disponibles en esta categoría por ahora.</div>
   </div>
 </section>
 
@@ -180,7 +147,7 @@
       <h4>Contacto</h4>
       <ul>
         <li><a href="https://wa.me/5491153116412" target="_blank" rel="noopener">WhatsApp · 11 5311 6412</a></li>
-        <li><a href="/cdn-cgi/l/email-protection#422b34232c02202b3423312b2e6c31362d3027"><span class="__cf_email__" data-cfemail="8fe6f9eee1cfede6f9eefce6e3a1fcfbe0fdea">[email&#160;protected]</span></a></li>
+        <li><a href="/cdn-cgi/l/email-protection#b9d0cfd8d7f9dbd0cfd8cad0d597cacdd6cbdc"><span class="__cf_email__" data-cfemail="056c73646b45676c7364766c692b76716a7760">[email&#160;protected]</span></a></li>
         <li><a href="https://instagram.com/bivasil.store" target="_blank" rel="noopener">@bivasil.store</a></li>
       </ul>
     </div>
@@ -197,6 +164,78 @@
   padding: 120px 0 100px;
 }
 .cat-hero.light { background: var(--salvia-pale); }
+
+.vitrina {
+  background: var(--blanco-roto);
+  padding: 40px 0 140px;
+}
+.vit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 64px 40px;
+}
+@media (max-width: 980px) {
+  .vit-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .vit-grid { grid-template-columns: 1fr; }
+}
+.vit-item { display: flex; flex-direction: column; }
+.vit-media {
+  position: relative;
+  overflow: hidden;
+  background: var(--crema);
+  margin-bottom: 24px;
+  transition: transform .6s var(--ease-out);
+}
+.vit-media::after {
+  content: ""; position: absolute; inset: 0;
+  background: rgba(51,51,48,0.0);
+  transition: background .4s var(--ease-out);
+  pointer-events: none;
+}
+.vit-item:hover .vit-media::after { background: rgba(51,51,48,0.04); }
+.vit-body { display: flex; flex-direction: column; gap: 8px; }
+.vit-num {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: var(--salvia-dark);
+}
+.vit-item h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--carbon);
+  margin-top: 4px;
+}
+.vit-desc {
+  font-size: 14px;
+  color: var(--slate);
+  line-height: 1.6;
+  margin-top: 6px;
+  max-width: 36ch;
+}
+.vit-tag {
+  margin-top: 12px;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--salvia-dark);
+}
+.vit-status {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--carbon);
+  background: var(--salvia-pale);
+  padding: 4px 10px;
+  border-radius: 999px;
+  align-self: flex-start;
+}
 .cat-hero-grid {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
@@ -316,6 +355,53 @@
 }
 </style>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="site.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="catalog.js"></script>
+<script>
+/* Render dinámico del catálogo de Jardín desde products.json */
+(async function() {
+  const data = await window.BIVAUtils.loadCatalog();
+  if (!data) return;
+  const products = window.BIVAUtils.filterByCategory(data.products, 'jardin');
+
+  // Update count pill
+  const countEl = document.querySelector('[data-count="jardin"]');
+  if (countEl) countEl.textContent = products.length;
+  const pluralEl = document.querySelector('[data-count-plural="jardin"]');
+  if (pluralEl) pluralEl.textContent = products.length === 1 ? '' : 's';
+
+  const grid = document.getElementById('vit-grid');
+  const empty = document.getElementById('vit-empty');
+  if (!grid) return;
+
+  if (!products.length) {
+    grid.hidden = true;
+    if (empty) empty.hidden = false;
+    return;
+  }
+
+  const pad2 = n => String(n).padStart(2, '0');
+  grid.innerHTML = products.map((p, i) => {
+    const fit = p.imageFit === 'contain' ? 'contain' : '';
+    const tag = (p.tags && p.tags[0]) ? p.tags[0] : 'Jardín';
+    const delay = i % 2 === 1 ? 'delay-1' : '';
+    const cover = (p.images && p.images[0]) || p.image || '';
+    return `
+      <article class="vit-item reveal ${delay}" data-num="${pad2(i+1)}">
+        <div class="vit-media"><div class="product-frame square"><img class="product-img ${fit}" src="${cover}" alt="${(p.name||'').replace(/"/g,'&quot;')}" loading="lazy" /></div></div>
+        <div class="vit-body">
+          <span class="vit-num">${pad2(i+1)}</span>
+          <h3>${p.name || ''}</h3>
+          <p class="vit-desc">${p.shortDescription || ''}</p>
+          ${tag ? `<span class="vit-tag">${tag}</span>` : ''}
+          ${p.availability === 'pre_order' ? '<span class="vit-status">Próximo</span>' : ''}
+        </div>
+      </article>
+    `;
+  }).join('');
+
+  document.dispatchEvent(new CustomEvent('biva:rendered'));
+})();
+</script>
+<script src="site.js"></script>
 </body>
 </html>
