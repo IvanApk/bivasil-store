@@ -130,7 +130,7 @@
         "silicona",
         "lavado"
       ],
-      "image": "images/cocina/lamina-secado-silicona-1.jpg",
+      "image": "images/cocina/lamina-secado-silicona-1.jpeg",
       "availability": "in_stock",
       "wholesaleOnly": true,
       "priceOnRequest": true,
@@ -143,7 +143,7 @@
       "url": "cocina.html#set-espatulas-copia",
       "features": [],
       "images": [
-        "images/cocina/lamina-secado-silicona-1.jpg"
+        "images/cocina/lamina-secado-silicona-1.jpeg"
       ]
     },
     {
@@ -280,10 +280,10 @@
       "description": "Tablas de madera de acacia. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus elementos de corte. ",
       "category": "cocina",
       "tags": [],
-      "image": "images/cocina/tablas_corte_acacia-1.jpg",
+      "image": "images/cocina/tablas_corte_acacia-1.jpeg",
       "images": [
-        "images/cocina/tablas_corte_acacia-1.jpg",
-        "images/cocina/tablas_corte_acacia-2.jpg"
+        "images/cocina/tablas_corte_acacia-1.jpeg",
+        "images/cocina/tablas_corte_acacia-2.jpeg"
       ],
       "imageFit": "cover",
       "availability": "pre_order",
@@ -304,10 +304,10 @@
       "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que queres. Fácil identificación y hermosa visual",
       "category": "cocina",
       "tags": [],
-      "image": "images/cocina/Containers-Vidrio-Acacia-2.jpg",
+      "image": "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
       "images": [
-        "images/cocina/Containers-Vidrio-Acacia-1.jpg",
-        "images/cocina/Containers-Vidrio-Acacia-2.jpg"
+        "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
+        "images/cocina/Containers-Vidrio-Acacia-2.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -317,6 +317,593 @@
       "materials": [],
       "features": [],
       "url": "cocina.html#Containers-Vidrio-Acacia"
+    },
+    {
+      "id": "lamina-de-secado-de-silicona",
+      "sku": "BV-COC-07",
+      "name": "Lámina de secado de Silicona",
+      "shortDescription": "",
+      "description": "Falta espacio para escurrir tu vajilla? Con esta lámina de silicona es sencillo agrandar tu espacio de secado y liberarlo cuando lo necesites",
+      "category": "cocina",
+      "tags": [
+        "cocina",
+        "silicona",
+        "lavado"
+      ],
+      "image": "images/cocina/lamina-secado-silicona-1.jpeg",
+      "images": [
+        "images/cocina/lamina-secado-silicona-1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "silicona alimentaria"
+      ],
+      "features": [],
+      "url": "cocina.html#lamina-de-secado-de-silicona"
+    },
+    {
+      "id": "tablas-de-corte-acacia",
+      "sku": "BV-COC-08",
+      "name": "Tablas de corte · Acacia",
+      "shortDescription": "",
+      "description": "Tablas de madera de acacia con canaleta perimetral para retener jugos. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus cuchillos. La madera que no destruye filos.",
+      "category": "cocina",
+      "tags": [
+        "tablas",
+        "acacia",
+        "corte",
+        "cuchillos",
+        "madera"
+      ],
+      "image": "images/cocina/tablas_corte_acacia-1.jpeg",
+      "images": [
+        "images/cocina/tablas_corte_acacia-1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "pre_order",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acacia"
+      ],
+      "features": [
+        "Canaleta perimetral para retener jugos",
+        "Madera de acacia — dura y bella",
+        "Cuida el filo de los cuchillos"
+      ],
+      "url": "cocina.html#tablas-de-corte-acacia"
+    },
+    {
+      "id": "contenedores-de-vidrio-y-acacia",
+      "sku": "BV-COC-09",
+      "name": "Contenedores de Vidrio y Acacia",
+      "shortDescription": "",
+      "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que querés. Fácil identificación y hermosa visual.",
+      "category": "cocina",
+      "tags": [
+        "contenedores",
+        "vidrio",
+        "acacia",
+        "organización",
+        "cocina"
+      ],
+      "image": "images/cocina/Containers_Vidrio_Acacia_1.jpeg",
+      "images": [
+        "images/cocina/Containers_Vidrio_Acacia_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "vidrio",
+        "acacia"
+      ],
+      "features": [],
+      "url": "cocina.html#contenedores-de-vidrio-y-acacia"
+    },
+    {
+      "id": "juego-de-bowls-ceramica-blanca",
+      "sku": "BV-COC-10",
+      "name": "Juego de Bowls · Cerámica Blanca",
+      "shortDescription": "",
+      "description": "Juego de nueve bowls apilables de cerámica blanca mate. Desde el bowl de mise en place hasta el de ensalada — todos apilados en el espacio de uno. Peso real, borde limpio, lavables sin drama.",
+      "category": "cocina",
+      "tags": [
+        "bowls",
+        "cerámica",
+        "blanco",
+        "vajilla",
+        "apilable"
+      ],
+      "image": "images/cocina/bowls_ceramica_blanca_1.jpeg",
+      "images": [
+        "images/cocina/bowls_ceramica_blanca_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "cerámica"
+      ],
+      "features": [],
+      "url": "cocina.html#juego-de-bowls-ceramica-blanca"
+    },
+    {
+      "id": "colador-para-bacha-extensible",
+      "sku": "BV-COC-11",
+      "name": "Colador para Bacha · Extensible",
+      "shortDescription": "",
+      "description": "Colador de acero inoxidable con brazos extensibles de goma que se apoyan en el borde de la bacha. Las manos quedan libres. La mesada, limpia. Apto para pasta, verduras y frutos del mar.",
+      "category": "cocina",
+      "tags": [
+        "colador",
+        "bacha",
+        "acero",
+        "escurridor",
+        "extensible"
+      ],
+      "image": "images/cocina/colador_para_bacha_1.jpeg",
+      "images": [
+        "images/cocina/colador_para_bacha_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acero inoxidable",
+        "goma antideslizante"
+      ],
+      "features": [
+        "Brazos extensibles — se adapta al ancho de la bacha",
+        "Apoyos de goma — no raya ni resbala",
+        "Manos libres mientras escurre"
+      ],
+      "url": "cocina.html#colador-para-bacha-extensible"
+    },
+    {
+      "id": "set-coladores-mesh-con-apoyo",
+      "sku": "BV-COC-12",
+      "name": "Set Coladores Mesh · Con Apoyo",
+      "shortDescription": "",
+      "description": "Set de dos coladores de malla de acero inoxidable con base de apoyo integrada. Se paran solos. Malla fina que retiene hasta lo pequeño. Aptos para pasta, legumbres, frutas y arroz.",
+      "category": "cocina",
+      "tags": [
+        "colador",
+        "mesh",
+        "acero",
+        "escurridor",
+        "cocina"
+      ],
+      "image": "images/cocina/coladores_mesh_apoyo_1.jpeg",
+      "images": [
+        "images/cocina/coladores_mesh_apoyo_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acero inoxidable"
+      ],
+      "features": [],
+      "url": "cocina.html#set-coladores-mesh-con-apoyo"
+    },
+    {
+      "id": "juego-de-bowls-acero-inoxidable",
+      "sku": "BV-COC-13",
+      "name": "Juego de Bowls · Acero Inoxidable",
+      "shortDescription": "",
+      "description": "Cuatro bowls de acero inoxidable pulido en escalera de tamaños. Para batir, marinar, preparar o servir. Apilables, lavables en lavavajillas, indeformables. El set de prep que dura décadas.",
+      "category": "cocina",
+      "tags": [
+        "bowls",
+        "acero",
+        "prep",
+        "cocina",
+        "batir"
+      ],
+      "image": "images/cocina/juego_bowls_acero_1.jpeg",
+      "images": [
+        "images/cocina/juego_bowls_acero_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acero inoxidable"
+      ],
+      "features": [],
+      "url": "cocina.html#juego-de-bowls-acero-inoxidable"
+    },
+    {
+      "id": "juego-de-bowls-vidrio",
+      "sku": "BV-COC-14",
+      "name": "Juego de Bowls · Vidrio",
+      "shortDescription": "",
+      "description": "Juego de nueve bowls de vidrio transparente en tamaños escalonados — desde el mini mise en place hasta el bol de ensalada. Se anidan entre sí y ocupan el lugar de uno. Vidrio resistente, apto microondas y lavavajillas.",
+      "category": "cocina",
+      "tags": [
+        "bowls",
+        "vidrio",
+        "prep",
+        "transparente",
+        "apilable"
+      ],
+      "image": "images/cocina/juego_bowls_vidrio_1.jpeg",
+      "images": [
+        "images/cocina/juego_bowls_vidrio_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "vidrio templado"
+      ],
+      "features": [],
+      "url": "cocina.html#juego-de-bowls-vidrio"
+    },
+    {
+      "id": "set-tamices-malla-fina",
+      "sku": "BV-COC-15",
+      "name": "Set Tamices · Malla Fina",
+      "shortDescription": "",
+      "description": "Set de tres tamices de malla fina de acero inoxidable con mango largo. Para cernir harina, colar infusiones o escurrir frutas pequeñas. Malla que no se deforma, mango que da buen agarre. Tres diámetros para cada tarea.",
+      "category": "cocina",
+      "tags": [
+        "tamiz",
+        "colador",
+        "malla",
+        "repostería",
+        "cocina"
+      ],
+      "image": "images/cocina/juego_coladores_mango_1.jpeg",
+      "images": [
+        "images/cocina/juego_coladores_mango_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acero inoxidable"
+      ],
+      "features": [],
+      "url": "cocina.html#set-tamices-malla-fina"
+    },
+    {
+      "id": "juego-contenedores-vidrio-y-silicona",
+      "sku": "BV-COC-16",
+      "name": "Juego Contenedores · Vidrio y Silicona",
+      "shortDescription": "",
+      "description": "Set de contenedores redondos de vidrio borosilicato con tapa hermética de silicona gris. Van del freezer al microondas sin drama. La tapa sella bien — no el tipo que se suelta al primer apilado. Para prep semanal, porciones y sobras que se ven.",
+      "category": "cocina",
+      "tags": [
+        "contenedores",
+        "vidrio",
+        "hermético",
+        "prep",
+        "silicona"
+      ],
+      "image": "images/cocina/juego_contenedores_pyrex_1.jpeg",
+      "images": [
+        "images/cocina/juego_contenedores_pyrex_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "vidrio borosilicato",
+        "silicona alimentaria"
+      ],
+      "features": [
+        "Tapa hermética de silicona — sella de verdad",
+        "Vidrio apto microondas, horno y freezer",
+        "Transparentes — se ve lo que hay adentro"
+      ],
+      "url": "cocina.html#juego-contenedores-vidrio-y-silicona"
+    },
+    {
+      "id": "vajilla-drift-gris",
+      "sku": "BV-COC-17",
+      "name": "Vajilla Drift · Gris",
+      "shortDescription": "",
+      "description": "Juego de vajilla de gres con acabado mate en tonos gris piedra. El esmalte reactivo hace que cada pieza sea única — sin uniformidad industrial. Taza, plato plano, plato hondo y bowl. Para la mesa de todos los días con cara de mesa especial.",
+      "category": "cocina",
+      "tags": [
+        "vajilla",
+        "gres",
+        "mate",
+        "gris",
+        "artesanal"
+      ],
+      "image": "images/cocina/juego_drift_gray_1.jpeg",
+      "images": [
+        "images/cocina/juego_drift_gray_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "gres",
+        "esmalte reactivo"
+      ],
+      "features": [
+        "Esmalte reactivo — cada pieza es única",
+        "Acabado mate resistente al uso real",
+        "Set completo: taza, plato plano, hondo y bowl"
+      ],
+      "url": "cocina.html#vajilla-drift-gris"
+    },
+    {
+      "id": "platos-drift-verde-salvia",
+      "sku": "BV-COC-18",
+      "name": "Platos Drift · Verde Salvia",
+      "shortDescription": "",
+      "description": "Set de seis platos de gres con esmalte reactivo en verde salvia. Bordes ligeramente irregulares — no es un accidente, es el carácter del material. Apilables, resistentes al lavavajillas. Dos tamaños: plato principal y entrada.",
+      "category": "cocina",
+      "tags": [
+        "platos",
+        "gres",
+        "verde",
+        "mate",
+        "vajilla"
+      ],
+      "image": "images/cocina/juego_drift_green_1.jpeg",
+      "images": [
+        "images/cocina/juego_drift_green_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "gres",
+        "esmalte reactivo"
+      ],
+      "features": [],
+      "url": "cocina.html#platos-drift-verde-salvia"
+    },
+    {
+      "id": "vajilla-frank-blanca",
+      "sku": "BV-COC-19",
+      "name": "Vajilla Frank · Blanca",
+      "shortDescription": "",
+      "description": "Vajilla de cerámica blanca brillante con borde liso y pared recta. Sin adornos porque no los necesita. Platos en dos tamaños, bowls profundos. La base de cualquier mesa bien montada.",
+      "category": "cocina",
+      "tags": [
+        "vajilla",
+        "cerámica",
+        "blanco",
+        "minimalista",
+        "bowls"
+      ],
+      "image": "images/cocina/juego_frank_1.jpeg",
+      "images": [
+        "images/cocina/juego_frank_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "cerámica esmaltada"
+      ],
+      "features": [],
+      "url": "cocina.html#vajilla-frank-blanca"
+    },
+    {
+      "id": "platos-prado-reactivo",
+      "sku": "BV-COC-20",
+      "name": "Platos Prado · Reactivo",
+      "shortDescription": "",
+      "description": "Set de tres platos hondos de gres con esmalte reactivo bicolor — exterior gris piedra, interior ámbar cálido. El esmalte reacciona diferente en cada horneada: no hay dos iguales. Paredes rectas, profundidad real para sopa, pasta o ensalada generosa.",
+      "category": "cocina",
+      "tags": [
+        "platos",
+        "gres",
+        "reactivo",
+        "ámbar",
+        "artesanal"
+      ],
+      "image": "images/cocina/plato_prado_1.jpeg",
+      "images": [
+        "images/cocina/plato_prado_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "gres",
+        "esmalte reactivo"
+      ],
+      "features": [
+        "Esmalte bicolor reactivo — cada pieza es única",
+        "Profundidad real para platos con cuerpo",
+        "Apilables"
+      ],
+      "url": "cocina.html#platos-prado-reactivo"
+    },
+    {
+      "id": "platos-selene-lino",
+      "sku": "BV-COC-21",
+      "name": "Platos Selene · Lino",
+      "shortDescription": "",
+      "description": "Set de seis platos de cerámica en tono lino mate con borde orgánico suave. Dos tamaños — plato principal y entrada. El color neutro que va con todo sin esfuerzo. Superficie mate que no refleja, lavable en lavavajillas.",
+      "category": "cocina",
+      "tags": [
+        "platos",
+        "cerámica",
+        "lino",
+        "mate",
+        "vajilla"
+      ],
+      "image": "images/cocina/platos_selene_1.jpeg",
+      "images": [
+        "images/cocina/platos_selene_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "cerámica"
+      ],
+      "features": [],
+      "url": "cocina.html#platos-selene-lino"
+    },
+    {
+      "id": "salero-de-acacia-magnetico",
+      "sku": "BV-COC-22",
+      "name": "Salero de Acacia · Magnético",
+      "shortDescription": "",
+      "description": "Salero cilíndrico de madera de acacia con tapa giratoria de cierre magnético. Se abre con un giro y se cierra solo. Para sal en escamas o gruesa — no el tipo de salero que deja caer todo de golpe. Presencia en la mesa, funcionalidad real.",
+      "category": "cocina",
+      "tags": [
+        "salero",
+        "acacia",
+        "madera",
+        "mesa",
+        "magnético"
+      ],
+      "image": "images/cocina/salero_acacia-1.jpeg",
+      "images": [
+        "images/cocina/salero_acacia-1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "acacia"
+      ],
+      "features": [
+        "Tapa giratoria de cierre magnético",
+        "Para sal en escamas o gruesa",
+        "Madera de acacia — durable y bella"
+      ],
+      "url": "cocina.html#salero-de-acacia-magnetico"
+    },
+    {
+      "id": "vajilla-contact-blanco-y-negro",
+      "sku": "BV-COC-23",
+      "name": "Vajilla Contact · Blanco y Negro",
+      "shortDescription": "",
+      "description": "Juego de vajilla de cerámica blanca con filete negro en el borde. Cuatro piezas — taza, plato principal, plato de entrada y bowl. El contraste que da carácter sin sobrecargar. Una línea que dura temporadas enteras sin volverse cansadora.",
+      "category": "cocina",
+      "tags": [
+        "vajilla",
+        "cerámica",
+        "blanco",
+        "negro",
+        "minimalista"
+      ],
+      "image": "images/cocina/set_contact_blanco_1.jpeg",
+      "images": [
+        "images/cocina/set_contact_blanco_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "cerámica esmaltada"
+      ],
+      "features": [
+        "Filete negro en el borde — detalle que da carácter",
+        "Set completo: taza, plato plano, hondo y bowl",
+        "Cerámica resistente al lavavajillas"
+      ],
+      "url": "cocina.html#vajilla-contact-blanco-y-negro"
+    },
+    {
+      "id": "tarros-de-vidrio-hermeticos",
+      "sku": "BV-COC-24",
+      "name": "Tarros de Vidrio · Herméticos",
+      "shortDescription": "",
+      "description": "Set de tres tarros de vidrio con tapa hermética de vidrio en distintos tamaños. Para harina, azúcar, legumbres o lo que haya que guardar. Transparentes porque no hay nada que ocultar. Se limpian solos casi.",
+      "category": "cocina",
+      "tags": [
+        "tarros",
+        "vidrio",
+        "almacenamiento",
+        "despensa",
+        "hermético"
+      ],
+      "image": "images/cocina/tarros_vidrio_1.jpeg",
+      "images": [
+        "images/cocina/tarros_vidrio_1.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "vidrio"
+      ],
+      "features": [],
+      "url": "cocina.html#tarros-de-vidrio-hermeticos"
+    },
+    {
+      "id": "vaso-medidor-de-vidrio-1l",
+      "sku": "BV-COC-25",
+      "name": "Vaso Medidor de Vidrio · 1L",
+      "shortDescription": "",
+      "description": "Jarra medidora de vidrio con escala en cups, ml y litros. Capacidad 1 litro / 4 cups. Graduación en rojo legible desde arriba. Pico vertedor y asa firme. Para repostería y cocina que mide.",
+      "category": "cocina",
+      "tags": [
+        "medidor",
+        "vidrio",
+        "repostería",
+        "cocina",
+        "cups"
+      ],
+      "image": "images/cocina/vaso_medidor_vidrio.jpeg",
+      "images": [
+        "images/cocina/vaso_medidor_vidrio.jpeg"
+      ],
+      "imageFit": "cover",
+      "availability": "in_stock",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [],
+      "materials": [
+        "vidrio"
+      ],
+      "features": [
+        "Escala en cups, ml y litros",
+        "Capacidad 1L — suficiente para cualquier receta",
+        "Pico vertedor y asa integrada"
+      ],
+      "url": "cocina.html#vaso-medidor-de-vidrio-1l"
     }
   ]
 }
