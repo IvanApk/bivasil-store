@@ -275,11 +275,17 @@
     {
       "id": "tablas_corte_acacia",
       "sku": "BV-COC-08",
-      "name": "Tablas de corte",
+      "name": "Tablas de corte · Acacia",
       "shortDescription": "Tablas de Acacia especiales para cuidar los filos de tus cuchillos",
-      "description": "Tablas de madera de acacia. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus elementos de corte. ",
+      "description": "Tablas de madera de acacia con canaleta perimetral para retener jugos. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus cuchillos. La madera que no destruye filos.",
       "category": "cocina",
-      "tags": [],
+      "tags": [
+        "tablas",
+        "acacia",
+        "corte",
+        "cuchillos",
+        "madera"
+      ],
       "image": "images/cocina/tablas_corte_acacia-1.jpeg",
       "images": [
         "images/cocina/tablas_corte_acacia-1.jpeg",
@@ -291,9 +297,13 @@
       "priceOnRequest": true,
       "useCases": [],
       "materials": [
-        "Acacia"
+        "acacia"
       ],
-      "features": [],
+      "features": [
+        "Canaleta perimetral para retener jugos",
+        "Madera de acacia — dura y bella",
+        "Cuida el filo de los cuchillos"
+      ],
       "url": "cocina.html#tablas_corte_acacia"
     },
     {
@@ -301,9 +311,15 @@
       "sku": "BV-COC-09",
       "name": "Contenedores de Vidrio y Acacia",
       "shortDescription": "Contenedores transparentes con tapa de acacia para ordernar cualquier cocina",
-      "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que queres. Fácil identificación y hermosa visual",
+      "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que querés. Fácil identificación y hermosa visual.",
       "category": "cocina",
-      "tags": [],
+      "tags": [
+        "contenedores",
+        "vidrio",
+        "acacia",
+        "organización",
+        "cocina"
+      ],
       "image": "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
       "images": [
         "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
@@ -314,7 +330,10 @@
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
-      "materials": [],
+      "materials": [
+        "vidrio",
+        "acacia"
+      ],
       "features": [],
       "url": "cocina.html#Containers-Vidrio-Acacia"
     },
@@ -829,9 +848,9 @@
         "cocina",
         "expandible"
       ],
-      "image": "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA-1.jpeg",
+      "image": "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA_1.jpg",
       "images": [
-        "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA-1.jpeg"
+        "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -863,9 +882,9 @@
         "utensilios",
         "multifunción"
       ],
-      "image": "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico-1.jpeg",
+      "image": "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico_1.jpg",
       "images": [
-        "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico-1.jpeg"
+        "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -898,9 +917,9 @@
         "especias",
         "sin-perforación"
       ],
-      "image": "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista-1.jpeg",
+      "image": "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista_1.jpeg",
       "images": [
-        "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista-1.jpeg"
+        "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -934,9 +953,9 @@
         "acero inoxidable",
         "verduras"
       ],
-      "image": "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304-1.jpeg",
+      "image": "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304_1.jpg",
       "images": [
-        "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304-1.jpeg"
+        "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -968,9 +987,9 @@
         "utensilios",
         "guacamole"
       ],
-      "image": "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP-1.jpeg",
+      "image": "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP_1.jpg",
       "images": [
-        "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP-1.jpeg"
+        "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1003,9 +1022,9 @@
         "cocina",
         "multifuncional"
       ],
-      "image": "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado-1.jpeg",
+      "image": "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado_1.jpg",
       "images": [
-        "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado-1.jpeg"
+        "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1039,9 +1058,9 @@
         "cocina",
         "silicona"
       ],
-      "image": "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas-1.jpeg",
+      "image": "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas_1.jpg",
       "images": [
-        "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas-1.jpeg"
+        "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1074,9 +1093,9 @@
         "utensilios",
         "pasta"
       ],
-      "image": "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos-1.jpeg",
+      "image": "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos_1.jpg",
       "images": [
-        "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos-1.jpeg"
+        "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1111,9 +1130,9 @@
         "antiadherente",
         "cocina-diaria"
       ],
-      "image": "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica-1.jpeg",
+      "image": "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica_1.jpg",
       "images": [
-        "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica-1.jpeg"
+        "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1145,9 +1164,9 @@
         "servir",
         "utensilios"
       ],
-      "image": "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera-1.jpeg",
+      "image": "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera_1.jpeg",
       "images": [
-        "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera-1.jpeg"
+        "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1179,9 +1198,9 @@
         "servir",
         "torta"
       ],
-      "image": "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear-1.jpeg",
+      "image": "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear_1.jpg",
       "images": [
-        "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear-1.jpeg"
+        "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1213,9 +1232,9 @@
         "utensilios",
         "saltear"
       ],
-      "image": "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear-1.jpeg",
+      "image": "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear_1.jpg",
       "images": [
-        "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear-1.jpeg"
+        "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1249,9 +1268,9 @@
         "cocina",
         "utensilios"
       ],
-      "image": "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería-1.jpeg",
+      "image": "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería_1.png",
       "images": [
-        "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería-1.jpeg"
+        "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería_1.png"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1285,9 +1304,9 @@
         "masa",
         "acero"
       ],
-      "image": "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes-1.jpeg",
+      "image": "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes_1.jpg",
       "images": [
-        "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes-1.jpeg"
+        "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1319,9 +1338,9 @@
         "madera",
         "set"
       ],
-      "image": "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras-1.jpeg",
+      "image": "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras_1.jpeg",
       "images": [
-        "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras-1.jpeg"
+        "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1354,9 +1373,9 @@
         "cocina",
         "sin perforaciones"
       ],
-      "image": "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos-1.jpeg",
+      "image": "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos_1.jpeg",
       "images": [
-        "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos-1.jpeg"
+        "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1389,9 +1408,9 @@
         "antiadherente",
         "set"
       ],
-      "image": "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear-1.jpeg",
+      "image": "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear_1.jpg",
       "images": [
-        "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear-1.jpeg"
+        "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1424,9 +1443,9 @@
         "cocina",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos-1.jpeg",
+      "image": "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos_1.jpg",
       "images": [
-        "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos-1.jpeg"
+        "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1458,9 +1477,9 @@
         "cocina diaria",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar-1.jpeg",
+      "image": "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar_1.jpg",
       "images": [
-        "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar-1.jpeg"
+        "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1493,9 +1512,9 @@
         "antiadherente",
         "horno"
       ],
-      "image": "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes-1.jpeg",
+      "image": "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes_1.jpeg",
       "images": [
-        "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes-1.jpeg"
+        "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1527,9 +1546,9 @@
         "set",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar-1.jpeg",
+      "image": "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar_1.jpg",
       "images": [
-        "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar-1.jpeg"
+        "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1562,9 +1581,9 @@
         "cocina diaria",
         "higiene"
       ],
-      "image": "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne-1.jpeg",
+      "image": "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne_1.jpg",
       "images": [
-        "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne-1.jpeg"
+        "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1599,9 +1618,9 @@
         "cocina diaria",
         "lavavajillas"
       ],
-      "image": "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles-1.jpeg",
+      "image": "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles_1.jpg",
       "images": [
-        "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles-1.jpeg"
+        "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1633,9 +1652,9 @@
         "soporte-pared",
         "utensilios"
       ],
-      "image": "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina-1.jpeg",
+      "image": "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina_1.jpg",
       "images": [
-        "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina-1.jpeg"
+        "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1668,9 +1687,9 @@
         "cosméticos",
         "tocador"
       ],
-      "image": "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos-1.jpeg",
+      "image": "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos_1.jpg",
       "images": [
-        "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos-1.jpeg"
+        "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1703,9 +1722,9 @@
         "cocina",
         "abridor"
       ],
-      "image": "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores-1.jpeg",
+      "image": "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores_1.jpg",
       "images": [
-        "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores-1.jpeg"
+        "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1738,9 +1757,9 @@
         "cocina diaria",
         "utensilios"
       ],
-      "image": "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA-1.jpeg",
+      "image": "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA_1.jpg",
       "images": [
-        "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA-1.jpeg"
+        "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1773,9 +1792,9 @@
         "queso",
         "cítricos"
       ],
-      "image": "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano-1.jpeg",
+      "image": "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano_1.jpg",
       "images": [
-        "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano-1.jpeg"
+        "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1808,9 +1827,9 @@
         "meal-prep",
         "cocina"
       ],
-      "image": "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento-1.jpeg",
+      "image": "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento_1.jpeg",
       "images": [
-        "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento-1.jpeg"
+        "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento_1.jpeg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1844,9 +1863,9 @@
         "pizza",
         "servir"
       ],
-      "image": "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera-1.jpeg",
+      "image": "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera_1.jpg",
       "images": [
-        "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera-1.jpeg"
+        "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1878,9 +1897,9 @@
         "queso",
         "multifunción"
       ],
-      "image": "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina-1.jpeg",
+      "image": "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina_1.jpg",
       "images": [
-        "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina-1.jpeg"
+        "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
@@ -1912,9 +1931,9 @@
         "contenedores",
         "almacenamiento"
       ],
-      "image": "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico-1.jpeg",
+      "image": "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico_1.jpg",
       "images": [
-        "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico-1.jpeg"
+        "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico_1.jpg"
       ],
       "imageFit": "cover",
       "availability": "in_stock",
