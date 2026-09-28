@@ -2,14 +2,14 @@
   "$schema": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
   "site": {
     "name": "BIVA",
-    "url": "https://bivasil.store",
-    "description": "Importadora y distribuidora mayorista de productos para el hogar. Mar del Plata · Costa Atlántica.",
-    "areaServed": "Costa Atlántica, Argentina",
+    "url": "https://bivasil.com",
+    "description": "Importadora y distribuidora mayorista de productos para el hogar: cocina, bazar y jardín. Base en Mar del Plata, envíos a comercios de todo el país.",
+    "areaServed": "Argentina",
     "businessModel": "B2B wholesale",
     "currency": "ARS",
     "contact": {
       "whatsapp": "+5491153116412",
-      "email": "ivan@bivasil.store",
+      "email": "info@bivasil.com",
       "instagram": "https://instagram.com/bivasil.store"
     }
   },
@@ -82,7 +82,7 @@
         "acero inoxidable",
         "silicona alimentaria"
       ],
-      "url": "cocina.html#set-utensilios-magneticos-2",
+      "url": "cocina.html#set-utensilios-completo-2",
       "features": [],
       "images": [
         "images/cocina/02-utensilios-magneticos-2.jpg"
@@ -140,7 +140,7 @@
       "materials": [
         "silicona alimentaria"
       ],
-      "url": "cocina.html#set-espatulas-copia",
+      "url": "cocina.html#lamina-secado-silicona",
       "features": [],
       "images": [
         "images/cocina/lamina-secado-silicona-1.jpeg"
