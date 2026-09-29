@@ -22,7 +22,7 @@ TODAY = datetime.date.today().isoformat()
 
 data = json.loads((ROOT / 'products.json').read_text(encoding='utf-8'))
 site = data['site']
-products = data['products']
+products = [p for p in data['products'] if p.get('published', True) and p.get('gallery')]
 EMAIL = site['contact']['email']
 PHONE = site['contact']['whatsapp']
 IG = site['contact']['instagram']
@@ -85,7 +85,7 @@ def product_ld(p):
         "brand": {"@type": "Brand", "name": "BIVA"},
         "offers": {
             "@type": "Offer",
-            "availability": "https://schema.org/InStock" if p['availability'] == 'in_stock' else "https://schema.org/PreOrder",
+            "availability": {"in_stock": "https://schema.org/InStock", "out_of_stock": "https://schema.org/OutOfStock"}.get(p['availability'], "https://schema.org/PreOrder"),
             "priceCurrency": site.get('currency', 'ARS'),
             "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
             "areaServed": "AR",
@@ -158,7 +158,7 @@ def noscript_catalog(items, heading):
     rows = []
     for p in items:
         mats = ', '.join(p.get('materials') or [])
-        status = 'En stock' if p['availability'] == 'in_stock' else 'Próximo ingreso'
+        status = {'in_stock': 'En stock', 'out_of_stock': 'Sin stock'}.get(p['availability'], 'Próximo ingreso')
         rows.append(
             f'<li id="p-{html.escape(p["id"])}"><h3><a href="{html.escape(p["url"])}">{html.escape(p["name"].strip())}</a></h3>'
             f'<p>{html.escape(p["description"])}</p>'
@@ -260,7 +260,7 @@ for cat in ('cocina', 'jardin'):
     for p in products:
         if p['category'] != cat:
             continue
-        st = '' if p['availability'] == 'in_stock' else ' (próximo ingreso)'
+        st = {'in_stock': '', 'out_of_stock': ' (sin stock)'}.get(p['availability'], ' (próximo ingreso)')
         lines.append(f'- [{p["name"].strip()}]({abs_url(p["url"])}) [{p["sku"]}]{st}: {(p["shortDescription"].strip() or p["description"].split(". ")[0]).rstrip(".")}')
     lines.append('')
 (ROOT / 'llms.txt').write_text('\n'.join(lines), encoding='utf-8')

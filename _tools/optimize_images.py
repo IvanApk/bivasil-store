@@ -1,54 +1,53 @@
 #!/usr/bin/env python3
 """
-BIVA · copias livianas de las fotos de producto.
+BIVA · fotos livianas para la web.
 
-    python3 _tools/optimize_images.py
+Las fotos originales van en  _fotos/<SKU>/  (ej. _fotos/BV-COC-59/1.jpg, 2.jpg…).
+El orden lo da el nombre: 1 es la foto principal. La carpeta _fotos no se publica.
 
-Por cada producto de products.json toma su foto principal y las fotos
-hermanas (mismo nombre terminado en _2, -3, etc.) y genera en images/p/:
-  <slug>-1.jpg, <slug>-2.jpg…  (1200 px, para la página del producto)
-  <slug>-sm.jpg                (600 px, para grillas, buscador y carrusel)
-Los originales no se tocan. Guarda las rutas nuevas en products.json
-("slug", "gallery", "thumb"). Solo procesa lo que falta o cambió.
+Genera en images/p/:
+  <slug>-1.jpg, <slug>-2.jpg…  (1200 px, página del producto)
+  <slug>-sm.jpg                (600 px, grillas, buscador y carrusel)
+
+Solo procesa fotos nuevas o cambiadas (compara una huella de cada original)
+y borra las fotos de productos que ya no existen.
+Guarda en products.json: "gallery", "thumb" e "image".
 """
-import json, re, pathlib, unicodedata
+import json, re, hashlib, pathlib
 from PIL import Image, ImageOps
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+SRC = ROOT / '_fotos'
 OUT = ROOT / 'images' / 'p'
 OUT.mkdir(parents=True, exist_ok=True)
+MANIFEST = OUT / '.huellas.json'
 EXTS = ('.jpg', '.jpeg', '.png', '.webp')
+MAX_PHOTOS = 8
+
+manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
 
 
-def slugify(s):
-    s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode()
-    s = re.sub(r'[^a-zA-Z0-9]+', '-', s).strip('-').lower()
-    return re.sub(r'-+', '-', s)
+def natural_key(p):
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', p.stem)]
 
 
-def siblings(path):
-    """All photos of the same product: foo_1.jpg -> foo_1, foo_2, foo_3…"""
-    p = ROOT / path
-    m = re.match(r'^(.*?)([_-])(\d+)(-alt)?$', p.stem)
-    found = []
-    if m:
-        base, sep = m.group(1), m.group(2)
-        for f in sorted(p.parent.iterdir()):
-            if f.suffix.lower() not in EXTS:
-                continue
-            mm = re.match(r'^' + re.escape(base) + re.escape(sep) + r'(\d+)(-alt)?$', f.stem)
-            if mm:
-                found.append((int(mm.group(1)), bool(mm.group(2)), f))
-        found.sort(key=lambda t: (t[0], t[1]))
-        return [f for _, _, f in found]
-    return [p]
+def photos_for(sku):
+    folder = SRC / sku
+    if not folder.is_dir():
+        return []
+    return sorted([f for f in folder.iterdir() if f.suffix.lower() in EXTS], key=natural_key)[:MAX_PHOTOS]
+
+
+def fingerprint(src, width):
+    h = hashlib.sha1(src.read_bytes()).hexdigest()[:16]
+    return f'{h}:{width}'
 
 
 def save(src, dst, width, quality):
-    if dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime:
-        return
-    im = Image.open(src)
-    im = ImageOps.exif_transpose(im)
+    fp = fingerprint(src, width)
+    if dst.exists() and manifest.get(dst.name) == fp:
+        return False
+    im = ImageOps.exif_transpose(Image.open(src))
     if im.mode in ('RGBA', 'LA', 'P'):
         im = im.convert('RGBA')
         bg = Image.new('RGB', im.size, (238, 234, 226))  # crema
@@ -59,38 +58,44 @@ def save(src, dst, width, quality):
     if im.width > width:
         im = im.resize((width, round(im.height * width / im.width)), Image.LANCZOS)
     im.save(dst, 'JPEG', quality=quality, optimize=True, progressive=True)
+    manifest[dst.name] = fp
+    return True
 
 
-data = json.loads((ROOT / 'products.json').read_text(encoding='utf-8'))
-used = set()
-for p in data['products']:
-    slug = p.get('slug') or slugify(p['id'])
-    if slug in used:
-        slug = slugify(p['id'] + '-' + p['sku'])
-    used.add(slug)
-    p['slug'] = slug
-    srcs = []
-    for img in (p.get('images') or []) + [p['image']]:
-        for s in siblings(img):
-            if s not in srcs:
-                srcs.append(s)
-    # the declared cover goes first
-    cover = ROOT / p['image']
-    if cover in srcs:
-        srcs.remove(cover)
-        srcs.insert(0, cover)
-    srcs = srcs[:6]
-    gallery = []
-    for i, s in enumerate(srcs, 1):
-        dst = OUT / f'{slug}-{i}.jpg'
-        save(s, dst, 1200, 80)
-        gallery.append(f'images/p/{dst.name}')
-    thumb = OUT / f'{slug}-sm.jpg'
-    save(srcs[0], thumb, 600, 78)
-    p['gallery'] = gallery
-    p['thumb'] = f'images/p/{thumb.name}'
+def run():
+    data = json.loads((ROOT / 'products.json').read_text(encoding='utf-8'))
+    keep, made, missing = set(), 0, []
+    for p in data['products']:
+        srcs = photos_for(p['sku'])
+        if not srcs:
+            missing.append(p['sku'])
+            p['gallery'], p['thumb'] = [], ''
+            continue
+        gallery = []
+        for i, s in enumerate(srcs, 1):
+            dst = OUT / f'{p["slug"]}-{i}.jpg'
+            made += save(s, dst, 1200, 80)
+            gallery.append(f'images/p/{dst.name}')
+            keep.add(dst.name)
+        thumb = OUT / f'{p["slug"]}-sm.jpg'
+        made += save(srcs[0], thumb, 600, 78)
+        keep.add(thumb.name)
+        p['gallery'], p['thumb'], p['image'] = gallery, f'images/p/{thumb.name}', gallery[0]
+        p.pop('images', None)
 
-(ROOT / 'products.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-n = len(list(OUT.glob('*.jpg')))
-mb = sum(f.stat().st_size for f in OUT.glob('*.jpg')) / 1e6
-print(f'OK · {len(data["products"])} productos · {n} archivos · {mb:.1f} MB en images/p/')
+    removed = 0
+    for f in OUT.glob('*.jpg'):
+        if f.name not in keep:
+            f.unlink()
+            manifest.pop(f.name, None)
+            removed += 1
+    MANIFEST.write_text(json.dumps(dict(sorted(manifest.items())), indent=0) + '\n')
+    (ROOT / 'products.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'Fotos · {made} generadas, {removed} borradas, {len(keep)} en total')
+    if missing:
+        print(f'  ⚠ Sin fotos (no se publican): {", ".join(missing)} → subilas a _fotos/<SKU>/')
+    return missing
+
+
+if __name__ == '__main__':
+    run()

@@ -29,6 +29,7 @@
     {
       "id": "set-utensilios-magneticos-1",
       "sku": "BV-COC-01",
+      "slug": "set-utensilios-magneticos-metal-esencial",
       "name": "Set utensilios magnéticos Metal · Esencial",
       "shortDescription": "Cuchara, espumadera, cucharón. Mango magnético, listos en la pared.",
       "description": "Set 1 — base esencial. Cinco piezas que cubren la cocina diaria. Mango magnético que se adhiere a portacuchillos o barras de pared, manteniendo la mesada despejada. Cabezal de acero inoxidable y silicona apta para uso en sartenes antiadherentes.",
@@ -38,9 +39,9 @@
         "magnético",
         "set"
       ],
-      "image": "images/cocina/01-utensilios-magneticos-1.jpg",
-      "imageFit": "contain",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -51,21 +52,19 @@
         "acero inoxidable",
         "silicona alimentaria"
       ],
-      "url": "/productos/set-utensilios-magneticos-metal-esencial/",
       "features": [],
-      "images": [
-        "images/cocina/01-utensilios-magneticos-1.jpg"
-      ],
-      "slug": "set-utensilios-magneticos-metal-esencial",
       "gallery": [
         "images/p/set-utensilios-magneticos-metal-esencial-1.jpg"
       ],
-      "thumb": "images/p/set-utensilios-magneticos-metal-esencial-sm.jpg"
+      "thumb": "images/p/set-utensilios-magneticos-metal-esencial-sm.jpg",
+      "image": "images/p/set-utensilios-magneticos-metal-esencial-1.jpg",
+      "url": "/productos/set-utensilios-magneticos-metal-esencial/"
     },
     {
       "id": "set-utensilios-completo-2",
       "sku": "BV-COC-02",
-      "name": "Set utensilios completo · Esenciales ",
+      "slug": "set-utensilios-completo-esenciales",
+      "name": "Set utensilios completo · Esenciales",
       "shortDescription": "Set completo. Más piezas, mismas reglas. Materiales que aguantan.",
       "description": "Set 2 — Esenciales. Suma piezas al set esencial: pala, espátula plana, batidor de varillas. Durabilidad y calidad estándar de materiales. Pensado para cocinas que cocinan en serio.",
       "category": "cocina",
@@ -73,9 +72,9 @@
         "cocina extendida",
         "set"
       ],
-      "image": "images/cocina/02-utensilios-magneticos-2.jpg",
-      "imageFit": "contain",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -87,21 +86,19 @@
         "acero inoxidable",
         "silicona alimentaria"
       ],
-      "url": "/productos/set-utensilios-completo-esenciales/",
       "features": [],
-      "images": [
-        "images/cocina/02-utensilios-magneticos-2.jpg"
-      ],
-      "slug": "set-utensilios-completo-esenciales",
       "gallery": [
         "images/p/set-utensilios-completo-esenciales-1.jpg",
         "images/p/set-utensilios-completo-esenciales-2.jpg"
       ],
-      "thumb": "images/p/set-utensilios-completo-esenciales-sm.jpg"
+      "thumb": "images/p/set-utensilios-completo-esenciales-sm.jpg",
+      "image": "images/p/set-utensilios-completo-esenciales-1.jpg",
+      "url": "/productos/set-utensilios-completo-esenciales/"
     },
     {
       "id": "set-espatulas",
       "sku": "BV-COC-03",
+      "slug": "set-espatulas",
       "name": "Set espátulas",
       "shortDescription": "Cinco tamaños, una sola filosofía: flexibilidad real, mango firme, lavado simple.",
       "description": "Cinco espátulas en escalera de tamaños — chicas, medias, grandes. Cabezal de silicona alimentaria con flexión real (no las que se quedan duras al primer uso). Mango de madera tratado, agarre firme, lavables sin problema.",
@@ -111,8 +108,9 @@
         "cocina",
         "silicona"
       ],
-      "image": "images/cocina/03-espatulas.jpg",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -123,20 +121,18 @@
         "silicona alimentaria",
         "madera"
       ],
-      "url": "/productos/set-espatulas/",
       "features": [],
-      "images": [
-        "images/cocina/03-espatulas.jpg"
-      ],
-      "slug": "set-espatulas",
       "gallery": [
         "images/p/set-espatulas-1.jpg"
       ],
-      "thumb": "images/p/set-espatulas-sm.jpg"
+      "thumb": "images/p/set-espatulas-sm.jpg",
+      "image": "images/p/set-espatulas-1.jpg",
+      "url": "/productos/set-espatulas/"
     },
     {
       "id": "lamina-secado-silicona",
       "sku": "BV-COC-07",
+      "slug": "lamina-de-secado-de-silicona",
       "name": "Lámina de secado de Silicona",
       "shortDescription": "Con rendijas especiales para escurrir el agua de manera sencilla",
       "description": "Falta espacio para escurrir tu vajilla? Con esta lámina de silicona es sencillo agrandar tu espacio de secado y liberarlo cuando lo necesites",
@@ -146,8 +142,9 @@
         "silicona",
         "lavado"
       ],
-      "image": "images/cocina/lamina-secado-silicona-1.jpeg",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -156,20 +153,18 @@
       "materials": [
         "silicona alimentaria"
       ],
-      "url": "/productos/lamina-de-secado-de-silicona/",
       "features": [],
-      "images": [
-        "images/cocina/lamina-secado-silicona-1.jpeg"
-      ],
-      "slug": "lamina-de-secado-de-silicona",
       "gallery": [
         "images/p/lamina-de-secado-de-silicona-1.jpg"
       ],
-      "thumb": "images/p/lamina-de-secado-de-silicona-sm.jpg"
+      "thumb": "images/p/lamina-de-secado-de-silicona-sm.jpg",
+      "image": "images/p/lamina-de-secado-de-silicona-1.jpg",
+      "url": "/productos/lamina-de-secado-de-silicona/"
     },
     {
       "id": "guantes",
       "sku": "BV-COC-04",
+      "slug": "guantes-termicos",
       "name": "Guantes térmicos",
       "shortDescription": "Aislación que cumple. Para horno, para parrilla, para todo lo que quema.",
       "description": "Guantes de silicona con interior de algodón. Aislación térmica real para horno y parrilla. Antideslizantes en la palma. Lavables. No de los que se ponen rígidos al primer uso intenso.",
@@ -179,8 +174,9 @@
         "horno",
         "parrilla"
       ],
-      "image": "images/cocina/04-guantes.jpg",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -192,20 +188,18 @@
         "silicona",
         "algodón"
       ],
-      "url": "/productos/guantes-termicos/",
       "features": [],
-      "images": [
-        "images/cocina/04-guantes.jpg"
-      ],
-      "slug": "guantes-termicos",
       "gallery": [
         "images/p/guantes-termicos-1.jpg"
       ],
-      "thumb": "images/p/guantes-termicos-sm.jpg"
+      "thumb": "images/p/guantes-termicos-sm.jpg",
+      "image": "images/p/guantes-termicos-1.jpg",
+      "url": "/productos/guantes-termicos/"
     },
     {
       "id": "batidores",
       "sku": "BV-COC-05",
+      "slug": "batidor-con-fleje",
       "name": "Batidor con fleje",
       "shortDescription": "Mano firme, varillas que no se abren, fleje para llevarte todo. Para huevos, salsas y emulsiones.",
       "description": "Batidor de varillas de acero inoxidable, mango ergonómico y con fleje de silicona perfecto para no desperdiciar nada. Las varillas mantienen la forma — no se abren después de tres usos. Para huevos, salsas, vinagretas y todo lo que necesite emulsionar.",
@@ -214,8 +208,9 @@
         "repostería",
         "salsas"
       ],
-      "image": "images/cocina/05-batidores.jpg",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -227,20 +222,18 @@
         "acero inoxidable",
         "silicona"
       ],
-      "url": "/productos/batidor-con-fleje/",
       "features": [],
-      "images": [
-        "images/cocina/05-batidores.jpg"
-      ],
-      "slug": "batidor-con-fleje",
       "gallery": [
         "images/p/batidor-con-fleje-1.jpg"
       ],
-      "thumb": "images/p/batidor-con-fleje-sm.jpg"
+      "thumb": "images/p/batidor-con-fleje-sm.jpg",
+      "image": "images/p/batidor-con-fleje-1.jpg",
+      "url": "/productos/batidor-con-fleje/"
     },
     {
       "id": "lamina-hornear",
       "sku": "BV-COC-06",
+      "slug": "lamina-para-hornear",
       "name": "Lámina para hornear",
       "shortDescription": "Antiadherente real, reutilizable. Reemplaza el papel manteca y dura temporadas enteras.",
       "description": "Lámina de silicona alimentaria reutilizable. Antiadherente verdadero — no necesita aceite ni papel manteca. Resiste temperaturas de horno convencional. Se lava y vuelve a usarse durante temporadas enteras.",
@@ -250,9 +243,9 @@
         "repostería",
         "reutilizable"
       ],
-      "image": "images/cocina/06-lamina-hornear.jpg",
-      "imageFit": "contain",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -262,20 +255,18 @@
       "materials": [
         "silicona alimentaria"
       ],
-      "url": "/productos/lamina-para-hornear/",
       "features": [],
-      "images": [
-        "images/cocina/06-lamina-hornear.jpg"
-      ],
-      "slug": "lamina-para-hornear",
       "gallery": [
         "images/p/lamina-para-hornear-1.jpg"
       ],
-      "thumb": "images/p/lamina-para-hornear-sm.jpg"
+      "thumb": "images/p/lamina-para-hornear-sm.jpg",
+      "image": "images/p/lamina-para-hornear-1.jpg",
+      "url": "/productos/lamina-para-hornear/"
     },
     {
       "id": "enrollador-manguera",
       "sku": "BV-JAR-01",
+      "slug": "enrollador-de-manguera",
       "name": "Enrollador de manguera",
       "shortDescription": "La manguera siempre fue un enredo. Ya no.",
       "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa.",
@@ -285,8 +276,9 @@
         "manguera",
         "patio"
       ],
-      "image": "images/jardin/01-enrollador.jpg",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
@@ -303,19 +295,17 @@
         "Materiales para sol, salitre y frío",
         "Pensado para vender, no para mostrar"
       ],
-      "url": "/productos/enrollador-de-manguera/",
-      "images": [
-        "images/jardin/01-enrollador.jpg"
-      ],
-      "slug": "enrollador-de-manguera",
       "gallery": [
         "images/p/enrollador-de-manguera-1.jpg"
       ],
-      "thumb": "images/p/enrollador-de-manguera-sm.jpg"
+      "thumb": "images/p/enrollador-de-manguera-sm.jpg",
+      "image": "images/p/enrollador-de-manguera-1.jpg",
+      "url": "/productos/enrollador-de-manguera/"
     },
     {
       "id": "tablas_corte_acacia",
       "sku": "BV-COC-08",
+      "slug": "tablas-de-corte-acacia",
       "name": "Tablas de corte · Acacia",
       "shortDescription": "Tablas de Acacia especiales para cuidar los filos de tus cuchillos",
       "description": "Tablas de madera de acacia con canaleta perimetral para retener jugos. Buen grosor e indispensables en cualquier cocina que quiera cuidar sus cuchillos. La madera que no destruye filos.",
@@ -327,13 +317,9 @@
         "cuchillos",
         "madera"
       ],
-      "image": "images/cocina/tablas_corte_acacia-1.jpeg",
-      "images": [
-        "images/cocina/tablas_corte_acacia-1.jpeg",
-        "images/cocina/tablas_corte_acacia-2.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "pre_order",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -345,17 +331,18 @@
         "Madera de acacia — dura y bella",
         "Cuida el filo de los cuchillos"
       ],
-      "url": "/productos/tablas-de-corte-acacia/",
-      "slug": "tablas-de-corte-acacia",
       "gallery": [
         "images/p/tablas-de-corte-acacia-1.jpg",
         "images/p/tablas-de-corte-acacia-2.jpg"
       ],
-      "thumb": "images/p/tablas-de-corte-acacia-sm.jpg"
+      "thumb": "images/p/tablas-de-corte-acacia-sm.jpg",
+      "image": "images/p/tablas-de-corte-acacia-1.jpg",
+      "url": "/productos/tablas-de-corte-acacia/"
     },
     {
       "id": "Containers-Vidrio-Acacia",
       "sku": "BV-COC-09",
+      "slug": "contenedores-de-vidrio-y-acacia",
       "name": "Contenedores de Vidrio y Acacia",
       "shortDescription": "Contenedores transparentes con tapa de acacia para ordernar cualquier cocina",
       "description": "A quien le gustan los juegos de todos colores de contenedores para organizar? Con estos hermosos contenedores podrás tener la cocina que querés. Fácil identificación y hermosa visual.",
@@ -367,13 +354,9 @@
         "organización",
         "cocina"
       ],
-      "image": "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
-      "images": [
-        "images/cocina/Containers-Vidrio-Acacia-1.jpeg",
-        "images/cocina/Containers-Vidrio-Acacia-2.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -382,17 +365,18 @@
         "acacia"
       ],
       "features": [],
-      "url": "/productos/contenedores-de-vidrio-y-acacia/",
-      "slug": "contenedores-de-vidrio-y-acacia",
       "gallery": [
         "images/p/contenedores-de-vidrio-y-acacia-1.jpg",
         "images/p/contenedores-de-vidrio-y-acacia-2.jpg"
       ],
-      "thumb": "images/p/contenedores-de-vidrio-y-acacia-sm.jpg"
+      "thumb": "images/p/contenedores-de-vidrio-y-acacia-sm.jpg",
+      "image": "images/p/contenedores-de-vidrio-y-acacia-1.jpg",
+      "url": "/productos/contenedores-de-vidrio-y-acacia/"
     },
     {
       "id": "juego-de-bowls-ceramica-blanca",
       "sku": "BV-COC-10",
+      "slug": "juego-de-bowls-ceramica-blanca",
       "name": "Juego de Bowls · Cerámica Blanca",
       "shortDescription": "",
       "description": "Juego de nueve bowls apilables de cerámica blanca mate. Desde el bowl de mise en place hasta el de ensalada — todos apilados en el espacio de uno. Peso real, borde limpio, lavables sin drama.",
@@ -404,12 +388,9 @@
         "vajilla",
         "apilable"
       ],
-      "image": "images/cocina/bowls_ceramica_blanca_1.jpeg",
-      "images": [
-        "images/cocina/bowls_ceramica_blanca_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -417,16 +398,17 @@
         "cerámica"
       ],
       "features": [],
-      "url": "/productos/juego-de-bowls-ceramica-blanca/",
-      "slug": "juego-de-bowls-ceramica-blanca",
       "gallery": [
         "images/p/juego-de-bowls-ceramica-blanca-1.jpg"
       ],
-      "thumb": "images/p/juego-de-bowls-ceramica-blanca-sm.jpg"
+      "thumb": "images/p/juego-de-bowls-ceramica-blanca-sm.jpg",
+      "image": "images/p/juego-de-bowls-ceramica-blanca-1.jpg",
+      "url": "/productos/juego-de-bowls-ceramica-blanca/"
     },
     {
       "id": "colador-para-bacha-extensible",
       "sku": "BV-COC-11",
+      "slug": "colador-para-bacha-extensible",
       "name": "Colador para Bacha · Extensible",
       "shortDescription": "",
       "description": "Colador de acero inoxidable con brazos extensibles de goma que se apoyan en el borde de la bacha. Las manos quedan libres. La mesada, limpia. Apto para pasta, verduras y frutos del mar.",
@@ -438,12 +420,9 @@
         "escurridor",
         "extensible"
       ],
-      "image": "images/cocina/colador_para_bacha_1.jpeg",
-      "images": [
-        "images/cocina/colador_para_bacha_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -456,18 +435,19 @@
         "Apoyos de goma — no raya ni resbala",
         "Manos libres mientras escurre"
       ],
-      "url": "/productos/colador-para-bacha-extensible/",
-      "slug": "colador-para-bacha-extensible",
       "gallery": [
         "images/p/colador-para-bacha-extensible-1.jpg",
         "images/p/colador-para-bacha-extensible-2.jpg",
         "images/p/colador-para-bacha-extensible-3.jpg"
       ],
-      "thumb": "images/p/colador-para-bacha-extensible-sm.jpg"
+      "thumb": "images/p/colador-para-bacha-extensible-sm.jpg",
+      "image": "images/p/colador-para-bacha-extensible-1.jpg",
+      "url": "/productos/colador-para-bacha-extensible/"
     },
     {
       "id": "set-coladores-mesh-con-apoyo",
       "sku": "BV-COC-12",
+      "slug": "set-coladores-mesh-con-apoyo",
       "name": "Set Coladores Mesh · Con Apoyo",
       "shortDescription": "",
       "description": "Set de dos coladores de malla de acero inoxidable con base de apoyo integrada. Se paran solos. Malla fina que retiene hasta lo pequeño. Aptos para pasta, legumbres, frutas y arroz.",
@@ -479,12 +459,9 @@
         "escurridor",
         "cocina"
       ],
-      "image": "images/cocina/coladores_mesh_apoyo_1.jpeg",
-      "images": [
-        "images/cocina/coladores_mesh_apoyo_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -492,17 +469,18 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "/productos/set-coladores-mesh-con-apoyo/",
-      "slug": "set-coladores-mesh-con-apoyo",
       "gallery": [
         "images/p/set-coladores-mesh-con-apoyo-1.jpg",
         "images/p/set-coladores-mesh-con-apoyo-2.jpg"
       ],
-      "thumb": "images/p/set-coladores-mesh-con-apoyo-sm.jpg"
+      "thumb": "images/p/set-coladores-mesh-con-apoyo-sm.jpg",
+      "image": "images/p/set-coladores-mesh-con-apoyo-1.jpg",
+      "url": "/productos/set-coladores-mesh-con-apoyo/"
     },
     {
       "id": "juego-de-bowls-acero-inoxidable",
       "sku": "BV-COC-13",
+      "slug": "juego-de-bowls-acero-inoxidable",
       "name": "Juego de Bowls · Acero Inoxidable",
       "shortDescription": "",
       "description": "Cuatro bowls de acero inoxidable pulido en escalera de tamaños. Para batir, marinar, preparar o servir. Apilables, lavables en lavavajillas, indeformables. El set de prep que dura décadas.",
@@ -514,12 +492,9 @@
         "cocina",
         "batir"
       ],
-      "image": "images/cocina/juego_bowls_acero_1.jpeg",
-      "images": [
-        "images/cocina/juego_bowls_acero_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -527,17 +502,18 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "/productos/juego-de-bowls-acero-inoxidable/",
-      "slug": "juego-de-bowls-acero-inoxidable",
       "gallery": [
         "images/p/juego-de-bowls-acero-inoxidable-1.jpg",
         "images/p/juego-de-bowls-acero-inoxidable-2.jpg"
       ],
-      "thumb": "images/p/juego-de-bowls-acero-inoxidable-sm.jpg"
+      "thumb": "images/p/juego-de-bowls-acero-inoxidable-sm.jpg",
+      "image": "images/p/juego-de-bowls-acero-inoxidable-1.jpg",
+      "url": "/productos/juego-de-bowls-acero-inoxidable/"
     },
     {
       "id": "juego-de-bowls-vidrio",
       "sku": "BV-COC-14",
+      "slug": "juego-de-bowls-vidrio",
       "name": "Juego de Bowls · Vidrio",
       "shortDescription": "",
       "description": "Juego de nueve bowls de vidrio transparente en tamaños escalonados — desde el mini mise en place hasta el bol de ensalada. Se anidan entre sí y ocupan el lugar de uno. Vidrio resistente, apto microondas y lavavajillas.",
@@ -549,12 +525,9 @@
         "transparente",
         "apilable"
       ],
-      "image": "images/cocina/juego_bowls_vidrio_1.jpeg",
-      "images": [
-        "images/cocina/juego_bowls_vidrio_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -562,18 +535,19 @@
         "vidrio templado"
       ],
       "features": [],
-      "url": "/productos/juego-de-bowls-vidrio/",
-      "slug": "juego-de-bowls-vidrio",
       "gallery": [
         "images/p/juego-de-bowls-vidrio-1.jpg",
         "images/p/juego-de-bowls-vidrio-2.jpg",
         "images/p/juego-de-bowls-vidrio-3.jpg"
       ],
-      "thumb": "images/p/juego-de-bowls-vidrio-sm.jpg"
+      "thumb": "images/p/juego-de-bowls-vidrio-sm.jpg",
+      "image": "images/p/juego-de-bowls-vidrio-1.jpg",
+      "url": "/productos/juego-de-bowls-vidrio/"
     },
     {
       "id": "set-tamices-malla-fina",
       "sku": "BV-COC-15",
+      "slug": "set-tamices-malla-fina",
       "name": "Set Tamices · Malla Fina",
       "shortDescription": "",
       "description": "Set de tres tamices de malla fina de acero inoxidable con mango largo. Para cernir harina, colar infusiones o escurrir frutas pequeñas. Malla que no se deforma, mango que da buen agarre. Tres diámetros para cada tarea.",
@@ -585,12 +559,9 @@
         "repostería",
         "cocina"
       ],
-      "image": "images/cocina/juego_coladores_mango_1.jpeg",
-      "images": [
-        "images/cocina/juego_coladores_mango_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -598,18 +569,19 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "/productos/set-tamices-malla-fina/",
-      "slug": "set-tamices-malla-fina",
       "gallery": [
         "images/p/set-tamices-malla-fina-1.jpg",
         "images/p/set-tamices-malla-fina-2.jpg",
         "images/p/set-tamices-malla-fina-3.jpg"
       ],
-      "thumb": "images/p/set-tamices-malla-fina-sm.jpg"
+      "thumb": "images/p/set-tamices-malla-fina-sm.jpg",
+      "image": "images/p/set-tamices-malla-fina-1.jpg",
+      "url": "/productos/set-tamices-malla-fina/"
     },
     {
       "id": "juego-contenedores-vidrio-y-silicona",
       "sku": "BV-COC-16",
+      "slug": "juego-contenedores-vidrio-y-silicona",
       "name": "Juego Contenedores · Vidrio y Silicona",
       "shortDescription": "",
       "description": "Set de contenedores redondos de vidrio borosilicato con tapa hermética de silicona gris. Van del freezer al microondas sin drama. La tapa sella bien — no el tipo que se suelta al primer apilado. Para prep semanal, porciones y sobras que se ven.",
@@ -621,12 +593,9 @@
         "prep",
         "silicona"
       ],
-      "image": "images/cocina/juego_contenedores_pyrex_1.jpeg",
-      "images": [
-        "images/cocina/juego_contenedores_pyrex_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -639,17 +608,18 @@
         "Vidrio apto microondas, horno y freezer",
         "Transparentes — se ve lo que hay adentro"
       ],
-      "url": "/productos/juego-contenedores-vidrio-y-silicona/",
-      "slug": "juego-contenedores-vidrio-y-silicona",
       "gallery": [
         "images/p/juego-contenedores-vidrio-y-silicona-1.jpg",
         "images/p/juego-contenedores-vidrio-y-silicona-2.jpg"
       ],
-      "thumb": "images/p/juego-contenedores-vidrio-y-silicona-sm.jpg"
+      "thumb": "images/p/juego-contenedores-vidrio-y-silicona-sm.jpg",
+      "image": "images/p/juego-contenedores-vidrio-y-silicona-1.jpg",
+      "url": "/productos/juego-contenedores-vidrio-y-silicona/"
     },
     {
       "id": "vajilla-drift-gris",
       "sku": "BV-COC-17",
+      "slug": "vajilla-drift-gris",
       "name": "Vajilla Drift · Gris",
       "shortDescription": "",
       "description": "Juego de vajilla de gres con acabado mate en tonos gris piedra. El esmalte reactivo hace que cada pieza sea única — sin uniformidad industrial. Taza, plato plano, plato hondo y bowl. Para la mesa de todos los días con cara de mesa especial.",
@@ -661,12 +631,9 @@
         "gris",
         "artesanal"
       ],
-      "image": "images/cocina/juego_drift_gray_1.jpeg",
-      "images": [
-        "images/cocina/juego_drift_gray_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -679,21 +646,23 @@
         "Acabado mate resistente al uso real",
         "Set completo: taza, plato plano, hondo y bowl"
       ],
-      "url": "/productos/vajilla-drift-gris/",
-      "slug": "vajilla-drift-gris",
       "gallery": [
         "images/p/vajilla-drift-gris-1.jpg",
         "images/p/vajilla-drift-gris-2.jpg",
         "images/p/vajilla-drift-gris-3.jpg",
         "images/p/vajilla-drift-gris-4.jpg",
         "images/p/vajilla-drift-gris-5.jpg",
-        "images/p/vajilla-drift-gris-6.jpg"
+        "images/p/vajilla-drift-gris-6.jpg",
+        "images/p/vajilla-drift-gris-7.jpg"
       ],
-      "thumb": "images/p/vajilla-drift-gris-sm.jpg"
+      "thumb": "images/p/vajilla-drift-gris-sm.jpg",
+      "image": "images/p/vajilla-drift-gris-1.jpg",
+      "url": "/productos/vajilla-drift-gris/"
     },
     {
       "id": "platos-drift-verde-salvia",
       "sku": "BV-COC-18",
+      "slug": "platos-drift-verde-salvia",
       "name": "Platos Drift · Verde Salvia",
       "shortDescription": "",
       "description": "Set de seis platos de gres con esmalte reactivo en verde salvia. Bordes ligeramente irregulares — no es un accidente, es el carácter del material. Apilables, resistentes al lavavajillas. Dos tamaños: plato principal y entrada.",
@@ -705,12 +674,9 @@
         "mate",
         "vajilla"
       ],
-      "image": "images/cocina/juego_drift_green_1.jpeg",
-      "images": [
-        "images/cocina/juego_drift_green_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -719,18 +685,19 @@
         "esmalte reactivo"
       ],
       "features": [],
-      "url": "/productos/platos-drift-verde-salvia/",
-      "slug": "platos-drift-verde-salvia",
       "gallery": [
         "images/p/platos-drift-verde-salvia-1.jpg",
         "images/p/platos-drift-verde-salvia-2.jpg",
         "images/p/platos-drift-verde-salvia-3.jpg"
       ],
-      "thumb": "images/p/platos-drift-verde-salvia-sm.jpg"
+      "thumb": "images/p/platos-drift-verde-salvia-sm.jpg",
+      "image": "images/p/platos-drift-verde-salvia-1.jpg",
+      "url": "/productos/platos-drift-verde-salvia/"
     },
     {
       "id": "vajilla-frank-blanca",
       "sku": "BV-COC-19",
+      "slug": "vajilla-frank-blanca",
       "name": "Vajilla Frank · Blanca",
       "shortDescription": "",
       "description": "Vajilla de cerámica blanca brillante con borde liso y pared recta. Sin adornos porque no los necesita. Platos en dos tamaños, bowls profundos. La base de cualquier mesa bien montada.",
@@ -742,12 +709,9 @@
         "minimalista",
         "bowls"
       ],
-      "image": "images/cocina/juego_frank_1.jpeg",
-      "images": [
-        "images/cocina/juego_frank_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -755,18 +719,19 @@
         "cerámica esmaltada"
       ],
       "features": [],
-      "url": "/productos/vajilla-frank-blanca/",
-      "slug": "vajilla-frank-blanca",
       "gallery": [
         "images/p/vajilla-frank-blanca-1.jpg",
         "images/p/vajilla-frank-blanca-2.jpg",
         "images/p/vajilla-frank-blanca-3.jpg"
       ],
-      "thumb": "images/p/vajilla-frank-blanca-sm.jpg"
+      "thumb": "images/p/vajilla-frank-blanca-sm.jpg",
+      "image": "images/p/vajilla-frank-blanca-1.jpg",
+      "url": "/productos/vajilla-frank-blanca/"
     },
     {
       "id": "platos-prado-reactivo",
       "sku": "BV-COC-20",
+      "slug": "platos-prado-reactivo",
       "name": "Platos Prado · Reactivo",
       "shortDescription": "",
       "description": "Set de tres platos hondos de gres con esmalte reactivo bicolor — exterior gris piedra, interior ámbar cálido. El esmalte reacciona diferente en cada horneada: no hay dos iguales. Paredes rectas, profundidad real para sopa, pasta o ensalada generosa.",
@@ -778,12 +743,9 @@
         "ámbar",
         "artesanal"
       ],
-      "image": "images/cocina/plato_prado_1.jpeg",
-      "images": [
-        "images/cocina/plato_prado_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -796,18 +758,19 @@
         "Profundidad real para platos con cuerpo",
         "Apilables"
       ],
-      "url": "/productos/platos-prado-reactivo/",
-      "slug": "platos-prado-reactivo",
       "gallery": [
         "images/p/platos-prado-reactivo-1.jpg",
         "images/p/platos-prado-reactivo-2.jpg",
         "images/p/platos-prado-reactivo-3.jpg"
       ],
-      "thumb": "images/p/platos-prado-reactivo-sm.jpg"
+      "thumb": "images/p/platos-prado-reactivo-sm.jpg",
+      "image": "images/p/platos-prado-reactivo-1.jpg",
+      "url": "/productos/platos-prado-reactivo/"
     },
     {
       "id": "platos-selene-lino",
       "sku": "BV-COC-21",
+      "slug": "platos-selene-lino",
       "name": "Platos Selene · Lino",
       "shortDescription": "",
       "description": "Set de seis platos de cerámica en tono lino mate con borde orgánico suave. Dos tamaños — plato principal y entrada. El color neutro que va con todo sin esfuerzo. Superficie mate que no refleja, lavable en lavavajillas.",
@@ -819,12 +782,9 @@
         "mate",
         "vajilla"
       ],
-      "image": "images/cocina/platos_selene_1.jpeg",
-      "images": [
-        "images/cocina/platos_selene_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -832,17 +792,18 @@
         "cerámica"
       ],
       "features": [],
-      "url": "/productos/platos-selene-lino/",
-      "slug": "platos-selene-lino",
       "gallery": [
         "images/p/platos-selene-lino-1.jpg",
         "images/p/platos-selene-lino-2.jpg"
       ],
-      "thumb": "images/p/platos-selene-lino-sm.jpg"
+      "thumb": "images/p/platos-selene-lino-sm.jpg",
+      "image": "images/p/platos-selene-lino-1.jpg",
+      "url": "/productos/platos-selene-lino/"
     },
     {
       "id": "salero-de-acacia-magnetico",
       "sku": "BV-COC-22",
+      "slug": "salero-de-acacia-magnetico",
       "name": "Salero de Acacia · Magnético",
       "shortDescription": "",
       "description": "Salero cilíndrico de madera de acacia con tapa giratoria de cierre magnético. Se abre con un giro y se cierra solo. Para sal en escamas o gruesa — no el tipo de salero que deja caer todo de golpe. Presencia en la mesa, funcionalidad real.",
@@ -854,12 +815,9 @@
         "mesa",
         "magnético"
       ],
-      "image": "images/cocina/salero_acacia-1.jpeg",
-      "images": [
-        "images/cocina/salero_acacia-1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -871,17 +829,18 @@
         "Para sal en escamas o gruesa",
         "Madera de acacia — durable y bella"
       ],
-      "url": "/productos/salero-de-acacia-magnetico/",
-      "slug": "salero-de-acacia-magnetico",
       "gallery": [
         "images/p/salero-de-acacia-magnetico-1.jpg",
         "images/p/salero-de-acacia-magnetico-2.jpg"
       ],
-      "thumb": "images/p/salero-de-acacia-magnetico-sm.jpg"
+      "thumb": "images/p/salero-de-acacia-magnetico-sm.jpg",
+      "image": "images/p/salero-de-acacia-magnetico-1.jpg",
+      "url": "/productos/salero-de-acacia-magnetico/"
     },
     {
       "id": "vajilla-contact-blanco-y-negro",
       "sku": "BV-COC-23",
+      "slug": "vajilla-contact-blanco-y-negro",
       "name": "Vajilla Contact · Blanco y Negro",
       "shortDescription": "",
       "description": "Juego de vajilla de cerámica blanca con filete negro en el borde. Cuatro piezas — taza, plato principal, plato de entrada y bowl. El contraste que da carácter sin sobrecargar. Una línea que dura temporadas enteras sin volverse cansadora.",
@@ -893,12 +852,9 @@
         "negro",
         "minimalista"
       ],
-      "image": "images/cocina/set_contact_blanco_1.jpeg",
-      "images": [
-        "images/cocina/set_contact_blanco_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -910,19 +866,20 @@
         "Set completo: taza, plato plano, hondo y bowl",
         "Cerámica resistente al lavavajillas"
       ],
-      "url": "/productos/vajilla-contact-blanco-y-negro/",
-      "slug": "vajilla-contact-blanco-y-negro",
       "gallery": [
         "images/p/vajilla-contact-blanco-y-negro-1.jpg",
         "images/p/vajilla-contact-blanco-y-negro-2.jpg",
         "images/p/vajilla-contact-blanco-y-negro-3.jpg",
         "images/p/vajilla-contact-blanco-y-negro-4.jpg"
       ],
-      "thumb": "images/p/vajilla-contact-blanco-y-negro-sm.jpg"
+      "thumb": "images/p/vajilla-contact-blanco-y-negro-sm.jpg",
+      "image": "images/p/vajilla-contact-blanco-y-negro-1.jpg",
+      "url": "/productos/vajilla-contact-blanco-y-negro/"
     },
     {
       "id": "tarros-de-vidrio-hermeticos",
       "sku": "BV-COC-24",
+      "slug": "tarros-de-vidrio-hermeticos",
       "name": "Tarros de Vidrio · Herméticos",
       "shortDescription": "",
       "description": "Set de tres tarros de vidrio con tapa hermética de vidrio en distintos tamaños. Para harina, azúcar, legumbres o lo que haya que guardar. Transparentes porque no hay nada que ocultar. Se limpian solos casi.",
@@ -934,12 +891,9 @@
         "despensa",
         "hermético"
       ],
-      "image": "images/cocina/tarros_vidrio_1.jpeg",
-      "images": [
-        "images/cocina/tarros_vidrio_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -947,18 +901,19 @@
         "vidrio"
       ],
       "features": [],
-      "url": "/productos/tarros-de-vidrio-hermeticos/",
-      "slug": "tarros-de-vidrio-hermeticos",
       "gallery": [
         "images/p/tarros-de-vidrio-hermeticos-1.jpg",
         "images/p/tarros-de-vidrio-hermeticos-2.jpg",
         "images/p/tarros-de-vidrio-hermeticos-3.jpg"
       ],
-      "thumb": "images/p/tarros-de-vidrio-hermeticos-sm.jpg"
+      "thumb": "images/p/tarros-de-vidrio-hermeticos-sm.jpg",
+      "image": "images/p/tarros-de-vidrio-hermeticos-1.jpg",
+      "url": "/productos/tarros-de-vidrio-hermeticos/"
     },
     {
       "id": "vaso-medidor-de-vidrio-1l",
       "sku": "BV-COC-25",
+      "slug": "vaso-medidor-de-vidrio-1l",
       "name": "Vaso Medidor de Vidrio · 1L",
       "shortDescription": "",
       "description": "Jarra medidora de vidrio con escala en cups, ml y litros. Capacidad 1 litro / 4 cups. Graduación en rojo legible desde arriba. Pico vertedor y asa firme. Para repostería y cocina que mide.",
@@ -970,12 +925,9 @@
         "cocina",
         "cups"
       ],
-      "image": "images/cocina/vaso_medidor_vidrio.jpeg",
-      "images": [
-        "images/cocina/vaso_medidor_vidrio.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -987,16 +939,17 @@
         "Capacidad 1L — suficiente para cualquier receta",
         "Pico vertedor y asa integrada"
       ],
-      "url": "/productos/vaso-medidor-de-vidrio-1l/",
-      "slug": "vaso-medidor-de-vidrio-1l",
       "gallery": [
         "images/p/vaso-medidor-de-vidrio-1l-1.jpg"
       ],
-      "thumb": "images/p/vaso-medidor-de-vidrio-1l-sm.jpg"
+      "thumb": "images/p/vaso-medidor-de-vidrio-1l-sm.jpg",
+      "image": "images/p/vaso-medidor-de-vidrio-1l-1.jpg",
+      "url": "/productos/vaso-medidor-de-vidrio-1l/"
     },
     {
       "id": "organizador-de-cubiertos-expandible",
       "sku": "BV-COC-26",
+      "slug": "organizador-de-cubiertos-expandible",
       "name": "Organizador de Cubiertos · Expandible",
       "shortDescription": "",
       "description": "Organizador expandible para cajón. Se estira lateralmente para adaptarse al ancho del espacio — sin cortar, sin forzar. Plástico libre de BPA, apto contacto con alimentos, impermeable y resistente al moho. Se lava bajo el chorro de agua y listo.",
@@ -1008,12 +961,9 @@
         "cocina",
         "expandible"
       ],
-      "image": "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA_1.jpg",
-      "images": [
-        "images/cocina/Caja_de_Almacenamiento_de_Cubiertos_Extra_Grande_y_Altamente_Expandible,_Caja_de_Almacenamiento_de_Vajilla_Segura_para_Alimentos_y_Libre_de_BPA_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1026,17 +976,18 @@
         "Impermeable y resistente al moho",
         "Lavable bajo agua corriente"
       ],
-      "url": "/productos/organizador-de-cubiertos-expandible/",
-      "slug": "organizador-de-cubiertos-expandible",
       "gallery": [
         "images/p/organizador-de-cubiertos-expandible-1.jpg",
         "images/p/organizador-de-cubiertos-expandible-2.jpg"
       ],
-      "thumb": "images/p/organizador-de-cubiertos-expandible-sm.jpg"
+      "thumb": "images/p/organizador-de-cubiertos-expandible-sm.jpg",
+      "image": "images/p/organizador-de-cubiertos-expandible-1.jpg",
+      "url": "/productos/organizador-de-cubiertos-expandible/"
     },
     {
       "id": "soporte-embudo-organizador-de-cocina",
       "sku": "BV-COC-27",
+      "slug": "soporte-embudo-organizador-de-cocina",
       "name": "Soporte Embudo · Organizador de Cocina",
       "shortDescription": "",
       "description": "La mesada acumula lo que no tiene dónde ir. Este soporte en forma de embudo ordena palillos, cubiertos y utensilios — o funciona como frutero y escurridor de verduras lavadas. Base estable, diseño inclinado que drena sólo. Plástico liviano, fácil de limpiar.",
@@ -1048,12 +999,9 @@
         "utensilios",
         "multifunción"
       ],
-      "image": "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico_1.jpg",
-      "images": [
-        "images/cocina/Caja_de_almacenamiento_de_drenaje_de_verduras_para_palillos_de_cocina,_soporte_de_drenaje_multifuncional_en_forma_de_embudo_para_uso_doméstico_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1067,18 +1015,19 @@
         "Sirve para utensilios, frutas o verduras",
         "Liviano y fácil de limpiar"
       ],
-      "url": "/productos/soporte-embudo-organizador-de-cocina/",
-      "slug": "soporte-embudo-organizador-de-cocina",
       "gallery": [
         "images/p/soporte-embudo-organizador-de-cocina-1.jpg",
         "images/p/soporte-embudo-organizador-de-cocina-2.jpg",
         "images/p/soporte-embudo-organizador-de-cocina-3.jpg"
       ],
-      "thumb": "images/p/soporte-embudo-organizador-de-cocina-sm.jpg"
+      "thumb": "images/p/soporte-embudo-organizador-de-cocina-sm.jpg",
+      "image": "images/p/soporte-embudo-organizador-de-cocina-1.jpg",
+      "url": "/productos/soporte-embudo-organizador-de-cocina/"
     },
     {
       "id": "cesta-mural-cocina-organizada",
       "sku": "BV-COC-28",
+      "slug": "cesta-mural-cocina-organizada",
       "name": "Cesta Mural · Cocina Organizada",
       "shortDescription": "",
       "description": "Cesta de metal con rejilla, divisiones internas y sistema de colgado adhesivo — sin taladro, sin drama. Se monta en la pared y libera la mesada de todo lo que siempre estuvo estorbando: jengibre, ajo, especias, condimentos. Tres compartimentos separados para no mezclar lo que no debe mezclarse. El acabado negro mate aguanta grasa, vapor y el uso diario de una cocina real.",
@@ -1090,12 +1039,9 @@
         "especias",
         "sin-perforación"
       ],
-      "image": "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista_1.jpeg",
-      "images": [
-        "images/cocina/Cesta_Colgante_Metálica_para_Jengibre_y_Ajo,_Sin_Perforación,_Suministrada_por_Fábrica,_Estante_de_Almacenamiento_de_Cocina,_Caja_de_Especias_Montada_en_la_Pared,_Moderna_y_Minimalista_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1110,17 +1056,18 @@
         "Rejilla metálica con ventilación natural",
         "Disponible en formato simple y doble"
       ],
-      "url": "/productos/cesta-mural-cocina-organizada/",
-      "slug": "cesta-mural-cocina-organizada",
       "gallery": [
         "images/p/cesta-mural-cocina-organizada-1.jpg",
         "images/p/cesta-mural-cocina-organizada-2.jpg"
       ],
-      "thumb": "images/p/cesta-mural-cocina-organizada-sm.jpg"
+      "thumb": "images/p/cesta-mural-cocina-organizada-sm.jpg",
+      "image": "images/p/cesta-mural-cocina-organizada-1.jpg",
+      "url": "/productos/cesta-mural-cocina-organizada/"
     },
     {
       "id": "colador-de-verduras-acero-inoxidable-304",
       "sku": "BV-COC-29",
+      "slug": "colador-de-verduras-acero-inoxidable-304",
       "name": "Colador de Verduras · Acero Inoxidable 304",
       "shortDescription": "",
       "description": "Colador de media luna en acero inoxidable 304. Se apoya sobre la olla o sartén y deja pasar el agua sin trasladar nada a otro recipiente. La forma curva cubre bien el borde, los agujeros son parejos y el mango queda cómodo en la mano. Fácil de lavar, fácil de guardar.",
@@ -1132,12 +1079,9 @@
         "acero inoxidable",
         "verduras"
       ],
-      "image": "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304_1.jpg",
-      "images": [
-        "images/cocina/Colador_de_Verduras_de_Acero_Inoxidable_304_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1150,18 +1094,19 @@
         "Perforaciones parejas — escurre rápido y parejo",
         "Mango integrado — fácil de sostener y colgar"
       ],
-      "url": "/productos/colador-de-verduras-acero-inoxidable-304/",
-      "slug": "colador-de-verduras-acero-inoxidable-304",
       "gallery": [
         "images/p/colador-de-verduras-acero-inoxidable-304-1.jpg",
         "images/p/colador-de-verduras-acero-inoxidable-304-2.jpg",
         "images/p/colador-de-verduras-acero-inoxidable-304-3.jpg"
       ],
-      "thumb": "images/p/colador-de-verduras-acero-inoxidable-304-sm.jpg"
+      "thumb": "images/p/colador-de-verduras-acero-inoxidable-304-sm.jpg",
+      "image": "images/p/colador-de-verduras-acero-inoxidable-304-1.jpg",
+      "url": "/productos/colador-de-verduras-acero-inoxidable-304/"
     },
     {
       "id": "cortador-de-palta-cuber-dicer",
       "sku": "BV-COC-30",
+      "slug": "cortador-de-palta-cuber-dicer",
       "name": "Cortador de Palta · Cuber & Dicer",
       "shortDescription": "",
       "description": "El problema clásico: la palta queda blanda, el cuchillo resbala y el cubo ideal no existe. Este cortador resuelve eso. Cables de acero inoxidable con mango de plástico PP que entran directo en la mitad de palta y sacan cubos parejos en un solo movimiento. Sin tabla sucia, sin dedos en riesgo.",
@@ -1173,12 +1118,9 @@
         "utensilios",
         "guacamole"
       ],
-      "image": "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP_1.jpg",
-      "images": [
-        "images/cocina/Cool_Kitchen_Gadgets_Cortador_de_aguacate_de_acero_inoxidable_Cuber_Dicer_&_Peeler_Pitter_hecho_de_plástico_PP_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1192,16 +1134,17 @@
         "Un solo movimiento — cubos directos al bowl",
         "Fácil de lavar"
       ],
-      "url": "/productos/cortador-de-palta-cuber-dicer/",
-      "slug": "cortador-de-palta-cuber-dicer",
       "gallery": [
         "images/p/cortador-de-palta-cuber-dicer-1.jpg"
       ],
-      "thumb": "images/p/cortador-de-palta-cuber-dicer-sm.jpg"
+      "thumb": "images/p/cortador-de-palta-cuber-dicer-sm.jpg",
+      "image": "images/p/cortador-de-palta-cuber-dicer-1.jpg",
+      "url": "/productos/cortador-de-palta-cuber-dicer/"
     },
     {
       "id": "cortador-multifuncional-15-en-1",
       "sku": "BV-COC-31",
+      "slug": "cortador-multifuncional-15-en-1",
       "name": "Cortador Multifuncional · 15 en 1",
       "shortDescription": "",
       "description": "Un solo aparato reemplaza tabla, cuchillo y paciencia. Ocho cuchillas intercambiables para cortar en cubos, juliana, rodajas y rallado fino — todo cae directo al contenedor transparente. La cesta de filtrado escurre sin trasvasar. Funciona igual para cebolla, papa, zanahoria, fruta o lo que haya.",
@@ -1213,12 +1156,9 @@
         "cocina",
         "multifuncional"
       ],
-      "image": "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado_1.jpg",
-      "images": [
-        "images/cocina/Cortador_de_Verduras_y_Frutas_Multifuncional_en_Espiral,_15_en_1,_Picador_Portátil_con_8_Cuchillas_y_Cesta_de_Filtrado_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1233,18 +1173,19 @@
         "Cesta de filtrado incluida",
         "Empujador con protector de dedos"
       ],
-      "url": "/productos/cortador-multifuncional-15-en-1/",
-      "slug": "cortador-multifuncional-15-en-1",
       "gallery": [
         "images/p/cortador-multifuncional-15-en-1-1.jpg",
         "images/p/cortador-multifuncional-15-en-1-2.jpg",
         "images/p/cortador-multifuncional-15-en-1-3.jpg"
       ],
-      "thumb": "images/p/cortador-multifuncional-15-en-1-sm.jpg"
+      "thumb": "images/p/cortador-multifuncional-15-en-1-sm.jpg",
+      "image": "images/p/cortador-multifuncional-15-en-1-1.jpg",
+      "url": "/productos/cortador-multifuncional-15-en-1/"
     },
     {
       "id": "cubierta-antisalpicaduras-microondas-plegable",
       "sku": "BV-COC-32",
+      "slug": "cubierta-antisalpicaduras-microondas-plegable",
       "name": "Cubierta Antisalpicaduras · Microondas Plegable",
       "shortDescription": "",
       "description": "Tapa plegable para microondas con ventilación superior — esos agujeritos no son decorativos, dejan escapar el vapor justo. Se aplana para guardar sin ocupar lugar. Silicona y plástico apto para alimentos, fácil de lavar. También funciona como colador para frutas y verduras.",
@@ -1256,12 +1197,9 @@
         "cocina",
         "silicona"
       ],
-      "image": "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas_1.jpg",
-      "images": [
-        "images/cocina/Cubierta_Antisalpicaduras_para_Microondas_con_Ventilación_para_Alimentos,_Protector_Antisalpicaduras_y_Colador,_Accesorio_de_Cocina_para_Frutas_y_Verduras,_Cubierta_para_Platos_de_Microondas_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1275,16 +1213,17 @@
         "Doble función: tapa antisalpicaduras y colador",
         "Apto para microondas y lavavajillas"
       ],
-      "url": "/productos/cubierta-antisalpicaduras-microondas-plegable/",
-      "slug": "cubierta-antisalpicaduras-microondas-plegable",
       "gallery": [
         "images/p/cubierta-antisalpicaduras-microondas-plegable-1.jpg"
       ],
-      "thumb": "images/p/cubierta-antisalpicaduras-microondas-plegable-sm.jpg"
+      "thumb": "images/p/cubierta-antisalpicaduras-microondas-plegable-sm.jpg",
+      "image": "images/p/cubierta-antisalpicaduras-microondas-plegable-1.jpg",
+      "url": "/productos/cubierta-antisalpicaduras-microondas-plegable/"
     },
     {
       "id": "cuchara-coladora-silicona-multiusos",
       "sku": "BV-COC-33",
+      "slug": "cuchara-coladora-silicona-multiusos",
       "name": "Cuchara Coladora · Silicona Multiusos",
       "shortDescription": "",
       "description": "Cuchara ranurada de gran capacidad — sirve para escurrir pasta, levantar huevos cocidos, retirar frituras o colar en olla caliente. Cabezal de silicona resistente al calor, con ranuras amplias que drenan rápido sin dejar caer lo que importa. Disponible con mango de madera, plástico rígido o acero inoxidable según versión. Bien proporcionada: ni chica que no alcanza, ni tan grande que estorba.",
@@ -1296,12 +1235,9 @@
         "utensilios",
         "pasta"
       ],
-      "image": "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos_1.jpg",
-      "images": [
-        "images/cocina/Cuchara_Coladora_Grande_de_Silicona_Resistente_al_Calor,_Cuchara_Ranurada_Multiusos_para_Cocina,_Olla_Caliente,_Pasta,_Fideos_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1317,18 +1253,19 @@
         "Gran capacidad — ideal para porciones familiares",
         "Disponible en distintos mangos: madera, plástico o acero"
       ],
-      "url": "/productos/cuchara-coladora-silicona-multiusos/",
-      "slug": "cuchara-coladora-silicona-multiusos",
       "gallery": [
         "images/p/cuchara-coladora-silicona-multiusos-1.jpg",
         "images/p/cuchara-coladora-silicona-multiusos-2.jpg",
         "images/p/cuchara-coladora-silicona-multiusos-3.jpg"
       ],
-      "thumb": "images/p/cuchara-coladora-silicona-multiusos-sm.jpg"
+      "thumb": "images/p/cuchara-coladora-silicona-multiusos-sm.jpg",
+      "image": "images/p/cuchara-coladora-silicona-multiusos-1.jpg",
+      "url": "/productos/cuchara-coladora-silicona-multiusos/"
     },
     {
       "id": "cuchara-de-arroz-silicona-antiadherente",
       "sku": "BV-COC-34",
+      "slug": "cuchara-de-arroz-silicona-antiadherente",
       "name": "Cuchara de Arroz · Silicona Antiadherente",
       "shortDescription": "",
       "description": "Cuchara de arroz de silicona alimentaria con textura de puntos en el cabezal — evita que el arroz se adhiera sin necesidad de mojarla. Base con pequeñas patas que la mantienen apoyada sobre la mesada sin ensuciar nada. Compatible con ollas arroceras eléctricas y utensilios antiadherentes. Disponible en verde y crema.",
@@ -1340,12 +1277,9 @@
         "antiadherente",
         "cocina-diaria"
       ],
-      "image": "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica_1.jpg",
-      "images": [
-        "images/cocina/Cuchara_de_Arroz_de_Silicona_Antiadherente,_Resistente_al_Calor,_para_Olla_Arrocera_Eléctrica_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1358,18 +1292,19 @@
         "Apta para ollas antiadherentes",
         "Resistente al calor"
       ],
-      "url": "/productos/cuchara-de-arroz-silicona-antiadherente/",
-      "slug": "cuchara-de-arroz-silicona-antiadherente",
       "gallery": [
         "images/p/cuchara-de-arroz-silicona-antiadherente-1.jpg",
         "images/p/cuchara-de-arroz-silicona-antiadherente-2.jpg",
         "images/p/cuchara-de-arroz-silicona-antiadherente-3.jpg"
       ],
-      "thumb": "images/p/cuchara-de-arroz-silicona-antiadherente-sm.jpg"
+      "thumb": "images/p/cuchara-de-arroz-silicona-antiadherente-sm.jpg",
+      "image": "images/p/cuchara-de-arroz-silicona-antiadherente-1.jpg",
+      "url": "/productos/cuchara-de-arroz-silicona-antiadherente/"
     },
     {
       "id": "cuchara-sopera-acero-espejo-imperial",
       "sku": "BV-COC-35",
+      "slug": "cuchara-sopera-acero-espejo-imperial",
       "name": "Cuchara Sopera · Acero Espejo Imperial",
       "shortDescription": "",
       "description": "La sopa se sirve mal con una cuchara que no tiene fondo real. Esta lo tiene. Acero inoxidable con acabado espejo en la cazoleta y mango texturado tipo martillado — agarre firme, sin esfuerzo. Forma redondeada y profunda, pensada para servir sin derrame. Liviana, fácil de lavar, durable.",
@@ -1381,12 +1316,9 @@
         "servir",
         "utensilios"
       ],
-      "image": "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera_1.jpeg",
-      "images": [
-        "images/cocina/Cuchara_de_acero_inoxidable_con_acabado_de_espejo_y_base_redonda,_estilo_imperial,_para_servir,_para_sopa,_doméstica,_profunda_y_ligera_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1399,17 +1331,18 @@
         "Acabado espejo en cazoleta — fácil limpieza",
         "Liviana y balanceada en mano"
       ],
-      "url": "/productos/cuchara-sopera-acero-espejo-imperial/",
-      "slug": "cuchara-sopera-acero-espejo-imperial",
       "gallery": [
         "images/p/cuchara-sopera-acero-espejo-imperial-1.jpg",
         "images/p/cuchara-sopera-acero-espejo-imperial-2.jpg"
       ],
-      "thumb": "images/p/cuchara-sopera-acero-espejo-imperial-sm.jpg"
+      "thumb": "images/p/cuchara-sopera-acero-espejo-imperial-sm.jpg",
+      "image": "images/p/cuchara-sopera-acero-espejo-imperial-1.jpg",
+      "url": "/productos/cuchara-sopera-acero-espejo-imperial/"
     },
     {
       "id": "espatula-para-torta-y-pizza-acero-inoxidable",
       "sku": "BV-COC-36",
+      "slug": "espatula-para-torta-y-pizza-acero-inoxidable",
       "name": "Espátula para Torta y Pizza · Acero Inoxidable",
       "shortDescription": "",
       "description": "Espátula triangular de acero inoxidable 304 — la que falta en toda cocina que hace tortas o pizzas en serio. Hoja plana y firme para cortar y servir porciones limpias sin que se desarmen en el camino. Mango cilíndrico con terminación cepillada y gancho para colgar. Un solo material, fácil de lavar, difícil de arruinar.",
@@ -1421,12 +1354,9 @@
         "servir",
         "torta"
       ],
-      "image": "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear_1.jpg",
-      "images": [
-        "images/cocina/Cuchillo_para_Pizza_y_Pastel_de_Acero_Inoxidable_304,_Utensilio_de_Cocina_para_Hornear_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1439,17 +1369,18 @@
         "Mango cilíndrico con gancho para colgar",
         "Apta para lavavajillas"
       ],
-      "url": "/productos/espatula-para-torta-y-pizza-acero-inoxidable/",
-      "slug": "espatula-para-torta-y-pizza-acero-inoxidable",
       "gallery": [
         "images/p/espatula-para-torta-y-pizza-acero-inoxidable-1.jpg",
         "images/p/espatula-para-torta-y-pizza-acero-inoxidable-2.jpg"
       ],
-      "thumb": "images/p/espatula-para-torta-y-pizza-acero-inoxidable-sm.jpg"
+      "thumb": "images/p/espatula-para-torta-y-pizza-acero-inoxidable-sm.jpg",
+      "image": "images/p/espatula-para-torta-y-pizza-acero-inoxidable-1.jpg",
+      "url": "/productos/espatula-para-torta-y-pizza-acero-inoxidable/"
     },
     {
       "id": "espatula-ranurada-de-silicona-mango-de-madera",
       "sku": "BV-COC-37",
+      "slug": "espatula-ranurada-de-silicona-mango-de-madera",
       "name": "Espátula Ranurada de Silicona · Mango de Madera",
       "shortDescription": "",
       "description": "La espátula que no arruina la sartén antiadherente ni se dobla cuando más la necesitás. Cabezal de silicona libre de BPA, resistente al calor. Mango de madera con acabado firme y orificio para colgar — porque la mesada ya tiene suficientes cosas encima. Disponible en blanco y verde.",
@@ -1461,12 +1392,9 @@
         "utensilios",
         "saltear"
       ],
-      "image": "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear_1.jpg",
-      "images": [
-        "images/cocina/Espátula_Ranurada_de_Silicona_de_Grado_Alimenticio_Grande,_Libre_de_BPA,_con_Mango_de_Madera,_Resistente_al_Calor,_Antiadherente,_Utensilio_de_Cocina_para_Saltear_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1481,18 +1409,19 @@
         "No raya superficies antiadherentes",
         "Orificio en el mango para colgar"
       ],
-      "url": "/productos/espatula-ranurada-de-silicona-mango-de-madera/",
-      "slug": "espatula-ranurada-de-silicona-mango-de-madera",
       "gallery": [
         "images/p/espatula-ranurada-de-silicona-mango-de-madera-1.jpg",
         "images/p/espatula-ranurada-de-silicona-mango-de-madera-2.jpg",
         "images/p/espatula-ranurada-de-silicona-mango-de-madera-3.jpg"
       ],
-      "thumb": "images/p/espatula-ranurada-de-silicona-mango-de-madera-sm.jpg"
+      "thumb": "images/p/espatula-ranurada-de-silicona-mango-de-madera-sm.jpg",
+      "image": "images/p/espatula-ranurada-de-silicona-mango-de-madera-1.jpg",
+      "url": "/productos/espatula-ranurada-de-silicona-mango-de-madera/"
     },
     {
       "id": "set-de-utensilios-de-silicona-5-piezas",
       "sku": "BV-COC-38",
+      "slug": "set-de-utensilios-de-silicona-5-piezas",
       "name": "Set de Utensilios de Silicona · 5 Piezas",
       "shortDescription": "",
       "description": "Batidor de alambre, dos espátulas, pincel y pinza — todo lo que falta cuando uno más lo necesita. Cabezal de silicona alimentaria resistente a altas temperaturas, apto para sartenes antiadherentes. Mango bicolor con agarre firme y orificio para colgar. Fácil de lavar, difícil de romper.",
@@ -1504,12 +1433,9 @@
         "cocina",
         "utensilios"
       ],
-      "image": "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería_1.png",
-      "images": [
-        "images/cocina/Espátula_de_Silicona_de_Grado_Alimenticio,_Juego_de_5_Piezas,_Pinza_para_Alimentos,_Espátula_para_Crema_y_Pasteles_Resistente_a_Altas_Temperaturas,_Utensilios_de_Cocina_para_Repostería_1.png"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1524,18 +1450,19 @@
         "Incluye batidor, 2 espátulas, pincel y pinza",
         "Orificio para colgar — mesada libre"
       ],
-      "url": "/productos/set-de-utensilios-de-silicona-5-piezas/",
-      "slug": "set-de-utensilios-de-silicona-5-piezas",
       "gallery": [
         "images/p/set-de-utensilios-de-silicona-5-piezas-1.jpg",
         "images/p/set-de-utensilios-de-silicona-5-piezas-2.jpg",
         "images/p/set-de-utensilios-de-silicona-5-piezas-3.jpg"
       ],
-      "thumb": "images/p/set-de-utensilios-de-silicona-5-piezas-sm.jpg"
+      "thumb": "images/p/set-de-utensilios-de-silicona-5-piezas-sm.jpg",
+      "image": "images/p/set-de-utensilios-de-silicona-5-piezas-1.jpg",
+      "url": "/productos/set-de-utensilios-de-silicona-5-piezas/"
     },
     {
       "id": "cortador-de-masa-acero-y-madera",
       "sku": "BV-COC-39",
+      "slug": "cortador-de-masa-acero-y-madera",
       "name": "Cortador de Masa · Acero y Madera",
       "shortDescription": "",
       "description": "Hoja de acero inoxidable lisa, sin rugosidades — la masa no se adhiere y el corte es limpio desde el primero. Mango de madera maciza con dos remaches metálicos: firme en mano, sin juego. Sirve para dividir masa, levantar ingredientes de la mesada y limpiar superficies de trabajo. Un solo elemento que hace tres cosas bien.",
@@ -1547,12 +1474,9 @@
         "masa",
         "acero"
       ],
-      "image": "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes_1.jpg",
-      "images": [
-        "images/cocina/Espátula_para_Repostería_de_Acero_Inoxidable_SUNRISE,_Ecológica,_Cortador_de_Masa,_Picador_de_Pan,_Mango_de_Madera_para_el_Hogar_y_Restaurantes_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1565,17 +1489,18 @@
         "Mango de madera con doble remache metálico",
         "Apta para dividir masa, raspar y levantar ingredientes"
       ],
-      "url": "/productos/cortador-de-masa-acero-y-madera/",
-      "slug": "cortador-de-masa-acero-y-madera",
       "gallery": [
         "images/p/cortador-de-masa-acero-y-madera-1.jpg",
         "images/p/cortador-de-masa-acero-y-madera-2.jpg"
       ],
-      "thumb": "images/p/cortador-de-masa-acero-y-madera-sm.jpg"
+      "thumb": "images/p/cortador-de-masa-acero-y-madera-sm.jpg",
+      "image": "images/p/cortador-de-masa-acero-y-madera-1.jpg",
+      "url": "/productos/cortador-de-masa-acero-y-madera/"
     },
     {
       "id": "set-de-utensilios-acero-y-madera-de-haya",
       "sku": "BV-COC-40",
+      "slug": "set-de-utensilios-acero-y-madera-de-haya",
       "name": "Set de Utensilios · Acero y Madera de Haya",
       "shortDescription": "",
       "description": "Set de seis piezas — cucharón, colador, espátula ranurada, espátula para wok, cuchara para pasta y cuchara de servir. Cabezal de acero inoxidable, mango de madera de haya con orificio para colgar. Sin plástico, sin silicona que se despega. Para cocinas que usan el juego completo todos los días.",
@@ -1587,12 +1512,9 @@
         "madera",
         "set"
       ],
-      "image": "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras_1.jpeg",
-      "images": [
-        "images/cocina/Espátula_para_Wok_de_Acero_Inoxidable_con_Mango_de_Madera_de_Haya,_Cuchara_de_Cocina,_Colador,_Cuchara_para_Sopa,_Antideslizante,_Resistente_al_Calor_y_a_las_Quemaduras_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1606,17 +1528,18 @@
         "Resistente al calor — no se deforma ni quema la mano",
         "Sin recubrimientos que se despegan con el uso"
       ],
-      "url": "/productos/set-de-utensilios-acero-y-madera-de-haya/",
-      "slug": "set-de-utensilios-acero-y-madera-de-haya",
       "gallery": [
         "images/p/set-de-utensilios-acero-y-madera-de-haya-1.jpg",
         "images/p/set-de-utensilios-acero-y-madera-de-haya-2.jpg"
       ],
-      "thumb": "images/p/set-de-utensilios-acero-y-madera-de-haya-sm.jpg"
+      "thumb": "images/p/set-de-utensilios-acero-y-madera-de-haya-sm.jpg",
+      "image": "images/p/set-de-utensilios-acero-y-madera-de-haya-1.jpg",
+      "url": "/productos/set-de-utensilios-acero-y-madera-de-haya/"
     },
     {
       "id": "estante-extraible-cajon-metalico-deslizante",
       "sku": "BV-COC-41",
+      "slug": "estante-extraible-cajon-metalico-deslizante",
       "name": "Estante Extraíble · Cajón Metálico Deslizante",
       "shortDescription": "",
       "description": "Canasto deslizante tipo cajón para armarios profundos. Se instala sin perforaciones — se pliega, se encastra y listo en segundos. Estructura de metal con mango de madera, pensado para sacar todo a la vista sin agacharse ni revolver. Ideal para especias, botellas y lo que siempre termina perdido atrás.",
@@ -1628,12 +1551,9 @@
         "cocina",
         "sin perforaciones"
       ],
-      "image": "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos_1.jpeg",
-      "images": [
-        "images/cocina/Estante_de_almacenamiento_extraíble_metálico_sin_perforaciones_para_cocina_-_Organizador_deslizante_tipo_cajón_para_fregaderos,_armarios_y_roperos_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1647,18 +1567,19 @@
         "Mango de madera para extracción sin agacharse",
         "Compatible con armarios de distintas profundidades"
       ],
-      "url": "/productos/estante-extraible-cajon-metalico-deslizante/",
-      "slug": "estante-extraible-cajon-metalico-deslizante",
       "gallery": [
         "images/p/estante-extraible-cajon-metalico-deslizante-1.jpg",
         "images/p/estante-extraible-cajon-metalico-deslizante-2.jpg",
         "images/p/estante-extraible-cajon-metalico-deslizante-3.jpg"
       ],
-      "thumb": "images/p/estante-extraible-cajon-metalico-deslizante-sm.jpg"
+      "thumb": "images/p/estante-extraible-cajon-metalico-deslizante-sm.jpg",
+      "image": "images/p/estante-extraible-cajon-metalico-deslizante-1.jpg",
+      "url": "/productos/estante-extraible-cajon-metalico-deslizante/"
     },
     {
       "id": "juego-de-moldes-para-horno-set-5-piezas",
       "sku": "BV-COC-42",
+      "slug": "juego-de-moldes-para-horno-set-5-piezas",
       "name": "Juego de Moldes para Horno · Set 5 piezas",
       "shortDescription": "",
       "description": "Cinco moldes que cubren todo lo que pasa en un horno: bandeja rectangular grande, molde cuadrado, molde redondo, budinera y molde para 12 muffins. Superficie antiadherente que suelta sin dramas y facilita el lavado. Acero al carbono con recubrimiento oscuro — distribuye el calor parejo, sin puntos fríos ni quemados. Un set completo para quien hornea seguido.",
@@ -1670,12 +1591,9 @@
         "antiadherente",
         "set"
       ],
-      "image": "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear_1.jpg",
-      "images": [
-        "images/cocina/Juego_de_5_Moldes_Antiadherentes_para_Hornear_-_Moldes_Redondos:Rectangulares_para_Pasteles,_Moldes_para_Muffins,_Moldes_para_Pan,_Moldes_para_Hornear_y_Bandejas_para_Hornear_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1689,16 +1607,17 @@
         "Acero al carbono de distribución pareja de calor",
         "Apto horno convencional"
       ],
-      "url": "/productos/juego-de-moldes-para-horno-set-5-piezas/",
-      "slug": "juego-de-moldes-para-horno-set-5-piezas",
       "gallery": [
         "images/p/juego-de-moldes-para-horno-set-5-piezas-1.jpg"
       ],
-      "thumb": "images/p/juego-de-moldes-para-horno-set-5-piezas-sm.jpg"
+      "thumb": "images/p/juego-de-moldes-para-horno-set-5-piezas-sm.jpg",
+      "image": "images/p/juego-de-moldes-para-horno-set-5-piezas-1.jpg",
+      "url": "/productos/juego-de-moldes-para-horno-set-5-piezas/"
     },
     {
       "id": "set-de-espatulas-de-silicona-6-piezas",
       "sku": "BV-COC-43",
+      "slug": "set-de-espatulas-de-silicona-6-piezas",
       "name": "Set de Espátulas de Silicona · 6 piezas",
       "shortDescription": "",
       "description": "Seis utensilios de silicona alimentaria: dos espátulas grandes, una espátula angosta, dos chicas y un cepillo para aceite. Resistentes al calor, no rayan superficies antiadherentes. Mango firme, cabezal flexible — los dos extremos que importan. Disponibles en negro, rojo y verde.",
@@ -1710,12 +1629,9 @@
         "cocina",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos_1.jpg",
-      "images": [
-        "images/cocina/Juego_de_6_Espátulas_de_Silicona,_Cepillo_para_Aceite,_Utensilios_de_Cocina_Resistentes_a_Altas_Temperaturas,_Antiadherentes,_Coloridos_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1728,19 +1644,20 @@
         "Incluye cepillo para aceite",
         "Set completo en 3 colores disponibles"
       ],
-      "url": "/productos/set-de-espatulas-de-silicona-6-piezas/",
-      "slug": "set-de-espatulas-de-silicona-6-piezas",
       "gallery": [
         "images/p/set-de-espatulas-de-silicona-6-piezas-1.jpg",
         "images/p/set-de-espatulas-de-silicona-6-piezas-2.jpg",
         "images/p/set-de-espatulas-de-silicona-6-piezas-3.jpg",
         "images/p/set-de-espatulas-de-silicona-6-piezas-4.jpg"
       ],
-      "thumb": "images/p/set-de-espatulas-de-silicona-6-piezas-sm.jpg"
+      "thumb": "images/p/set-de-espatulas-de-silicona-6-piezas-sm.jpg",
+      "image": "images/p/set-de-espatulas-de-silicona-6-piezas-1.jpg",
+      "url": "/productos/set-de-espatulas-de-silicona-6-piezas/"
     },
     {
       "id": "juego-de-utensilios-de-silicona-6-piezas",
       "sku": "BV-COC-44",
+      "slug": "juego-de-utensilios-de-silicona-6-piezas",
       "name": "Juego de Utensilios de Silicona · 6 piezas",
       "shortDescription": "",
       "description": "Cuchara de arroz, espumadera, cucharón, espátula ranurada, espátula lisa y tenedor para pasta. Todo lo que se necesita, sin lo que sobra. Cabezal de silicona apta para superficies antiadherentes — no raya, no se derrite. Mango de acero inoxidable con grip de silicona: firme, lavable, sin tablas de madera que absorban todo.",
@@ -1752,12 +1669,9 @@
         "cocina diaria",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar_1.jpg",
-      "images": [
-        "images/cocina/Juego_de_6_utensilios_de_cocina_de_silicona_antiadherentes_y_resistentes_al_calor_con_cuchara_para_arroz_y_mangos_de_acero_inoxidable_para_el_hogar_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1771,17 +1685,18 @@
         "Mango de acero inoxidable con grip de silicona",
         "6 piezas que cubren toda la cocina diaria"
       ],
-      "url": "/productos/juego-de-utensilios-de-silicona-6-piezas/",
-      "slug": "juego-de-utensilios-de-silicona-6-piezas",
       "gallery": [
         "images/p/juego-de-utensilios-de-silicona-6-piezas-1.jpg",
         "images/p/juego-de-utensilios-de-silicona-6-piezas-2.jpg"
       ],
-      "thumb": "images/p/juego-de-utensilios-de-silicona-6-piezas-sm.jpg"
+      "thumb": "images/p/juego-de-utensilios-de-silicona-6-piezas-sm.jpg",
+      "image": "images/p/juego-de-utensilios-de-silicona-6-piezas-1.jpg",
+      "url": "/productos/juego-de-utensilios-de-silicona-6-piezas/"
     },
     {
       "id": "juego-de-moldes-para-hornear-silicona",
       "sku": "BV-COC-45",
+      "slug": "juego-de-moldes-para-hornear-silicona",
       "name": "Juego de Moldes para Hornear · Silicona",
       "shortDescription": "",
       "description": "Set de moldes de silicona alimentaria con diseños estriados y acanalados — redondos, cuadrados, budinera, muffins y más. Antiadherentes de verdad: el bizcochuelo sale entero, no en pedazos. Mangos laterales que dan agarre real al sacar del horno. Aptos para lavavajillas, fáciles de guardar, fáciles de limpiar.",
@@ -1793,12 +1708,9 @@
         "antiadherente",
         "horno"
       ],
-      "image": "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes_1.jpeg",
-      "images": [
-        "images/cocina/Juego_de_Moldes_para_Hornear_de_Silicona_-_Logotipo_Personalizado_Disponible_Moldes_para_Muffins_Antiadherentes_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1811,18 +1723,19 @@
         "Múltiples formas en un solo set",
         "Apto lavavajillas"
       ],
-      "url": "/productos/juego-de-moldes-para-hornear-silicona/",
-      "slug": "juego-de-moldes-para-hornear-silicona",
       "gallery": [
         "images/p/juego-de-moldes-para-hornear-silicona-1.jpg",
         "images/p/juego-de-moldes-para-hornear-silicona-2.jpg",
         "images/p/juego-de-moldes-para-hornear-silicona-3.jpg"
       ],
-      "thumb": "images/p/juego-de-moldes-para-hornear-silicona-sm.jpg"
+      "thumb": "images/p/juego-de-moldes-para-hornear-silicona-sm.jpg",
+      "image": "images/p/juego-de-moldes-para-hornear-silicona-1.jpg",
+      "url": "/productos/juego-de-moldes-para-hornear-silicona/"
     },
     {
       "id": "set-de-utensilios-de-silicona-10-piezas",
       "sku": "BV-COC-46",
+      "slug": "set-de-utensilios-de-silicona-10-piezas",
       "name": "Set de Utensilios de Silicona · 10 piezas",
       "shortDescription": "",
       "description": "Tirón de cajón, y ya está todo. Diez piezas de silicona alimentaria — espátula wok, cucharón, espumadera, cuchara ranurada, pala, batidor, pinza, brocha y más — en un solo set. Cabezal blanco resistente a altas temperaturas, mango bicolor en beige y topo con argolla para colgar. No rayan antiadherentes, no retienen olores, van al lavavajillas.",
@@ -1834,12 +1747,9 @@
         "set",
         "antiadherente"
       ],
-      "image": "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar_1.jpg",
-      "images": [
-        "images/cocina/Juego_de_Utensilios_de_Cocina_de_Silicona_de_10_Piezas_Todo_en_Uno,_Resistente_a_Altas_Temperaturas,_Juego_de_Espátulas_para_Cocinar_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1853,18 +1763,19 @@
         "Argolla de colgado integrada en cada mango",
         "10 piezas para toda la cocina diaria"
       ],
-      "url": "/productos/set-de-utensilios-de-silicona-10-piezas/",
-      "slug": "set-de-utensilios-de-silicona-10-piezas",
       "gallery": [
         "images/p/set-de-utensilios-de-silicona-10-piezas-1.jpg",
         "images/p/set-de-utensilios-de-silicona-10-piezas-2.jpg",
         "images/p/set-de-utensilios-de-silicona-10-piezas-3.jpg"
       ],
-      "thumb": "images/p/set-de-utensilios-de-silicona-10-piezas-sm.jpg"
+      "thumb": "images/p/set-de-utensilios-de-silicona-10-piezas-sm.jpg",
+      "image": "images/p/set-de-utensilios-de-silicona-10-piezas-1.jpg",
+      "url": "/productos/set-de-utensilios-de-silicona-10-piezas/"
     },
     {
       "id": "tabla-de-cortar-doble-cara-acero-inoxidable-y-pp",
       "sku": "BV-COC-47",
+      "slug": "tabla-de-cortar-doble-cara-acero-inoxidable-y-pp",
       "name": "Tabla de Cortar Doble Cara · Acero Inoxidable y PP",
       "shortDescription": "",
       "description": "Tabla reversible con dos superficies bien diferenciadas — un lado de acero inoxidable SS304, liso, no poroso, ideal para carne. El otro lado de PP (polipropileno con paja de trigo), liviano y amigable con vegetales. No acumula residuos, no absorbe olores. Mango integrado con borde de silicona antideslizante.",
@@ -1876,12 +1787,9 @@
         "cocina diaria",
         "higiene"
       ],
-      "image": "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne_1.jpg",
-      "images": [
-        "images/cocina/Nueva_Tabla_de_Cortar_de_Acero_Inoxidable_y_Paja_de_Trigo_Resistente_a_los_Arañazos,_Tabla_de_Cortar_de_Doble_Cara_SS304,_Tablas_de_Cortar_de_Metal_para_Carne_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1897,17 +1805,18 @@
         "Borde de silicona antideslizante",
         "Mango integrado para colgar o manipular"
       ],
-      "url": "/productos/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp/",
-      "slug": "tabla-de-cortar-doble-cara-acero-inoxidable-y-pp",
       "gallery": [
         "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-1.jpg",
         "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-2.jpg"
       ],
-      "thumb": "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-sm.jpg"
+      "thumb": "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-sm.jpg",
+      "image": "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-1.jpg",
+      "url": "/productos/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp/"
     },
     {
       "id": "espumadera-grande-acero-inoxidable-304",
       "sku": "BV-COC-48",
+      "slug": "espumadera-grande-acero-inoxidable-304",
       "name": "Espumadera Grande · Acero Inoxidable 304",
       "shortDescription": "",
       "description": "Espumadera de acero inoxidable 304, cabezal amplio con perforaciones uniformes que escurren bien. Mango largo de una sola pieza — sin uniones donde se acumula la grasa. Va al lavavajillas sin problema y no se deforma con el calor.",
@@ -1919,12 +1828,9 @@
         "cocina diaria",
         "lavavajillas"
       ],
-      "image": "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles_1.jpg",
-      "images": [
-        "images/cocina/Nuevo_Colador_Grande_de_Acero_Inoxidable_304,_Multifuncional,_Apto_para_Lavavajillas,_Utensilios_de_Cocina_Sostenibles_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1937,17 +1843,18 @@
         "Mango largo de una pieza — sin juntas",
         "Apto lavavajillas"
       ],
-      "url": "/productos/espumadera-grande-acero-inoxidable-304/",
-      "slug": "espumadera-grande-acero-inoxidable-304",
       "gallery": [
         "images/p/espumadera-grande-acero-inoxidable-304-1.jpg",
         "images/p/espumadera-grande-acero-inoxidable-304-2.jpg"
       ],
-      "thumb": "images/p/espumadera-grande-acero-inoxidable-304-sm.jpg"
+      "thumb": "images/p/espumadera-grande-acero-inoxidable-304-sm.jpg",
+      "image": "images/p/espumadera-grande-acero-inoxidable-304-1.jpg",
+      "url": "/productos/espumadera-grande-acero-inoxidable-304/"
     },
     {
       "id": "set-utensilios-de-cocina-silicona-con-soporte",
       "sku": "BV-COC-49",
+      "slug": "set-utensilios-de-cocina-silicona-con-soporte",
       "name": "Set Utensilios de Cocina · Silicona con Soporte",
       "shortDescription": "",
       "description": "La mesada llena de utensilios sueltos ya fue. Este set de 6 piezas incluye espátula, cuchara, espumadera, cucharón, pala ranurada y soporte de pared. Cabezal de silicona apta para sartenes antiadherentes, mango de acero inoxidable con terminación tipo tubo — firme y fácil de colgar. El soporte entra incluido y se instala en la pared en minutos.",
@@ -1959,12 +1866,9 @@
         "soporte-pared",
         "utensilios"
       ],
-      "image": "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina_1.jpg",
-      "images": [
-        "images/cocina/Nuevo_Juego_de_Utensilios_de_Cocina_de_Silicona_con_Mango_Magnético_de_Acero_Inoxidable,_6_Piezas,_Espátula_Resistente_al_Calor,_Herramientas_de_Cocina_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -1978,17 +1882,18 @@
         "Mango de acero inoxidable — resistente al calor y fácil de limpiar",
         "Soporte de pared incluido — desocupa la mesada de una vez"
       ],
-      "url": "/productos/set-utensilios-de-cocina-silicona-con-soporte/",
-      "slug": "set-utensilios-de-cocina-silicona-con-soporte",
       "gallery": [
         "images/p/set-utensilios-de-cocina-silicona-con-soporte-1.jpg",
         "images/p/set-utensilios-de-cocina-silicona-con-soporte-2.jpg"
       ],
-      "thumb": "images/p/set-utensilios-de-cocina-silicona-con-soporte-sm.jpg"
+      "thumb": "images/p/set-utensilios-de-cocina-silicona-con-soporte-sm.jpg",
+      "image": "images/p/set-utensilios-de-cocina-silicona-con-soporte-1.jpg",
+      "url": "/productos/set-utensilios-de-cocina-silicona-con-soporte/"
     },
     {
       "id": "organizador-de-maquillaje-uforu-con-cajon",
       "sku": "BV-COC-50",
+      "slug": "organizador-de-maquillaje-uforu-con-cajon",
       "name": "Organizador de Maquillaje UFORU · Con Cajón",
       "shortDescription": "",
       "description": "Organizador de maquillaje con estructura modular: torre lateral de tres estantes abiertos para pinceles, labiales y bases, más sección frontal con espacio amplio para skincare y perfumes. Dos cajones inferiores traslúcidos — se ve lo que hay adentro sin abrir nada. Material plástico rígido con esquinas redondeadas y patas elevadoras. Pensado para tocadores reales, no para fotos de Pinterest.",
@@ -2000,12 +1905,9 @@
         "cosméticos",
         "tocador"
       ],
-      "image": "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos_1.jpg",
-      "images": [
-        "images/cocina/Organizador_de_Maquillaje_UFORU_de_Plástico_a_Prueba_de_Polvo_para_Baño_con_Cajón_para_Cosméticos_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2019,18 +1921,19 @@
         "Esquinas redondeadas y patas elevadoras",
         "Estructura modular para skincare, pinceles y labiales"
       ],
-      "url": "/productos/organizador-de-maquillaje-uforu-con-cajon/",
-      "slug": "organizador-de-maquillaje-uforu-con-cajon",
       "gallery": [
         "images/p/organizador-de-maquillaje-uforu-con-cajon-1.jpg",
         "images/p/organizador-de-maquillaje-uforu-con-cajon-2.jpg",
         "images/p/organizador-de-maquillaje-uforu-con-cajon-3.jpg"
       ],
-      "thumb": "images/p/organizador-de-maquillaje-uforu-con-cajon-sm.jpg"
+      "thumb": "images/p/organizador-de-maquillaje-uforu-con-cajon-sm.jpg",
+      "image": "images/p/organizador-de-maquillaje-uforu-con-cajon-1.jpg",
+      "url": "/productos/organizador-de-maquillaje-uforu-con-cajon/"
     },
     {
       "id": "espatula-de-asador-con-abridor",
       "sku": "BV-COC-51",
+      "slug": "espatula-de-asador-con-abridor",
       "name": "Espátula de Asador · Con Abridor",
       "shortDescription": "",
       "description": "Espátula de hoja ancha en acero inoxidable — ideal para dar vuelta hamburguesas, pescado o lo que caiga en la plancha. Mango de madera con remaches metálicos, firme en mano húmeda o engrasada. El abridor en el extremo no es un chiste: funciona. Una sola pieza para la parrilla de adentro y la de afuera.",
@@ -2042,12 +1945,9 @@
         "cocina",
         "abridor"
       ],
-      "image": "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores_1.jpg",
-      "images": [
-        "images/cocina/Pinzas_para_Alimentos_de_Acero_Inoxidable_con_Mango_de_Madera_para_Cocinar,_Asar_y_Freír,_Utensilio_de_Cocina_Antideslizante_para_Uso_en_Interiores_y_Exteriores_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2061,18 +1961,19 @@
         "Abridor de botellas integrado en el extremo del mango",
         "Apto interior y exterior"
       ],
-      "url": "/productos/espatula-de-asador-con-abridor/",
-      "slug": "espatula-de-asador-con-abridor",
       "gallery": [
         "images/p/espatula-de-asador-con-abridor-1.jpg",
         "images/p/espatula-de-asador-con-abridor-2.jpg",
         "images/p/espatula-de-asador-con-abridor-3.jpg"
       ],
-      "thumb": "images/p/espatula-de-asador-con-abridor-sm.jpg"
+      "thumb": "images/p/espatula-de-asador-con-abridor-sm.jpg",
+      "image": "images/p/espatula-de-asador-con-abridor-1.jpg",
+      "url": "/productos/espatula-de-asador-con-abridor/"
     },
     {
       "id": "portacucharas-de-silicona-con-bandeja",
       "sku": "BV-COC-52",
+      "slug": "portacucharas-de-silicona-con-bandeja",
       "name": "Portacucharas de Silicona · Con Bandeja",
       "shortDescription": "",
       "description": "La cuchara apoyada en el borde de la olla es un clásico. Este portacucharas de silicona tiene cuatro ranuras que sostienen espátulas, cucharones y pinceles sin que nada se caiga. La bandeja atrapa los goteos — no la mesada. Apto para altas temperaturas, libre de BPA.",
@@ -2084,12 +1985,9 @@
         "cocina diaria",
         "utensilios"
       ],
-      "image": "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA_1.jpg",
-      "images": [
-        "images/cocina/Portacucharas_de_Cocina_Equipado_con_Varias_Almohadillas_de_Silicona_Resistentes_a_Altas_Temperaturas_para_Utensilios,_Portacucharas_Libre_de_BPA_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2103,17 +2001,18 @@
         "Resistente a altas temperaturas",
         "Libre de BPA"
       ],
-      "url": "/productos/portacucharas-de-silicona-con-bandeja/",
-      "slug": "portacucharas-de-silicona-con-bandeja",
       "gallery": [
         "images/p/portacucharas-de-silicona-con-bandeja-1.jpg",
         "images/p/portacucharas-de-silicona-con-bandeja-2.jpg"
       ],
-      "thumb": "images/p/portacucharas-de-silicona-con-bandeja-sm.jpg"
+      "thumb": "images/p/portacucharas-de-silicona-con-bandeja-sm.jpg",
+      "image": "images/p/portacucharas-de-silicona-con-bandeja-1.jpg",
+      "url": "/productos/portacucharas-de-silicona-con-bandeja/"
     },
     {
       "id": "rallador-acero-inoxidable-con-mango-de-madera",
       "sku": "BV-COC-53",
+      "slug": "rallador-acero-inoxidable-con-mango-de-madera",
       "name": "Rallador · Acero Inoxidable con Mango de Madera",
       "shortDescription": "",
       "description": "Rallador de hoja fina en acero inoxidable con mango de madera y aro colgante. Hace lo que tiene que hacer — queso duro, cáscara de cítricos, jengibre, rábano — sin doblarse ni perder filo. Disponible en tres tamaños para distintos usos. Fácil de lavar, fácil de guardar.",
@@ -2125,12 +2024,9 @@
         "queso",
         "cítricos"
       ],
-      "image": "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano_1.jpg",
-      "images": [
-        "images/cocina/Rallador_de_queso_multifuncional_de_acero_inoxidable_y_cepilladora_herramienta_de_cocina_doméstica_para_cáscara_de_limón_patata_rábano_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2144,17 +2040,18 @@
         "Disponible en tres tamaños",
         "Diseño plano — fácil de guardar y lavar"
       ],
-      "url": "/productos/rallador-acero-inoxidable-con-mango-de-madera/",
-      "slug": "rallador-acero-inoxidable-con-mango-de-madera",
       "gallery": [
         "images/p/rallador-acero-inoxidable-con-mango-de-madera-1.jpg",
         "images/p/rallador-acero-inoxidable-con-mango-de-madera-2.jpg"
       ],
-      "thumb": "images/p/rallador-acero-inoxidable-con-mango-de-madera-sm.jpg"
+      "thumb": "images/p/rallador-acero-inoxidable-con-mango-de-madera-sm.jpg",
+      "image": "images/p/rallador-acero-inoxidable-con-mango-de-madera-1.jpg",
+      "url": "/productos/rallador-acero-inoxidable-con-mango-de-madera/"
     },
     {
       "id": "recipientes-de-vidrio-hermeticos-set-x3",
       "sku": "BV-COC-54",
+      "slug": "recipientes-de-vidrio-hermeticos-set-x3",
       "name": "Recipientes de Vidrio Herméticos · Set x3",
       "shortDescription": "",
       "description": "Tres recipientes de vidrio borosilicato con tapa hermética de cierre a presión — el tipo de cierre que realmente sella. Aptos para heladera, microondas y freezer. El vidrio no absorbe olores ni manchas, y van al lavavajillas sin problema. Vienen en tres tamaños para cubrir desde una porción hasta una preparación entera.",
@@ -2166,12 +2063,9 @@
         "meal-prep",
         "cocina"
       ],
-      "image": "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento_1.jpeg",
-      "images": [
-        "images/cocina/Recipiente_de_Vidrio_de_Borosilicato_de_Alta_Calidad,_Extraíble,_Hermético,_Apto_para_Alimentos,_Estilo_Vintage_de_Lujo,_Apto_para_Refrigerador_y_Calentamiento_1.jpeg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2186,17 +2080,18 @@
         "Vidrio sin absorción de olores ni manchas",
         "Set de 3 tamaños distintos"
       ],
-      "url": "/productos/recipientes-de-vidrio-hermeticos-set-x3/",
-      "slug": "recipientes-de-vidrio-hermeticos-set-x3",
       "gallery": [
         "images/p/recipientes-de-vidrio-hermeticos-set-x3-1.jpg",
         "images/p/recipientes-de-vidrio-hermeticos-set-x3-2.jpg"
       ],
-      "thumb": "images/p/recipientes-de-vidrio-hermeticos-set-x3-sm.jpg"
+      "thumb": "images/p/recipientes-de-vidrio-hermeticos-set-x3-sm.jpg",
+      "image": "images/p/recipientes-de-vidrio-hermeticos-set-x3-1.jpg",
+      "url": "/productos/recipientes-de-vidrio-hermeticos-set-x3/"
     },
     {
       "id": "tabla-redonda-de-acacia-con-asa",
       "sku": "BV-COC-55",
+      "slug": "tabla-redonda-de-acacia-con-asa",
       "name": "Tabla Redonda de Acacia · Con Asa",
       "shortDescription": "",
       "description": "Tabla redonda de madera de acacia con asa integrada y orificio para colgar. Buen grosor, veta natural con combinación de tonos claros y oscuros — de esas que quedan bien en la mesada aunque no estés cocinando. Funciona para cortar carne, pan o queso, y también para llevar la pizza directo a la mesa sin lavar un plato extra. Madera de acacia: dura, densa, amigable con los filos.",
@@ -2208,12 +2103,9 @@
         "pizza",
         "servir"
       ],
-      "image": "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera_1.jpg",
-      "images": [
-        "images/cocina/Tabla_de_cortar_redonda_de_madera_de_acacia_con_asa,_bloques_de_corte_para_carne,_pan,_queso,_tabla_para_servir,_tabla_para_pizza,_tabla_de_cortar_de_madera_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2226,18 +2118,19 @@
         "Diseño apto para servir directo en mesa",
         "Veta natural decorativa"
       ],
-      "url": "/productos/tabla-redonda-de-acacia-con-asa/",
-      "slug": "tabla-redonda-de-acacia-con-asa",
       "gallery": [
         "images/p/tabla-redonda-de-acacia-con-asa-1.jpg",
         "images/p/tabla-redonda-de-acacia-con-asa-2.jpg",
         "images/p/tabla-redonda-de-acacia-con-asa-3.jpg"
       ],
-      "thumb": "images/p/tabla-redonda-de-acacia-con-asa-sm.jpg"
+      "thumb": "images/p/tabla-redonda-de-acacia-con-asa-sm.jpg",
+      "image": "images/p/tabla-redonda-de-acacia-con-asa-1.jpg",
+      "url": "/productos/tabla-redonda-de-acacia-con-asa/"
     },
     {
       "id": "rallador-de-mano-acero-inoxidable-304",
       "sku": "BV-COC-56",
+      "slug": "rallador-de-mano-acero-inoxidable-304",
       "name": "Rallador de Mano · Acero Inoxidable 304",
       "shortDescription": "",
       "description": "Rallador plano de acero inoxidable 304, mango tubular integrado y gancho de cuelgue. Perforaciones finas uniformes — ralla queso, jengibre, limón y zanahoria sin drama. Diseño recto, sin partes de plástico que romper. Fácil de limpiar, fácil de guardar.",
@@ -2249,12 +2142,9 @@
         "queso",
         "multifunción"
       ],
-      "image": "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina_1.jpg",
-      "images": [
-        "images/cocina/Triturador_Multifuncional_de_Acero_Inoxidable_304_para_Uso_en_la_Cocina_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2267,17 +2157,18 @@
         "Mango tubular con gancho de cuelgue",
         "Sin partes de plástico"
       ],
-      "url": "/productos/rallador-de-mano-acero-inoxidable-304/",
-      "slug": "rallador-de-mano-acero-inoxidable-304",
       "gallery": [
         "images/p/rallador-de-mano-acero-inoxidable-304-1.jpg",
         "images/p/rallador-de-mano-acero-inoxidable-304-2.jpg"
       ],
-      "thumb": "images/p/rallador-de-mano-acero-inoxidable-304-sm.jpg"
+      "thumb": "images/p/rallador-de-mano-acero-inoxidable-304-sm.jpg",
+      "image": "images/p/rallador-de-mano-acero-inoxidable-304-1.jpg",
+      "url": "/productos/rallador-de-mano-acero-inoxidable-304/"
     },
     {
       "id": "juego-de-contenedores-organizador-transparente",
       "sku": "BV-COC-57",
+      "slug": "juego-de-contenedores-organizador-transparente",
       "name": "Juego de Contenedores · Organizador Transparente",
       "shortDescription": "",
       "description": "Juego de cinco contenedores apilables de plástico transparente. Cierre hermético con anillo de silicona incorporado y broches de presión en los laterales — no se abre solo en la heladera. Transparencia total: sabés qué hay adentro sin abrir nada. De la heladera al microondas, sin cambiar de recipiente.",
@@ -2289,12 +2180,9 @@
         "contenedores",
         "almacenamiento"
       ],
-      "image": "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico_1.jpg",
-      "images": [
-        "images/cocina/UFORU-Juego_de_organizador_de_refrigerador_transparente,_caja_de_almacenamiento_de_plástico_1.jpg"
-      ],
-      "imageFit": "cover",
       "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [],
@@ -2308,13 +2196,13 @@
         "Apilables — cinco tamaños encajados",
         "Apto microondas y lavado simple"
       ],
-      "url": "/productos/juego-de-contenedores-organizador-transparente/",
-      "slug": "juego-de-contenedores-organizador-transparente",
       "gallery": [
         "images/p/juego-de-contenedores-organizador-transparente-1.jpg",
         "images/p/juego-de-contenedores-organizador-transparente-2.jpg"
       ],
-      "thumb": "images/p/juego-de-contenedores-organizador-transparente-sm.jpg"
+      "thumb": "images/p/juego-de-contenedores-organizador-transparente-sm.jpg",
+      "image": "images/p/juego-de-contenedores-organizador-transparente-1.jpg",
+      "url": "/productos/juego-de-contenedores-organizador-transparente/"
     }
   ]
 }

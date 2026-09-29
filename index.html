@@ -803,7 +803,7 @@
             <h3 class="ci-title">${p.name}</h3>
             <p class="ci-desc">${p.shortDescription}</p>
           </div>
-          <span class="ci-status">${p.availability === 'in_stock' ? 'En stock' : 'Próximo'}</span>
+          <span class="ci-status">${({in_stock:'En stock', out_of_stock:'Sin stock'}[p.availability] || 'Próximo')}</span>
           <button class="ci-toggle" aria-label="Abrir detalle">+</button>
         </div>
         <div class="cat-item-detail" id="detail-${p.id}">
@@ -818,7 +818,7 @@
             ${features ? `<div class="cid-section"><h5>Características</h5><ul>${features}</ul></div>` : ''}
             <div class="cid-meta-grid">
               <div class="cid-meta-row"><span>SKU</span><span>${p.sku}</span></div>
-              <div class="cid-meta-row"><span>Disponibilidad</span><span>${p.availability === 'in_stock' ? 'En stock' : 'Próximo'}</span></div>
+              <div class="cid-meta-row"><span>Disponibilidad</span><span>${({in_stock:'En stock', out_of_stock:'Sin stock'}[p.availability] || 'Próximo')}</span></div>
               ${materials ? `<div class="cid-meta-row"><span>Materiales</span><span>${materials}</span></div>` : ''}
               ${useCases ? `<div class="cid-meta-row"><span>Para</span><span>${useCases}</span></div>` : ''}
             </div>
