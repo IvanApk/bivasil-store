@@ -51,11 +51,16 @@
         "acero inoxidable",
         "silicona alimentaria"
       ],
-      "url": "cocina.html#set-utensilios-magneticos-1",
+      "url": "/productos/set-utensilios-magneticos-metal-esencial/",
       "features": [],
       "images": [
         "images/cocina/01-utensilios-magneticos-1.jpg"
-      ]
+      ],
+      "slug": "set-utensilios-magneticos-metal-esencial",
+      "gallery": [
+        "images/p/set-utensilios-magneticos-metal-esencial-1.jpg"
+      ],
+      "thumb": "images/p/set-utensilios-magneticos-metal-esencial-sm.jpg"
     },
     {
       "id": "set-utensilios-completo-2",
@@ -82,11 +87,17 @@
         "acero inoxidable",
         "silicona alimentaria"
       ],
-      "url": "cocina.html#set-utensilios-completo-2",
+      "url": "/productos/set-utensilios-completo-esenciales/",
       "features": [],
       "images": [
         "images/cocina/02-utensilios-magneticos-2.jpg"
-      ]
+      ],
+      "slug": "set-utensilios-completo-esenciales",
+      "gallery": [
+        "images/p/set-utensilios-completo-esenciales-1.jpg",
+        "images/p/set-utensilios-completo-esenciales-2.jpg"
+      ],
+      "thumb": "images/p/set-utensilios-completo-esenciales-sm.jpg"
     },
     {
       "id": "set-espatulas",
@@ -112,11 +123,16 @@
         "silicona alimentaria",
         "madera"
       ],
-      "url": "cocina.html#set-espatulas",
+      "url": "/productos/set-espatulas/",
       "features": [],
       "images": [
         "images/cocina/03-espatulas.jpg"
-      ]
+      ],
+      "slug": "set-espatulas",
+      "gallery": [
+        "images/p/set-espatulas-1.jpg"
+      ],
+      "thumb": "images/p/set-espatulas-sm.jpg"
     },
     {
       "id": "lamina-secado-silicona",
@@ -140,11 +156,16 @@
       "materials": [
         "silicona alimentaria"
       ],
-      "url": "cocina.html#lamina-secado-silicona",
+      "url": "/productos/lamina-de-secado-de-silicona/",
       "features": [],
       "images": [
         "images/cocina/lamina-secado-silicona-1.jpeg"
-      ]
+      ],
+      "slug": "lamina-de-secado-de-silicona",
+      "gallery": [
+        "images/p/lamina-de-secado-de-silicona-1.jpg"
+      ],
+      "thumb": "images/p/lamina-de-secado-de-silicona-sm.jpg"
     },
     {
       "id": "guantes",
@@ -171,11 +192,16 @@
         "silicona",
         "algodón"
       ],
-      "url": "cocina.html#guantes",
+      "url": "/productos/guantes-termicos/",
       "features": [],
       "images": [
         "images/cocina/04-guantes.jpg"
-      ]
+      ],
+      "slug": "guantes-termicos",
+      "gallery": [
+        "images/p/guantes-termicos-1.jpg"
+      ],
+      "thumb": "images/p/guantes-termicos-sm.jpg"
     },
     {
       "id": "batidores",
@@ -201,11 +227,16 @@
         "acero inoxidable",
         "silicona"
       ],
-      "url": "cocina.html#batidores",
+      "url": "/productos/batidor-con-fleje/",
       "features": [],
       "images": [
         "images/cocina/05-batidores.jpg"
-      ]
+      ],
+      "slug": "batidor-con-fleje",
+      "gallery": [
+        "images/p/batidor-con-fleje-1.jpg"
+      ],
+      "thumb": "images/p/batidor-con-fleje-sm.jpg"
     },
     {
       "id": "lamina-hornear",
@@ -231,11 +262,16 @@
       "materials": [
         "silicona alimentaria"
       ],
-      "url": "cocina.html#lamina-hornear",
+      "url": "/productos/lamina-para-hornear/",
       "features": [],
       "images": [
         "images/cocina/06-lamina-hornear.jpg"
-      ]
+      ],
+      "slug": "lamina-para-hornear",
+      "gallery": [
+        "images/p/lamina-para-hornear-1.jpg"
+      ],
+      "thumb": "images/p/lamina-para-hornear-sm.jpg"
     },
     {
       "id": "enrollador-manguera",
@@ -267,10 +303,15 @@
         "Materiales para sol, salitre y frío",
         "Pensado para vender, no para mostrar"
       ],
-      "url": "jardin.html#enrollador-manguera",
+      "url": "/productos/enrollador-de-manguera/",
       "images": [
         "images/jardin/01-enrollador.jpg"
-      ]
+      ],
+      "slug": "enrollador-de-manguera",
+      "gallery": [
+        "images/p/enrollador-de-manguera-1.jpg"
+      ],
+      "thumb": "images/p/enrollador-de-manguera-sm.jpg"
     },
     {
       "id": "tablas_corte_acacia",
@@ -304,7 +345,13 @@
         "Madera de acacia — dura y bella",
         "Cuida el filo de los cuchillos"
       ],
-      "url": "cocina.html#tablas_corte_acacia"
+      "url": "/productos/tablas-de-corte-acacia/",
+      "slug": "tablas-de-corte-acacia",
+      "gallery": [
+        "images/p/tablas-de-corte-acacia-1.jpg",
+        "images/p/tablas-de-corte-acacia-2.jpg"
+      ],
+      "thumb": "images/p/tablas-de-corte-acacia-sm.jpg"
     },
     {
       "id": "Containers-Vidrio-Acacia",
@@ -335,7 +382,13 @@
         "acacia"
       ],
       "features": [],
-      "url": "cocina.html#Containers-Vidrio-Acacia"
+      "url": "/productos/contenedores-de-vidrio-y-acacia/",
+      "slug": "contenedores-de-vidrio-y-acacia",
+      "gallery": [
+        "images/p/contenedores-de-vidrio-y-acacia-1.jpg",
+        "images/p/contenedores-de-vidrio-y-acacia-2.jpg"
+      ],
+      "thumb": "images/p/contenedores-de-vidrio-y-acacia-sm.jpg"
     },
     {
       "id": "juego-de-bowls-ceramica-blanca",
@@ -364,7 +417,12 @@
         "cerámica"
       ],
       "features": [],
-      "url": "cocina.html#juego-de-bowls-ceramica-blanca"
+      "url": "/productos/juego-de-bowls-ceramica-blanca/",
+      "slug": "juego-de-bowls-ceramica-blanca",
+      "gallery": [
+        "images/p/juego-de-bowls-ceramica-blanca-1.jpg"
+      ],
+      "thumb": "images/p/juego-de-bowls-ceramica-blanca-sm.jpg"
     },
     {
       "id": "colador-para-bacha-extensible",
@@ -398,7 +456,14 @@
         "Apoyos de goma — no raya ni resbala",
         "Manos libres mientras escurre"
       ],
-      "url": "cocina.html#colador-para-bacha-extensible"
+      "url": "/productos/colador-para-bacha-extensible/",
+      "slug": "colador-para-bacha-extensible",
+      "gallery": [
+        "images/p/colador-para-bacha-extensible-1.jpg",
+        "images/p/colador-para-bacha-extensible-2.jpg",
+        "images/p/colador-para-bacha-extensible-3.jpg"
+      ],
+      "thumb": "images/p/colador-para-bacha-extensible-sm.jpg"
     },
     {
       "id": "set-coladores-mesh-con-apoyo",
@@ -427,7 +492,13 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "cocina.html#set-coladores-mesh-con-apoyo"
+      "url": "/productos/set-coladores-mesh-con-apoyo/",
+      "slug": "set-coladores-mesh-con-apoyo",
+      "gallery": [
+        "images/p/set-coladores-mesh-con-apoyo-1.jpg",
+        "images/p/set-coladores-mesh-con-apoyo-2.jpg"
+      ],
+      "thumb": "images/p/set-coladores-mesh-con-apoyo-sm.jpg"
     },
     {
       "id": "juego-de-bowls-acero-inoxidable",
@@ -456,7 +527,13 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "cocina.html#juego-de-bowls-acero-inoxidable"
+      "url": "/productos/juego-de-bowls-acero-inoxidable/",
+      "slug": "juego-de-bowls-acero-inoxidable",
+      "gallery": [
+        "images/p/juego-de-bowls-acero-inoxidable-1.jpg",
+        "images/p/juego-de-bowls-acero-inoxidable-2.jpg"
+      ],
+      "thumb": "images/p/juego-de-bowls-acero-inoxidable-sm.jpg"
     },
     {
       "id": "juego-de-bowls-vidrio",
@@ -485,7 +562,14 @@
         "vidrio templado"
       ],
       "features": [],
-      "url": "cocina.html#juego-de-bowls-vidrio"
+      "url": "/productos/juego-de-bowls-vidrio/",
+      "slug": "juego-de-bowls-vidrio",
+      "gallery": [
+        "images/p/juego-de-bowls-vidrio-1.jpg",
+        "images/p/juego-de-bowls-vidrio-2.jpg",
+        "images/p/juego-de-bowls-vidrio-3.jpg"
+      ],
+      "thumb": "images/p/juego-de-bowls-vidrio-sm.jpg"
     },
     {
       "id": "set-tamices-malla-fina",
@@ -514,7 +598,14 @@
         "acero inoxidable"
       ],
       "features": [],
-      "url": "cocina.html#set-tamices-malla-fina"
+      "url": "/productos/set-tamices-malla-fina/",
+      "slug": "set-tamices-malla-fina",
+      "gallery": [
+        "images/p/set-tamices-malla-fina-1.jpg",
+        "images/p/set-tamices-malla-fina-2.jpg",
+        "images/p/set-tamices-malla-fina-3.jpg"
+      ],
+      "thumb": "images/p/set-tamices-malla-fina-sm.jpg"
     },
     {
       "id": "juego-contenedores-vidrio-y-silicona",
@@ -548,7 +639,13 @@
         "Vidrio apto microondas, horno y freezer",
         "Transparentes — se ve lo que hay adentro"
       ],
-      "url": "cocina.html#juego-contenedores-vidrio-y-silicona"
+      "url": "/productos/juego-contenedores-vidrio-y-silicona/",
+      "slug": "juego-contenedores-vidrio-y-silicona",
+      "gallery": [
+        "images/p/juego-contenedores-vidrio-y-silicona-1.jpg",
+        "images/p/juego-contenedores-vidrio-y-silicona-2.jpg"
+      ],
+      "thumb": "images/p/juego-contenedores-vidrio-y-silicona-sm.jpg"
     },
     {
       "id": "vajilla-drift-gris",
@@ -582,7 +679,17 @@
         "Acabado mate resistente al uso real",
         "Set completo: taza, plato plano, hondo y bowl"
       ],
-      "url": "cocina.html#vajilla-drift-gris"
+      "url": "/productos/vajilla-drift-gris/",
+      "slug": "vajilla-drift-gris",
+      "gallery": [
+        "images/p/vajilla-drift-gris-1.jpg",
+        "images/p/vajilla-drift-gris-2.jpg",
+        "images/p/vajilla-drift-gris-3.jpg",
+        "images/p/vajilla-drift-gris-4.jpg",
+        "images/p/vajilla-drift-gris-5.jpg",
+        "images/p/vajilla-drift-gris-6.jpg"
+      ],
+      "thumb": "images/p/vajilla-drift-gris-sm.jpg"
     },
     {
       "id": "platos-drift-verde-salvia",
@@ -612,7 +719,14 @@
         "esmalte reactivo"
       ],
       "features": [],
-      "url": "cocina.html#platos-drift-verde-salvia"
+      "url": "/productos/platos-drift-verde-salvia/",
+      "slug": "platos-drift-verde-salvia",
+      "gallery": [
+        "images/p/platos-drift-verde-salvia-1.jpg",
+        "images/p/platos-drift-verde-salvia-2.jpg",
+        "images/p/platos-drift-verde-salvia-3.jpg"
+      ],
+      "thumb": "images/p/platos-drift-verde-salvia-sm.jpg"
     },
     {
       "id": "vajilla-frank-blanca",
@@ -641,7 +755,14 @@
         "cerámica esmaltada"
       ],
       "features": [],
-      "url": "cocina.html#vajilla-frank-blanca"
+      "url": "/productos/vajilla-frank-blanca/",
+      "slug": "vajilla-frank-blanca",
+      "gallery": [
+        "images/p/vajilla-frank-blanca-1.jpg",
+        "images/p/vajilla-frank-blanca-2.jpg",
+        "images/p/vajilla-frank-blanca-3.jpg"
+      ],
+      "thumb": "images/p/vajilla-frank-blanca-sm.jpg"
     },
     {
       "id": "platos-prado-reactivo",
@@ -675,7 +796,14 @@
         "Profundidad real para platos con cuerpo",
         "Apilables"
       ],
-      "url": "cocina.html#platos-prado-reactivo"
+      "url": "/productos/platos-prado-reactivo/",
+      "slug": "platos-prado-reactivo",
+      "gallery": [
+        "images/p/platos-prado-reactivo-1.jpg",
+        "images/p/platos-prado-reactivo-2.jpg",
+        "images/p/platos-prado-reactivo-3.jpg"
+      ],
+      "thumb": "images/p/platos-prado-reactivo-sm.jpg"
     },
     {
       "id": "platos-selene-lino",
@@ -704,7 +832,13 @@
         "cerámica"
       ],
       "features": [],
-      "url": "cocina.html#platos-selene-lino"
+      "url": "/productos/platos-selene-lino/",
+      "slug": "platos-selene-lino",
+      "gallery": [
+        "images/p/platos-selene-lino-1.jpg",
+        "images/p/platos-selene-lino-2.jpg"
+      ],
+      "thumb": "images/p/platos-selene-lino-sm.jpg"
     },
     {
       "id": "salero-de-acacia-magnetico",
@@ -737,7 +871,13 @@
         "Para sal en escamas o gruesa",
         "Madera de acacia — durable y bella"
       ],
-      "url": "cocina.html#salero-de-acacia-magnetico"
+      "url": "/productos/salero-de-acacia-magnetico/",
+      "slug": "salero-de-acacia-magnetico",
+      "gallery": [
+        "images/p/salero-de-acacia-magnetico-1.jpg",
+        "images/p/salero-de-acacia-magnetico-2.jpg"
+      ],
+      "thumb": "images/p/salero-de-acacia-magnetico-sm.jpg"
     },
     {
       "id": "vajilla-contact-blanco-y-negro",
@@ -770,7 +910,15 @@
         "Set completo: taza, plato plano, hondo y bowl",
         "Cerámica resistente al lavavajillas"
       ],
-      "url": "cocina.html#vajilla-contact-blanco-y-negro"
+      "url": "/productos/vajilla-contact-blanco-y-negro/",
+      "slug": "vajilla-contact-blanco-y-negro",
+      "gallery": [
+        "images/p/vajilla-contact-blanco-y-negro-1.jpg",
+        "images/p/vajilla-contact-blanco-y-negro-2.jpg",
+        "images/p/vajilla-contact-blanco-y-negro-3.jpg",
+        "images/p/vajilla-contact-blanco-y-negro-4.jpg"
+      ],
+      "thumb": "images/p/vajilla-contact-blanco-y-negro-sm.jpg"
     },
     {
       "id": "tarros-de-vidrio-hermeticos",
@@ -799,7 +947,14 @@
         "vidrio"
       ],
       "features": [],
-      "url": "cocina.html#tarros-de-vidrio-hermeticos"
+      "url": "/productos/tarros-de-vidrio-hermeticos/",
+      "slug": "tarros-de-vidrio-hermeticos",
+      "gallery": [
+        "images/p/tarros-de-vidrio-hermeticos-1.jpg",
+        "images/p/tarros-de-vidrio-hermeticos-2.jpg",
+        "images/p/tarros-de-vidrio-hermeticos-3.jpg"
+      ],
+      "thumb": "images/p/tarros-de-vidrio-hermeticos-sm.jpg"
     },
     {
       "id": "vaso-medidor-de-vidrio-1l",
@@ -832,7 +987,12 @@
         "Capacidad 1L — suficiente para cualquier receta",
         "Pico vertedor y asa integrada"
       ],
-      "url": "cocina.html#vaso-medidor-de-vidrio-1l"
+      "url": "/productos/vaso-medidor-de-vidrio-1l/",
+      "slug": "vaso-medidor-de-vidrio-1l",
+      "gallery": [
+        "images/p/vaso-medidor-de-vidrio-1l-1.jpg"
+      ],
+      "thumb": "images/p/vaso-medidor-de-vidrio-1l-sm.jpg"
     },
     {
       "id": "organizador-de-cubiertos-expandible",
@@ -866,7 +1026,13 @@
         "Impermeable y resistente al moho",
         "Lavable bajo agua corriente"
       ],
-      "url": "cocina.html#organizador-de-cubiertos-expandible"
+      "url": "/productos/organizador-de-cubiertos-expandible/",
+      "slug": "organizador-de-cubiertos-expandible",
+      "gallery": [
+        "images/p/organizador-de-cubiertos-expandible-1.jpg",
+        "images/p/organizador-de-cubiertos-expandible-2.jpg"
+      ],
+      "thumb": "images/p/organizador-de-cubiertos-expandible-sm.jpg"
     },
     {
       "id": "soporte-embudo-organizador-de-cocina",
@@ -901,7 +1067,14 @@
         "Sirve para utensilios, frutas o verduras",
         "Liviano y fácil de limpiar"
       ],
-      "url": "cocina.html#soporte-embudo-organizador-de-cocina"
+      "url": "/productos/soporte-embudo-organizador-de-cocina/",
+      "slug": "soporte-embudo-organizador-de-cocina",
+      "gallery": [
+        "images/p/soporte-embudo-organizador-de-cocina-1.jpg",
+        "images/p/soporte-embudo-organizador-de-cocina-2.jpg",
+        "images/p/soporte-embudo-organizador-de-cocina-3.jpg"
+      ],
+      "thumb": "images/p/soporte-embudo-organizador-de-cocina-sm.jpg"
     },
     {
       "id": "cesta-mural-cocina-organizada",
@@ -937,7 +1110,13 @@
         "Rejilla metálica con ventilación natural",
         "Disponible en formato simple y doble"
       ],
-      "url": "cocina.html#cesta-mural-cocina-organizada"
+      "url": "/productos/cesta-mural-cocina-organizada/",
+      "slug": "cesta-mural-cocina-organizada",
+      "gallery": [
+        "images/p/cesta-mural-cocina-organizada-1.jpg",
+        "images/p/cesta-mural-cocina-organizada-2.jpg"
+      ],
+      "thumb": "images/p/cesta-mural-cocina-organizada-sm.jpg"
     },
     {
       "id": "colador-de-verduras-acero-inoxidable-304",
@@ -971,7 +1150,14 @@
         "Perforaciones parejas — escurre rápido y parejo",
         "Mango integrado — fácil de sostener y colgar"
       ],
-      "url": "cocina.html#colador-de-verduras-acero-inoxidable-304"
+      "url": "/productos/colador-de-verduras-acero-inoxidable-304/",
+      "slug": "colador-de-verduras-acero-inoxidable-304",
+      "gallery": [
+        "images/p/colador-de-verduras-acero-inoxidable-304-1.jpg",
+        "images/p/colador-de-verduras-acero-inoxidable-304-2.jpg",
+        "images/p/colador-de-verduras-acero-inoxidable-304-3.jpg"
+      ],
+      "thumb": "images/p/colador-de-verduras-acero-inoxidable-304-sm.jpg"
     },
     {
       "id": "cortador-de-palta-cuber-dicer",
@@ -1006,7 +1192,12 @@
         "Un solo movimiento — cubos directos al bowl",
         "Fácil de lavar"
       ],
-      "url": "cocina.html#cortador-de-palta-cuber-dicer"
+      "url": "/productos/cortador-de-palta-cuber-dicer/",
+      "slug": "cortador-de-palta-cuber-dicer",
+      "gallery": [
+        "images/p/cortador-de-palta-cuber-dicer-1.jpg"
+      ],
+      "thumb": "images/p/cortador-de-palta-cuber-dicer-sm.jpg"
     },
     {
       "id": "cortador-multifuncional-15-en-1",
@@ -1042,7 +1233,14 @@
         "Cesta de filtrado incluida",
         "Empujador con protector de dedos"
       ],
-      "url": "cocina.html#cortador-multifuncional-15-en-1"
+      "url": "/productos/cortador-multifuncional-15-en-1/",
+      "slug": "cortador-multifuncional-15-en-1",
+      "gallery": [
+        "images/p/cortador-multifuncional-15-en-1-1.jpg",
+        "images/p/cortador-multifuncional-15-en-1-2.jpg",
+        "images/p/cortador-multifuncional-15-en-1-3.jpg"
+      ],
+      "thumb": "images/p/cortador-multifuncional-15-en-1-sm.jpg"
     },
     {
       "id": "cubierta-antisalpicaduras-microondas-plegable",
@@ -1077,7 +1275,12 @@
         "Doble función: tapa antisalpicaduras y colador",
         "Apto para microondas y lavavajillas"
       ],
-      "url": "cocina.html#cubierta-antisalpicaduras-microondas-plegable"
+      "url": "/productos/cubierta-antisalpicaduras-microondas-plegable/",
+      "slug": "cubierta-antisalpicaduras-microondas-plegable",
+      "gallery": [
+        "images/p/cubierta-antisalpicaduras-microondas-plegable-1.jpg"
+      ],
+      "thumb": "images/p/cubierta-antisalpicaduras-microondas-plegable-sm.jpg"
     },
     {
       "id": "cuchara-coladora-silicona-multiusos",
@@ -1114,7 +1317,14 @@
         "Gran capacidad — ideal para porciones familiares",
         "Disponible en distintos mangos: madera, plástico o acero"
       ],
-      "url": "cocina.html#cuchara-coladora-silicona-multiusos"
+      "url": "/productos/cuchara-coladora-silicona-multiusos/",
+      "slug": "cuchara-coladora-silicona-multiusos",
+      "gallery": [
+        "images/p/cuchara-coladora-silicona-multiusos-1.jpg",
+        "images/p/cuchara-coladora-silicona-multiusos-2.jpg",
+        "images/p/cuchara-coladora-silicona-multiusos-3.jpg"
+      ],
+      "thumb": "images/p/cuchara-coladora-silicona-multiusos-sm.jpg"
     },
     {
       "id": "cuchara-de-arroz-silicona-antiadherente",
@@ -1148,7 +1358,14 @@
         "Apta para ollas antiadherentes",
         "Resistente al calor"
       ],
-      "url": "cocina.html#cuchara-de-arroz-silicona-antiadherente"
+      "url": "/productos/cuchara-de-arroz-silicona-antiadherente/",
+      "slug": "cuchara-de-arroz-silicona-antiadherente",
+      "gallery": [
+        "images/p/cuchara-de-arroz-silicona-antiadherente-1.jpg",
+        "images/p/cuchara-de-arroz-silicona-antiadherente-2.jpg",
+        "images/p/cuchara-de-arroz-silicona-antiadherente-3.jpg"
+      ],
+      "thumb": "images/p/cuchara-de-arroz-silicona-antiadherente-sm.jpg"
     },
     {
       "id": "cuchara-sopera-acero-espejo-imperial",
@@ -1182,7 +1399,13 @@
         "Acabado espejo en cazoleta — fácil limpieza",
         "Liviana y balanceada en mano"
       ],
-      "url": "cocina.html#cuchara-sopera-acero-espejo-imperial"
+      "url": "/productos/cuchara-sopera-acero-espejo-imperial/",
+      "slug": "cuchara-sopera-acero-espejo-imperial",
+      "gallery": [
+        "images/p/cuchara-sopera-acero-espejo-imperial-1.jpg",
+        "images/p/cuchara-sopera-acero-espejo-imperial-2.jpg"
+      ],
+      "thumb": "images/p/cuchara-sopera-acero-espejo-imperial-sm.jpg"
     },
     {
       "id": "espatula-para-torta-y-pizza-acero-inoxidable",
@@ -1216,7 +1439,13 @@
         "Mango cilíndrico con gancho para colgar",
         "Apta para lavavajillas"
       ],
-      "url": "cocina.html#espatula-para-torta-y-pizza-acero-inoxidable"
+      "url": "/productos/espatula-para-torta-y-pizza-acero-inoxidable/",
+      "slug": "espatula-para-torta-y-pizza-acero-inoxidable",
+      "gallery": [
+        "images/p/espatula-para-torta-y-pizza-acero-inoxidable-1.jpg",
+        "images/p/espatula-para-torta-y-pizza-acero-inoxidable-2.jpg"
+      ],
+      "thumb": "images/p/espatula-para-torta-y-pizza-acero-inoxidable-sm.jpg"
     },
     {
       "id": "espatula-ranurada-de-silicona-mango-de-madera",
@@ -1252,7 +1481,14 @@
         "No raya superficies antiadherentes",
         "Orificio en el mango para colgar"
       ],
-      "url": "cocina.html#espatula-ranurada-de-silicona-mango-de-madera"
+      "url": "/productos/espatula-ranurada-de-silicona-mango-de-madera/",
+      "slug": "espatula-ranurada-de-silicona-mango-de-madera",
+      "gallery": [
+        "images/p/espatula-ranurada-de-silicona-mango-de-madera-1.jpg",
+        "images/p/espatula-ranurada-de-silicona-mango-de-madera-2.jpg",
+        "images/p/espatula-ranurada-de-silicona-mango-de-madera-3.jpg"
+      ],
+      "thumb": "images/p/espatula-ranurada-de-silicona-mango-de-madera-sm.jpg"
     },
     {
       "id": "set-de-utensilios-de-silicona-5-piezas",
@@ -1288,7 +1524,14 @@
         "Incluye batidor, 2 espátulas, pincel y pinza",
         "Orificio para colgar — mesada libre"
       ],
-      "url": "cocina.html#set-de-utensilios-de-silicona-5-piezas"
+      "url": "/productos/set-de-utensilios-de-silicona-5-piezas/",
+      "slug": "set-de-utensilios-de-silicona-5-piezas",
+      "gallery": [
+        "images/p/set-de-utensilios-de-silicona-5-piezas-1.jpg",
+        "images/p/set-de-utensilios-de-silicona-5-piezas-2.jpg",
+        "images/p/set-de-utensilios-de-silicona-5-piezas-3.jpg"
+      ],
+      "thumb": "images/p/set-de-utensilios-de-silicona-5-piezas-sm.jpg"
     },
     {
       "id": "cortador-de-masa-acero-y-madera",
@@ -1322,7 +1565,13 @@
         "Mango de madera con doble remache metálico",
         "Apta para dividir masa, raspar y levantar ingredientes"
       ],
-      "url": "cocina.html#cortador-de-masa-acero-y-madera"
+      "url": "/productos/cortador-de-masa-acero-y-madera/",
+      "slug": "cortador-de-masa-acero-y-madera",
+      "gallery": [
+        "images/p/cortador-de-masa-acero-y-madera-1.jpg",
+        "images/p/cortador-de-masa-acero-y-madera-2.jpg"
+      ],
+      "thumb": "images/p/cortador-de-masa-acero-y-madera-sm.jpg"
     },
     {
       "id": "set-de-utensilios-acero-y-madera-de-haya",
@@ -1357,7 +1606,13 @@
         "Resistente al calor — no se deforma ni quema la mano",
         "Sin recubrimientos que se despegan con el uso"
       ],
-      "url": "cocina.html#set-de-utensilios-acero-y-madera-de-haya"
+      "url": "/productos/set-de-utensilios-acero-y-madera-de-haya/",
+      "slug": "set-de-utensilios-acero-y-madera-de-haya",
+      "gallery": [
+        "images/p/set-de-utensilios-acero-y-madera-de-haya-1.jpg",
+        "images/p/set-de-utensilios-acero-y-madera-de-haya-2.jpg"
+      ],
+      "thumb": "images/p/set-de-utensilios-acero-y-madera-de-haya-sm.jpg"
     },
     {
       "id": "estante-extraible-cajon-metalico-deslizante",
@@ -1392,7 +1647,14 @@
         "Mango de madera para extracción sin agacharse",
         "Compatible con armarios de distintas profundidades"
       ],
-      "url": "cocina.html#estante-extraible-cajon-metalico-deslizante"
+      "url": "/productos/estante-extraible-cajon-metalico-deslizante/",
+      "slug": "estante-extraible-cajon-metalico-deslizante",
+      "gallery": [
+        "images/p/estante-extraible-cajon-metalico-deslizante-1.jpg",
+        "images/p/estante-extraible-cajon-metalico-deslizante-2.jpg",
+        "images/p/estante-extraible-cajon-metalico-deslizante-3.jpg"
+      ],
+      "thumb": "images/p/estante-extraible-cajon-metalico-deslizante-sm.jpg"
     },
     {
       "id": "juego-de-moldes-para-horno-set-5-piezas",
@@ -1427,7 +1689,12 @@
         "Acero al carbono de distribución pareja de calor",
         "Apto horno convencional"
       ],
-      "url": "cocina.html#juego-de-moldes-para-horno-set-5-piezas"
+      "url": "/productos/juego-de-moldes-para-horno-set-5-piezas/",
+      "slug": "juego-de-moldes-para-horno-set-5-piezas",
+      "gallery": [
+        "images/p/juego-de-moldes-para-horno-set-5-piezas-1.jpg"
+      ],
+      "thumb": "images/p/juego-de-moldes-para-horno-set-5-piezas-sm.jpg"
     },
     {
       "id": "set-de-espatulas-de-silicona-6-piezas",
@@ -1461,7 +1728,15 @@
         "Incluye cepillo para aceite",
         "Set completo en 3 colores disponibles"
       ],
-      "url": "cocina.html#set-de-espatulas-de-silicona-6-piezas"
+      "url": "/productos/set-de-espatulas-de-silicona-6-piezas/",
+      "slug": "set-de-espatulas-de-silicona-6-piezas",
+      "gallery": [
+        "images/p/set-de-espatulas-de-silicona-6-piezas-1.jpg",
+        "images/p/set-de-espatulas-de-silicona-6-piezas-2.jpg",
+        "images/p/set-de-espatulas-de-silicona-6-piezas-3.jpg",
+        "images/p/set-de-espatulas-de-silicona-6-piezas-4.jpg"
+      ],
+      "thumb": "images/p/set-de-espatulas-de-silicona-6-piezas-sm.jpg"
     },
     {
       "id": "juego-de-utensilios-de-silicona-6-piezas",
@@ -1496,7 +1771,13 @@
         "Mango de acero inoxidable con grip de silicona",
         "6 piezas que cubren toda la cocina diaria"
       ],
-      "url": "cocina.html#juego-de-utensilios-de-silicona-6-piezas"
+      "url": "/productos/juego-de-utensilios-de-silicona-6-piezas/",
+      "slug": "juego-de-utensilios-de-silicona-6-piezas",
+      "gallery": [
+        "images/p/juego-de-utensilios-de-silicona-6-piezas-1.jpg",
+        "images/p/juego-de-utensilios-de-silicona-6-piezas-2.jpg"
+      ],
+      "thumb": "images/p/juego-de-utensilios-de-silicona-6-piezas-sm.jpg"
     },
     {
       "id": "juego-de-moldes-para-hornear-silicona",
@@ -1530,7 +1811,14 @@
         "Múltiples formas en un solo set",
         "Apto lavavajillas"
       ],
-      "url": "cocina.html#juego-de-moldes-para-hornear-silicona"
+      "url": "/productos/juego-de-moldes-para-hornear-silicona/",
+      "slug": "juego-de-moldes-para-hornear-silicona",
+      "gallery": [
+        "images/p/juego-de-moldes-para-hornear-silicona-1.jpg",
+        "images/p/juego-de-moldes-para-hornear-silicona-2.jpg",
+        "images/p/juego-de-moldes-para-hornear-silicona-3.jpg"
+      ],
+      "thumb": "images/p/juego-de-moldes-para-hornear-silicona-sm.jpg"
     },
     {
       "id": "set-de-utensilios-de-silicona-10-piezas",
@@ -1565,7 +1853,14 @@
         "Argolla de colgado integrada en cada mango",
         "10 piezas para toda la cocina diaria"
       ],
-      "url": "cocina.html#set-de-utensilios-de-silicona-10-piezas"
+      "url": "/productos/set-de-utensilios-de-silicona-10-piezas/",
+      "slug": "set-de-utensilios-de-silicona-10-piezas",
+      "gallery": [
+        "images/p/set-de-utensilios-de-silicona-10-piezas-1.jpg",
+        "images/p/set-de-utensilios-de-silicona-10-piezas-2.jpg",
+        "images/p/set-de-utensilios-de-silicona-10-piezas-3.jpg"
+      ],
+      "thumb": "images/p/set-de-utensilios-de-silicona-10-piezas-sm.jpg"
     },
     {
       "id": "tabla-de-cortar-doble-cara-acero-inoxidable-y-pp",
@@ -1602,7 +1897,13 @@
         "Borde de silicona antideslizante",
         "Mango integrado para colgar o manipular"
       ],
-      "url": "cocina.html#tabla-de-cortar-doble-cara-acero-inoxidable-y-pp"
+      "url": "/productos/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp/",
+      "slug": "tabla-de-cortar-doble-cara-acero-inoxidable-y-pp",
+      "gallery": [
+        "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-1.jpg",
+        "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-2.jpg"
+      ],
+      "thumb": "images/p/tabla-de-cortar-doble-cara-acero-inoxidable-y-pp-sm.jpg"
     },
     {
       "id": "espumadera-grande-acero-inoxidable-304",
@@ -1636,7 +1937,13 @@
         "Mango largo de una pieza — sin juntas",
         "Apto lavavajillas"
       ],
-      "url": "cocina.html#espumadera-grande-acero-inoxidable-304"
+      "url": "/productos/espumadera-grande-acero-inoxidable-304/",
+      "slug": "espumadera-grande-acero-inoxidable-304",
+      "gallery": [
+        "images/p/espumadera-grande-acero-inoxidable-304-1.jpg",
+        "images/p/espumadera-grande-acero-inoxidable-304-2.jpg"
+      ],
+      "thumb": "images/p/espumadera-grande-acero-inoxidable-304-sm.jpg"
     },
     {
       "id": "set-utensilios-de-cocina-silicona-con-soporte",
@@ -1671,7 +1978,13 @@
         "Mango de acero inoxidable — resistente al calor y fácil de limpiar",
         "Soporte de pared incluido — desocupa la mesada de una vez"
       ],
-      "url": "cocina.html#set-utensilios-de-cocina-silicona-con-soporte"
+      "url": "/productos/set-utensilios-de-cocina-silicona-con-soporte/",
+      "slug": "set-utensilios-de-cocina-silicona-con-soporte",
+      "gallery": [
+        "images/p/set-utensilios-de-cocina-silicona-con-soporte-1.jpg",
+        "images/p/set-utensilios-de-cocina-silicona-con-soporte-2.jpg"
+      ],
+      "thumb": "images/p/set-utensilios-de-cocina-silicona-con-soporte-sm.jpg"
     },
     {
       "id": "organizador-de-maquillaje-uforu-con-cajon",
@@ -1706,7 +2019,14 @@
         "Esquinas redondeadas y patas elevadoras",
         "Estructura modular para skincare, pinceles y labiales"
       ],
-      "url": "cocina.html#organizador-de-maquillaje-uforu-con-cajon"
+      "url": "/productos/organizador-de-maquillaje-uforu-con-cajon/",
+      "slug": "organizador-de-maquillaje-uforu-con-cajon",
+      "gallery": [
+        "images/p/organizador-de-maquillaje-uforu-con-cajon-1.jpg",
+        "images/p/organizador-de-maquillaje-uforu-con-cajon-2.jpg",
+        "images/p/organizador-de-maquillaje-uforu-con-cajon-3.jpg"
+      ],
+      "thumb": "images/p/organizador-de-maquillaje-uforu-con-cajon-sm.jpg"
     },
     {
       "id": "espatula-de-asador-con-abridor",
@@ -1741,7 +2061,14 @@
         "Abridor de botellas integrado en el extremo del mango",
         "Apto interior y exterior"
       ],
-      "url": "cocina.html#espatula-de-asador-con-abridor"
+      "url": "/productos/espatula-de-asador-con-abridor/",
+      "slug": "espatula-de-asador-con-abridor",
+      "gallery": [
+        "images/p/espatula-de-asador-con-abridor-1.jpg",
+        "images/p/espatula-de-asador-con-abridor-2.jpg",
+        "images/p/espatula-de-asador-con-abridor-3.jpg"
+      ],
+      "thumb": "images/p/espatula-de-asador-con-abridor-sm.jpg"
     },
     {
       "id": "portacucharas-de-silicona-con-bandeja",
@@ -1776,7 +2103,13 @@
         "Resistente a altas temperaturas",
         "Libre de BPA"
       ],
-      "url": "cocina.html#portacucharas-de-silicona-con-bandeja"
+      "url": "/productos/portacucharas-de-silicona-con-bandeja/",
+      "slug": "portacucharas-de-silicona-con-bandeja",
+      "gallery": [
+        "images/p/portacucharas-de-silicona-con-bandeja-1.jpg",
+        "images/p/portacucharas-de-silicona-con-bandeja-2.jpg"
+      ],
+      "thumb": "images/p/portacucharas-de-silicona-con-bandeja-sm.jpg"
     },
     {
       "id": "rallador-acero-inoxidable-con-mango-de-madera",
@@ -1811,7 +2144,13 @@
         "Disponible en tres tamaños",
         "Diseño plano — fácil de guardar y lavar"
       ],
-      "url": "cocina.html#rallador-acero-inoxidable-con-mango-de-madera"
+      "url": "/productos/rallador-acero-inoxidable-con-mango-de-madera/",
+      "slug": "rallador-acero-inoxidable-con-mango-de-madera",
+      "gallery": [
+        "images/p/rallador-acero-inoxidable-con-mango-de-madera-1.jpg",
+        "images/p/rallador-acero-inoxidable-con-mango-de-madera-2.jpg"
+      ],
+      "thumb": "images/p/rallador-acero-inoxidable-con-mango-de-madera-sm.jpg"
     },
     {
       "id": "recipientes-de-vidrio-hermeticos-set-x3",
@@ -1847,7 +2186,13 @@
         "Vidrio sin absorción de olores ni manchas",
         "Set de 3 tamaños distintos"
       ],
-      "url": "cocina.html#recipientes-de-vidrio-hermeticos-set-x3"
+      "url": "/productos/recipientes-de-vidrio-hermeticos-set-x3/",
+      "slug": "recipientes-de-vidrio-hermeticos-set-x3",
+      "gallery": [
+        "images/p/recipientes-de-vidrio-hermeticos-set-x3-1.jpg",
+        "images/p/recipientes-de-vidrio-hermeticos-set-x3-2.jpg"
+      ],
+      "thumb": "images/p/recipientes-de-vidrio-hermeticos-set-x3-sm.jpg"
     },
     {
       "id": "tabla-redonda-de-acacia-con-asa",
@@ -1881,7 +2226,14 @@
         "Diseño apto para servir directo en mesa",
         "Veta natural decorativa"
       ],
-      "url": "cocina.html#tabla-redonda-de-acacia-con-asa"
+      "url": "/productos/tabla-redonda-de-acacia-con-asa/",
+      "slug": "tabla-redonda-de-acacia-con-asa",
+      "gallery": [
+        "images/p/tabla-redonda-de-acacia-con-asa-1.jpg",
+        "images/p/tabla-redonda-de-acacia-con-asa-2.jpg",
+        "images/p/tabla-redonda-de-acacia-con-asa-3.jpg"
+      ],
+      "thumb": "images/p/tabla-redonda-de-acacia-con-asa-sm.jpg"
     },
     {
       "id": "rallador-de-mano-acero-inoxidable-304",
@@ -1915,7 +2267,13 @@
         "Mango tubular con gancho de cuelgue",
         "Sin partes de plástico"
       ],
-      "url": "cocina.html#rallador-de-mano-acero-inoxidable-304"
+      "url": "/productos/rallador-de-mano-acero-inoxidable-304/",
+      "slug": "rallador-de-mano-acero-inoxidable-304",
+      "gallery": [
+        "images/p/rallador-de-mano-acero-inoxidable-304-1.jpg",
+        "images/p/rallador-de-mano-acero-inoxidable-304-2.jpg"
+      ],
+      "thumb": "images/p/rallador-de-mano-acero-inoxidable-304-sm.jpg"
     },
     {
       "id": "juego-de-contenedores-organizador-transparente",
@@ -1950,7 +2308,13 @@
         "Apilables — cinco tamaños encajados",
         "Apto microondas y lavado simple"
       ],
-      "url": "cocina.html#juego-de-contenedores-organizador-transparente"
+      "url": "/productos/juego-de-contenedores-organizador-transparente/",
+      "slug": "juego-de-contenedores-organizador-transparente",
+      "gallery": [
+        "images/p/juego-de-contenedores-organizador-transparente-1.jpg",
+        "images/p/juego-de-contenedores-organizador-transparente-2.jpg"
+      ],
+      "thumb": "images/p/juego-de-contenedores-organizador-transparente-sm.jpg"
     }
   ]
 }

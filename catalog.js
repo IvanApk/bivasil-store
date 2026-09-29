@@ -8,7 +8,7 @@
   async function loadCatalog() {
     if (window.BIVA && window.BIVA.products) return window.BIVA;
     try {
-      const res = await fetch('products.json');
+      const res = await fetch('/products.json');
       const data = await res.json();
       window.BIVA = data;
       return data;
@@ -129,7 +129,7 @@
       empty.hidden = true;
       results.innerHTML = matches.map(p => `
         <a class="nav-search-result" href="${p.url}">
-          <div class="nsr-thumb" style="background-image:url('${p.image}')"></div>
+          <div class="nsr-thumb" style="background-image:url('/${p.thumb || p.image}')"></div>
           <div class="nsr-body">
             <span class="nsr-cat">${p.category === 'cocina' ? 'Cocina' : 'Jardín'}</span>
             <span class="nsr-name">${p.name}</span>

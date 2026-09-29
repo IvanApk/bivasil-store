@@ -79,7 +79,7 @@ def product_ld(p):
         "name": p['name'].strip(),
         "sku": p['sku'],
         "description": p['description'],
-        "image": [abs_url(i) for i in (p.get('images') or [p['image']])[:3]],
+        "image": [abs_url(i) for i in (p.get('gallery') or p.get('images') or [p['image']])[:3]],
         "category": CAT_LABEL.get(p['category'], p['category']),
         "url": abs_url(p['url']),
         "brand": {"@type": "Brand", "name": "BIVA"},
@@ -160,7 +160,7 @@ def noscript_catalog(items, heading):
         mats = ', '.join(p.get('materials') or [])
         status = 'En stock' if p['availability'] == 'in_stock' else 'Próximo ingreso'
         rows.append(
-            f'<li id="p-{html.escape(p["id"])}"><h3>{html.escape(p["name"].strip())}</h3>'
+            f'<li id="p-{html.escape(p["id"])}"><h3><a href="{html.escape(p["url"])}">{html.escape(p["name"].strip())}</a></h3>'
             f'<p>{html.escape(p["description"])}</p>'
             f'<p>SKU {html.escape(p["sku"])} · {CAT_LABEL.get(p["category"], "")} · {status}'
             + (f' · Materiales: {html.escape(mats)}' if mats else '') + '</p></li>')
@@ -205,8 +205,9 @@ for fname in PAGES:
 
 # sitemap.xml
 urls = ''.join(f'  <url><loc>{BASE}{c["path"]}</loc><lastmod>{TODAY}</lastmod></url>\n' for c in PAGES.values())
+urls += ''.join(f'  <url><loc>{abs_url(p["url"])}</loc><lastmod>{TODAY}</lastmod><image:image><image:loc>{abs_url(p["gallery"][0])}</image:loc></image:image></url>\n' for p in products if p.get('gallery'))
 (ROOT / 'sitemap.xml').write_text(
-    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + '</urlset>\n',
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + urls + '</urlset>\n',
     encoding='utf-8')
 
 # robots.txt — permitir buscadores y asistentes de IA
@@ -260,7 +261,7 @@ for cat in ('cocina', 'jardin'):
         if p['category'] != cat:
             continue
         st = '' if p['availability'] == 'in_stock' else ' (próximo ingreso)'
-        lines.append(f'- {p["name"].strip()} [{p["sku"]}]{st}: {p["shortDescription"].strip()}')
+        lines.append(f'- [{p["name"].strip()}]({abs_url(p["url"])}) [{p["sku"]}]{st}: {(p["shortDescription"].strip() or p["description"].split(". ")[0]).rstrip(".")}')
     lines.append('')
 (ROOT / 'llms.txt').write_text('\n'.join(lines), encoding='utf-8')
 
