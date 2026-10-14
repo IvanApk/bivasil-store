@@ -287,7 +287,7 @@ def render(p):
     <h2 class="h-section" style="color: var(--blanco-roto); margin-top: 20px;">Tres pasos, desde cualquier provincia.</h2>
     <div class="pd-how-grid">
       <div class="pd-how-step"><div class="n">01</div><h3>Escribinos</h3><p>Por WhatsApp o mail, contanos qué comercio tenés y qué productos te interesan.</p></div>
-      <div class="pd-how-step"><div class="n">02</div><h3>Te pasamos lista</h3><p>Precios mayoristas, stock real y fotos. En la Costa Atlántica, también visita con muestra.</p></div>
+      <div class="pd-how-step"><div class="n">02</div><h3>Te pasamos lista</h3><p>Precios mayoristas y stock real. Pedido mínimo $300.000, combinando productos. Pago por transferencia o Mercado Pago, con Factura A.</p></div>
       <div class="pd-how-step"><div class="n">03</div><h3>Despachamos</h3><p>Stock propio en Argentina. Enviamos a todo el país; en la Costa Atlántica, 24–72 hs.</p></div>
     </div>
   </div>

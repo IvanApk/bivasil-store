@@ -112,7 +112,7 @@ def faq_entities(t):
     """Preguntas y respuestas tomadas del propio HTML (<details class="faq">)."""
     out = []
     for q, a in re.findall(r'<details class="faq[^"]*">\s*<summary>(.*?)</summary>\s*<div class="faq-a">(.*?)</div>\s*</details>', t, re.S):
-        clean = lambda s: html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', s))).strip()
+        clean = lambda s: html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', s))).strip()
         out.append({"@type": "Question", "name": clean(q), "acceptedAnswer": {"@type": "Answer", "text": clean(a)}})
     return out
 
@@ -269,6 +269,9 @@ lines = [
     '- Cobertura: todo el país. Visitas con muestra en Mar del Plata y la Costa Atlántica; entrega 24–72 h en esa zona.',
     f'- Contacto: WhatsApp {PHONE} · {EMAIL} · Instagram {IG}',
     '- Horario: lunes a viernes, 9 a 18 h.',
+    '- Pedido mínimo: $300.000 por compra (se pueden combinar productos).',
+    '- Formas de pago: transferencia bancaria, Mercado Pago o a convenir.',
+    '- Facturación: emite Factura A.',
     '- Cómo comprar: escribir por WhatsApp indicando tipo de comercio → BIVA envía lista con precios mayoristas y stock → despacho.', '',
     '## Páginas',
     f'- [Inicio y catálogo completo]({BASE}/)',
