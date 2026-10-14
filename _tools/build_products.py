@@ -13,7 +13,12 @@ OUT = ROOT / 'productos'
 
 data = json.loads((ROOT / 'products.json').read_text(encoding='utf-8'))
 site = data['site']
-products = data['products']
+all_products = data['products']
+# solo lo publicado y con fotos
+products = [p for p in all_products if p.get('published', True) and p.get('gallery')]
+
+STATUS = {'in_stock': 'En stock', 'out_of_stock': 'Sin stock', 'pre_order': 'Próximo ingreso'}
+CTA = {'out_of_stock': 'Avisame cuando haya stock', 'pre_order': 'Reservar / consultar ingreso'}
 PHONE = site['contact']['whatsapp']
 WA = PHONE.lstrip('+')
 EMAIL = site['contact']['email']
@@ -61,7 +66,12 @@ def meta_desc(p):
 
 
 def wa_link(p):
-    msg = f'Hola BIVA. Quería consultar por: {clean_name(p)} ({p["sku"]}). ¿Me pasan precio mayorista y stock?'
+    if p['availability'] == 'out_of_stock':
+        msg = f'Hola BIVA. Me interesa {clean_name(p)} ({p["sku"]}). ¿Me avisan cuando vuelva a haber stock?'
+    elif p['availability'] == 'pre_order':
+        msg = f'Hola BIVA. Me interesa {clean_name(p)} ({p["sku"]}), próximo ingreso. ¿Me pasan fecha estimada y precio mayorista?'
+    else:
+        msg = f'Hola BIVA. Quería consultar por: {clean_name(p)} ({p["sku"]}). ¿Me pasan precio mayorista y stock?'
     return f'https://wa.me/{WA}?text={urllib.parse.quote(msg)}'
 
 
@@ -99,7 +109,7 @@ def ld_json(p):
         "offers": {
             "@type": "Offer",
             "url": url,
-            "availability": "https://schema.org/InStock" if p['availability'] == 'in_stock' else "https://schema.org/PreOrder",
+            "availability": {"in_stock": "https://schema.org/InStock", "out_of_stock": "https://schema.org/OutOfStock"}.get(p['availability'], "https://schema.org/PreOrder"),
             "priceCurrency": site.get('currency', 'ARS'),
             "eligibleCustomerType": "http://purl.org/goodrelations/v1#Business",
             "areaServed": {"@type": "Country", "name": "Argentina"},
@@ -147,11 +157,13 @@ def render(p):
                  + ''.join(f'<li>{e(f)}</li>' for f in p['features']) + '</ul></div>')
 
     specs = [('SKU', p['sku']), ('Categoría', cat['long']),
-             ('Disponibilidad', 'En stock' if in_stock else 'Próximo ingreso')]
+             ('Disponibilidad', STATUS.get(p['availability'], 'En stock'))]
     if p.get('materials'):
         specs.append(('Materiales', ', '.join(p['materials']).capitalize()))
     if p.get('useCases'):
         specs.append(('Ideal para', ', '.join(p['useCases']).capitalize()))
+    if p.get('dimensions'):
+        specs.append(('Medidas', p['dimensions']))
     if p.get('packSize'):
         specs.append(('Unidades por bulto', p['packSize']))
     if p.get('minOrder'):
@@ -242,12 +254,12 @@ def render(p):
         <h1 class="pd-title">{e(title_main)}{f' <em>{e(title_sub)}</em>' if title_sub else ''}</h1>
         <p class="h-tagline pd-lead">{e(lead(p))}</p>
         <div class="pd-pills">
-          <span class="pill{'' if in_stock else ' pd-pill-next'}">{'En stock' if in_stock else 'Próximo ingreso'}</span>
+          <span class="pill{'' if in_stock else ' pd-pill-next'}">{STATUS.get(p['availability'], 'En stock')}</span>
           <span class="pill">Solo mayoristas</span>
           <span class="pill">Envíos a todo el país</span>
         </div>
         <div class="pd-actions">
-          <a class="btn btn-dark" href="{e(wa_link(p))}" target="_blank" rel="noopener">Pedir precio mayorista {ARROW}</a>
+          <a class="btn btn-dark" href="{e(wa_link(p))}" target="_blank" rel="noopener">{CTA.get(p['availability'], 'Pedir precio mayorista')} {ARROW}</a>
           <a class="pd-mail" href="{e(mail_link(p))}">o escribinos a {e(EMAIL)}</a>
         </div>
         <p class="pd-note">Te respondemos con precio, stock y costo de envío a tu localidad.</p>

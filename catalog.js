@@ -10,6 +10,8 @@
     try {
       const res = await fetch('/products.json');
       const data = await res.json();
+      // solo productos publicados y con fotos
+      data.products = (data.products || []).filter(p => p.published !== false && (p.thumb || p.image));
       window.BIVA = data;
       return data;
     } catch (e) {

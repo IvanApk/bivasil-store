@@ -1,0 +1,93 @@
+# BIVA · Actualiza la web a partir de la planilla de productos y la publica.
+#
+# Corre: cada hora · a mano (Actions → "Actualizar productos" → Run workflow)
+#        · y cada vez que se sube algo a main (fotos nuevas, cambios de texto…).
+#
+# Configuración (una sola vez):
+#   Settings → Secrets and variables → Actions → Variables → New repository variable
+#     Nombre: SHEET_CSV_URL   Valor: el link "Publicar en la web → CSV" de la planilla
+#   Settings → Pages → Build and deployment → Source: "GitHub Actions"
+
+name: Actualizar productos
+
+on:
+  schedule:
+    - cron: '17 * * * *'      # cada hora (hora UTC)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    outputs:
+      publicar: ${{ steps.guardar.outputs.publicar }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install pillow openpyxl
+
+      - name: Leer la planilla
+        env:
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL }}
+        run: python3 _tools/sync_sheet.py
+
+      - name: Generar fotos, páginas y SEO
+        run: python3 _tools/build.py
+
+      - name: Guardar cambios en el repositorio
+        id: guardar
+        run: |
+          git config user.name  "biva-bot"
+          git config user.email "biva-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios."
+            # las corridas horarias sin cambios no vuelven a publicar
+            if [ "${{ github.event_name }}" = "schedule" ]; then echo "publicar=no" >> "$GITHUB_OUTPUT"; else echo "publicar=si" >> "$GITHUB_OUTPUT"; fi
+          else
+            git commit -m "Actualización automática de productos"
+            git pull --rebase --autostash
+            git push
+            echo "publicar=si" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preparar sitio (sin carpetas internas)
+        if: steps.guardar.outputs.publicar == 'si'
+        run: |
+          mkdir -p _site
+          rsync -a --delete \
+            --exclude '.git' --exclude '.github' --exclude '_site' \
+            --exclude '_tools' --exclude '_fotos' --exclude '*.xlsx' --exclude '.huellas.json' \
+            ./ _site/
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.guardar.outputs.publicar == 'si'
+        with:
+          path: _site
+
+  publicar:
+    needs: construir
+    if: needs.construir.outputs.publicar == 'si'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
