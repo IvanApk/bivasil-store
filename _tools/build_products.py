@@ -203,6 +203,7 @@ def render(p):
 <meta property="og:image" content="{og_img}" />
 <meta name="twitter:card" content="summary_large_image" />
 <script type="application/ld+json">{ld_json(p)}</script>
+<script src="/analytics.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -224,6 +225,7 @@ def render(p):
       <a href="/">Inicio</a>
       <a href="/cocina.html"{' class="active"' if p['category'] == 'cocina' else ''}>Cocina</a>
       <a href="/jardin.html"{' class="active"' if p['category'] == 'jardin' else ''}>Jardín</a>
+      <a href="/novedades/">Novedades</a>
       <a href="/nosotros.html">Nosotros</a>
       <a href="/contacto.html">Contacto</a>
     </div>
@@ -322,6 +324,7 @@ def render(p):
       <h4>Empresa</h4>
       <ul>
         <li><a href="/nosotros.html">Nosotros</a></li>
+        <li><a href="/novedades/">Novedades</a></li>
         <li><a href="/contacto.html">Contacto</a></li>
         <li><a href="/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
       </ul>
