@@ -122,7 +122,8 @@ def ld_json(p):
         prod["keywords"] = ", ".join(p['tags'])
     graph = [
         {"@type": "Organization", "@id": BASE + "/#org", "name": "BIVA", "url": BASE + "/",
-         "email": EMAIL, "telephone": PHONE, "sameAs": [IG]},
+         "email": EMAIL, "telephone": PHONE, "sameAs": [IG],
+         "logo": BASE + "/logo-512.png"},
         prod,
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE + "/"},
@@ -188,9 +189,11 @@ def render(p):
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#333330" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta property="og:type" content="product" />
 <meta property="og:site_name" content="BIVA" />
 <meta property="og:locale" content="es_AR" />
@@ -284,7 +287,7 @@ def render(p):
     <h2 class="h-section" style="color: var(--blanco-roto); margin-top: 20px;">Tres pasos, desde cualquier provincia.</h2>
     <div class="pd-how-grid">
       <div class="pd-how-step"><div class="n">01</div><h3>Escribinos</h3><p>Por WhatsApp o mail, contanos qué comercio tenés y qué productos te interesan.</p></div>
-      <div class="pd-how-step"><div class="n">02</div><h3>Te pasamos lista</h3><p>Precios mayoristas, stock real y fotos. En la Costa Atlántica, también visita con muestra.</p></div>
+      <div class="pd-how-step"><div class="n">02</div><h3>Te pasamos lista</h3><p>Precios mayoristas y stock real. Pedido mínimo $300.000, combinando productos. Pago por transferencia o Mercado Pago, con Factura A.</p></div>
       <div class="pd-how-step"><div class="n">03</div><h3>Despachamos</h3><p>Stock propio en Argentina. Enviamos a todo el país; en la Costa Atlántica, 24–72 hs.</p></div>
     </div>
   </div>
@@ -320,6 +323,7 @@ def render(p):
       <ul>
         <li><a href="/nosotros.html">Nosotros</a></li>
         <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
       </ul>
     </div>
     <div>

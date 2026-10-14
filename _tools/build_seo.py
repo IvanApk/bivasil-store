@@ -35,6 +35,7 @@ PAGES = {
     'jardin.html':   {'path': '/jardin.html',   'crumb': 'Jardín'},
     'nosotros.html': {'path': '/nosotros.html', 'crumb': 'Nosotros'},
     'contacto.html': {'path': '/contacto.html', 'crumb': 'Contacto'},
+    'preguntas-frecuentes.html': {'path': '/preguntas-frecuentes.html', 'crumb': 'Preguntas frecuentes'},
 }
 
 ORG = {
@@ -43,8 +44,8 @@ ORG = {
     "name": "BIVA",
     "alternateName": ["BIVASIL", "BIVA Importadora"],
     "url": BASE + "/",
-    "logo": BASE + "/apple-touch-icon.png",
-    "image": BASE + "/images/og-biva.jpg",
+    "logo": {"@type": "ImageObject", "url": BASE + "/logo-512.png", "width": 512, "height": 512},
+    "image": BASE + "/images/og-bivasil.jpg",
     "description": site['description'],
     "email": EMAIL,
     "telephone": PHONE,
@@ -102,8 +103,18 @@ def itemlist(items, name):
         "@type": "ItemList",
         "name": name,
         "numberOfItems": len(items),
-        "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": product_ld(p)} for i, p in enumerate(items)]
+        # solo nombre + link: cada producto tiene su página con todos los datos y fotos
+        "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": p['name'].strip(), "url": abs_url(p['url'])} for i, p in enumerate(items)]
     }
+
+
+def faq_entities(t):
+    """Preguntas y respuestas tomadas del propio HTML (<details class="faq">)."""
+    out = []
+    for q, a in re.findall(r'<details class="faq[^"]*">\s*<summary>(.*?)</summary>\s*<div class="faq-a">(.*?)</div>\s*</details>', t, re.S):
+        clean = lambda s: html.unescape(re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', s))).strip()
+        out.append({"@type": "Question", "name": clean(q), "acceptedAnswer": {"@type": "Answer", "text": clean(a)}})
+    return out
 
 
 def page_meta(fname, t):
@@ -117,7 +128,12 @@ def head_block(fname, t):
     cfg = PAGES[fname]
     url = BASE + cfg['path']
     title, desc = page_meta(fname, t)
-    graph = [ORG]
+    graph = [ORG, {"@type": "WebPage", "@id": url + "#page", "url": url, "name": title, "inLanguage": "es-AR",
+             "isPartOf": {"@id": BASE + "/#web"}, "about": {"@id": BASE + "/#org"},
+             "primaryImageOfPage": {"@type": "ImageObject", "url": BASE + "/images/og-bivasil.jpg", "width": 1200, "height": 630}}]
+    faq = faq_entities(t)
+    if faq:
+        graph.append({"@type": "FAQPage", "@id": url + "#faq", "mainEntity": faq})
     if fname == 'index.html':
         graph.append({"@type": "WebSite", "@id": BASE + "/#web", "url": BASE + "/", "name": "BIVA",
                       "inLanguage": "es-AR", "publisher": {"@id": BASE + "/#org"}})
@@ -135,21 +151,27 @@ def head_block(fname, t):
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#333330" />
-<link rel="icon" href="favicon.svg" type="image/svg+xml" />
-<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
-<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="BIVA" />
 <meta property="og:locale" content="es_AR" />
 <meta property="og:title" content="{e(title, quote=True)}" />
 <meta property="og:description" content="{e(html.unescape(desc), quote=True)}" />
 <meta property="og:url" content="{url}" />
-<meta property="og:image" content="{BASE}/images/og-biva.jpg" />
+<meta property="og:image" content="{BASE}/images/og-bivasil.jpg" />
+<meta property="og:image:secure_url" content="{BASE}/images/og-bivasil.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content="BIVA · Importador mayorista de cocina, bazar y jardín" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="{BASE}/images/og-biva.jpg" />
+<meta name="twitter:image" content="{BASE}/images/og-bivasil.jpg" />
+<meta name="thumbnail" content="{BASE}/images/og-bivasil.jpg" />
+<link rel="image_src" href="{BASE}/images/og-bivasil.jpg" />
 <script type="application/ld+json">{ld}</script>
 <!-- SEO:END -->'''
 
@@ -247,13 +269,17 @@ lines = [
     '- Cobertura: todo el país. Visitas con muestra en Mar del Plata y la Costa Atlántica; entrega 24–72 h en esa zona.',
     f'- Contacto: WhatsApp {PHONE} · {EMAIL} · Instagram {IG}',
     '- Horario: lunes a viernes, 9 a 18 h.',
+    '- Pedido mínimo: $300.000 por compra (se pueden combinar productos).',
+    '- Formas de pago: transferencia bancaria, Mercado Pago o a convenir.',
+    '- Facturación: emite Factura A.',
     '- Cómo comprar: escribir por WhatsApp indicando tipo de comercio → BIVA envía lista con precios mayoristas y stock → despacho.', '',
     '## Páginas',
     f'- [Inicio y catálogo completo]({BASE}/)',
     f'- [Cocina y bazar]({BASE}/cocina.html)',
     f'- [Jardín]({BASE}/jardin.html)',
     f'- [Nosotros]({BASE}/nosotros.html)',
-    f'- [Contacto]({BASE}/contacto.html)', '',
+    f'- [Contacto]({BASE}/contacto.html)',
+    f'- [Preguntas frecuentes: cómo comprar por mayor, envíos, precios]({BASE}/preguntas-frecuentes.html)', '',
 ]
 for cat in ('cocina', 'jardin'):
     lines.append(f'## Catálogo · {CAT_LABEL[cat]}')
