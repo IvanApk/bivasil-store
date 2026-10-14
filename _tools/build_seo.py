@@ -173,6 +173,7 @@ def head_block(fname, t):
 <meta name="thumbnail" content="{BASE}/images/og-bivasil.jpg" />
 <link rel="image_src" href="{BASE}/images/og-bivasil.jpg" />
 <script type="application/ld+json">{ld}</script>
+<script src="/analytics.js" defer></script>
 <!-- SEO:END -->'''
 
 
@@ -227,6 +228,12 @@ for fname in PAGES:
 
 # sitemap.xml
 urls = ''.join(f'  <url><loc>{BASE}{c["path"]}</loc><lastmod>{TODAY}</lastmod></url>\n' for c in PAGES.values())
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location('build_news', str(pathlib.Path(__file__).parent / 'build_news.py'))
+_bn = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_bn)
+POSTS = _bn.load_posts()
+urls += f'  <url><loc>{BASE}/novedades/</loc><lastmod>{TODAY}</lastmod></url>\n'
+urls += ''.join(f'  <url><loc>{BASE}/novedades/{p["slug"]}/</loc><lastmod>{p["fecha"].isoformat()}</lastmod></url>\n' for p in POSTS)
 urls += ''.join(f'  <url><loc>{abs_url(p["url"])}</loc><lastmod>{TODAY}</lastmod><image:image><image:loc>{abs_url(p["gallery"][0])}</image:loc></image:image></url>\n' for p in products if p.get('gallery'))
 (ROOT / 'sitemap.xml').write_text(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + urls + '</urlset>\n',
@@ -279,8 +286,13 @@ lines = [
     f'- [Jardín]({BASE}/jardin.html)',
     f'- [Nosotros]({BASE}/nosotros.html)',
     f'- [Contacto]({BASE}/contacto.html)',
+    f'- [Novedades: llegadas y productos nuevos]({BASE}/novedades/)',
     f'- [Preguntas frecuentes: cómo comprar por mayor, envíos, precios]({BASE}/preguntas-frecuentes.html)', '',
 ]
+if POSTS:
+    lines.append('## Últimas novedades')
+    lines += [f'- {p["fecha"].isoformat()} · [{p["titulo"]}]({BASE}/novedades/{p["slug"]}/): {p["resumen"]}' for p in POSTS[:10]]
+    lines.append('')
 for cat in ('cocina', 'jardin'):
     lines.append(f'## Catálogo · {CAT_LABEL[cat]}')
     for p in products:
