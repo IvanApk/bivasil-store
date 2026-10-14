@@ -122,7 +122,8 @@ def ld_json(p):
         prod["keywords"] = ", ".join(p['tags'])
     graph = [
         {"@type": "Organization", "@id": BASE + "/#org", "name": "BIVA", "url": BASE + "/",
-         "email": EMAIL, "telephone": PHONE, "sameAs": [IG]},
+         "email": EMAIL, "telephone": PHONE, "sameAs": [IG],
+         "logo": BASE + "/logo-512.png"},
         prod,
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE + "/"},
@@ -188,9 +189,11 @@ def render(p):
 <link rel="canonical" href="{url}" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#333330" />
+<link rel="icon" href="/favicon.ico" sizes="48x48" />
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
 <meta property="og:type" content="product" />
 <meta property="og:site_name" content="BIVA" />
 <meta property="og:locale" content="es_AR" />
@@ -320,6 +323,7 @@ def render(p):
       <ul>
         <li><a href="/nosotros.html">Nosotros</a></li>
         <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
       </ul>
     </div>
     <div>

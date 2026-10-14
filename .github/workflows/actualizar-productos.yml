@@ -91,3 +91,13 @@ jobs:
     steps:
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      # Avisa a Bing (que alimenta la búsqueda de ChatGPT, Copilot y otros) que hay páginas nuevas o cambiadas
+      - name: Avisar a buscadores (IndexNow)
+        continue-on-error: true
+        run: |
+          sleep 20
+          URLS=$(curl -s https://bivasil.com/sitemap.xml | grep -o '<loc>[^<]*</loc>' | sed 's#</\?loc>##g' | head -500 | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          curl -s -o /dev/null -w "IndexNow: %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            -d "{\"host\":\"bivasil.com\",\"key\":\"d96c737b09038f8f3ba9c69738993cf7\",\"keyLocation\":\"https://bivasil.com/d96c737b09038f8f3ba9c69738993cf7.txt\",\"urlList\":$URLS}"
