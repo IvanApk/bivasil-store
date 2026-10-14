@@ -39,7 +39,7 @@
         "magnético",
         "set"
       ],
-      "availability": "in_stock",
+      "availability": "out_of_stock",
       "published": true,
       "imageFit": "contain",
       "wholesaleOnly": true,
