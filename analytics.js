@@ -13,8 +13,8 @@
      search_select   · producto elegido desde el buscador
    ───────────────────────────────────────────────────────────── */
 (function () {
-  var GA_ID = '';
-  var CLARITY_ID = '';
+  var GA_ID = 'G-RXC32V3Y2S';
+  var CLARITY_ID = 'yxmoq1ccux';
 
   if (location.hostname !== 'bivasil.com' && location.hostname !== 'www.bivasil.com') return; // no medir pruebas locales
 
