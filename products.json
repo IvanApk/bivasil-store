@@ -3035,6 +3035,86 @@
       "url": "/productos/set-nordico-cajas-de-madera/"
     },
     {
+      "id": "contenedores-de-vidrio-tapa-verde",
+      "sku": "BV-COC-82",
+      "slug": "contenedores-de-vidrio-tapa-verde",
+      "name": "Contenedores de Vidrio · Tapa Verde",
+      "shortDescription": "Set de contenedores de vidrio con tapas verdes, en formato rectangular, redondo y cuadrado.",
+      "description": "Set de contenedores de vidrio con tapas color verde salvia y botón de cierre, en formatos rectangular, redondo y cuadrado de distintos tamaños. Apilables, para guardar, conservar y llevar comida.",
+      "category": "cocina",
+      "tags": [
+        "contenedores",
+        "vidrio",
+        "hermético",
+        "viandas",
+        "organización"
+      ],
+      "availability": "out_of_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "heladera",
+        "viandas",
+        "alacena"
+      ],
+      "materials": [
+        "vidrio"
+      ],
+      "features": [
+        "Tapas con botón de cierre",
+        "Tres formatos",
+        "Apilables"
+      ],
+      "gallery": [
+        "images/p/contenedores-de-vidrio-tapa-verde-1.jpg"
+      ],
+      "thumb": "images/p/contenedores-de-vidrio-tapa-verde-sm.jpg",
+      "image": "images/p/contenedores-de-vidrio-tapa-verde-1.jpg",
+      "url": "/productos/contenedores-de-vidrio-tapa-verde/"
+    },
+    {
+      "id": "contenedores-de-vidrio-smart-lid",
+      "sku": "BV-COC-83",
+      "slug": "contenedores-de-vidrio-smart-lid",
+      "name": "Contenedores de Vidrio · Smart Lid",
+      "shortDescription": "Set de contenedores de vidrio con tapas Smart Lid color petróleo, redondos y rectangulares.",
+      "description": "Set de contenedores de vidrio con tapas Smart Lid color petróleo, en formatos redondo y rectangular. Apilables, para guardar, conservar y llevar comida.",
+      "category": "cocina",
+      "tags": [
+        "contenedores",
+        "vidrio",
+        "hermético",
+        "viandas",
+        "organización"
+      ],
+      "availability": "out_of_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "heladera",
+        "viandas",
+        "alacena"
+      ],
+      "materials": [
+        "vidrio"
+      ],
+      "features": [
+        "Tapas Smart Lid",
+        "Formatos redondo y rectangular",
+        "Apilables"
+      ],
+      "gallery": [
+        "images/p/contenedores-de-vidrio-smart-lid-1.jpg"
+      ],
+      "thumb": "images/p/contenedores-de-vidrio-smart-lid-sm.jpg",
+      "image": "images/p/contenedores-de-vidrio-smart-lid-1.jpg",
+      "url": "/productos/contenedores-de-vidrio-smart-lid/"
+    },
+    {
       "id": "cesto-de-tela-rayado",
       "sku": "BV-HOG-01",
       "slug": "cesto-de-tela-rayado",
