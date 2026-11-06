@@ -4,7 +4,7 @@
 COLUMNS = [
     ('SKU',                 'sku',              13, 'Código único. Es el nombre de la carpeta de fotos: _fotos/<SKU>/. No lo cambies una vez publicado.'),
     ('Nombre',              'name',             38, 'Usá " · " para separar la variante: "Juego de Bowls · Cerámica Blanca".'),
-    ('Categoría',           'category',         12, 'Cocina o Jardín.'),
+    ('Categoría',           'category',         12, 'Cocina, Hogar y Deco o Jardín.'),
     ('Estado',              'availability',     16, 'En stock · Sin stock · Próximo ingreso.'),
     ('Publicado',           'published',        11, 'Sí = aparece en la web. No = oculto (la página deja de existir).'),
     ('Descripción corta',   'shortDescription', 45, 'Una línea. Se ve en el catálogo y debajo del título.'),
@@ -20,6 +20,6 @@ COLUMNS = [
     ('Dirección web',       'slug',             34, 'Se completa sola la primera vez. No la cambies: rompería los links ya compartidos.'),
 ]
 
-CATEGORIES = {'cocina': 'Cocina', 'jardin': 'Jardín'}
+CATEGORIES = {'cocina': 'Cocina', 'hogar': 'Hogar y Deco', 'jardin': 'Jardín'}
 AVAILABILITY = {'in_stock': 'En stock', 'out_of_stock': 'Sin stock', 'pre_order': 'Próximo ingreso'}
 IMAGE_FIT = {'cover': 'Recortada', 'contain': 'Completa'}

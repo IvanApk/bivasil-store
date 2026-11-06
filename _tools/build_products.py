@@ -26,6 +26,7 @@ IG = site['contact']['instagram']
 
 CAT = {
     'cocina': {'label': 'Cocina', 'long': 'Cocina y bazar', 'href': '/cocina.html'},
+    'hogar': {'label': 'Hogar y Deco', 'long': 'Hogar y deco', 'href': '/hogar.html'},
     'jardin': {'label': 'Jardín', 'long': 'Jardín', 'href': '/jardin.html'},
 }
 CUR = ' aria-current="true"'
@@ -224,6 +225,7 @@ def render(p):
     <div class="nav-links">
       <a href="/">Inicio</a>
       <a href="/cocina.html"{' class="active"' if p['category'] == 'cocina' else ''}>Cocina</a>
+      <a href="/hogar.html"{' class="active"' if p['category'] == 'hogar' else ''}>Hogar y Deco</a>
       <a href="/jardin.html"{' class="active"' if p['category'] == 'jardin' else ''}>Jardín</a>
       <a href="/novedades/">Novedades</a>
       <a href="/nosotros.html">Nosotros</a>
@@ -316,6 +318,7 @@ def render(p):
       <h4>Catálogo</h4>
       <ul>
         <li><a href="/cocina.html">Cocina</a></li>
+        <li><a href="/hogar.html">Hogar y Deco</a></li>
         <li><a href="/jardin.html">Jardín</a></li>
         <li><a href="/#catalogo">Todo el catálogo</a></li>
       </ul>

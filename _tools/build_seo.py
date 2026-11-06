@@ -27,11 +27,12 @@ EMAIL = site['contact']['email']
 PHONE = site['contact']['whatsapp']
 IG = site['contact']['instagram']
 
-CAT_LABEL = {'cocina': 'Cocina y bazar', 'jardin': 'Jardín'}
+CAT_LABEL = {'cocina': 'Cocina y bazar', 'hogar': 'Hogar y deco', 'jardin': 'Jardín'}
 
 PAGES = {
     'index.html':    {'path': '/',              'crumb': None},
     'cocina.html':   {'path': '/cocina.html',   'crumb': 'Cocina'},
+    'hogar.html':    {'path': '/hogar.html',    'crumb': 'Hogar y Deco'},
     'jardin.html':   {'path': '/jardin.html',   'crumb': 'Jardín'},
     'nosotros.html': {'path': '/nosotros.html', 'crumb': 'Nosotros'},
     'contacto.html': {'path': '/contacto.html', 'crumb': 'Contacto'},
@@ -50,7 +51,7 @@ ORG = {
     "email": EMAIL,
     "telephone": PHONE,
     "slogan": "Pragmatismo · Diseño · Calidad",
-    "knowsAbout": ["importación de artículos para el hogar", "utensilios de cocina", "bazar", "vajilla", "jardín", "venta mayorista"],
+    "knowsAbout": ["importación de artículos para el hogar", "utensilios de cocina", "bazar", "vajilla", "decoración del hogar", "difusores de aromas", "jardín", "venta mayorista"],
     "address": {
         "@type": "PostalAddress",
         "addressLocality": "Mar del Plata",
@@ -142,7 +143,7 @@ def head_block(fname, t):
         graph.append({"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Inicio", "item": BASE + "/"},
             {"@type": "ListItem", "position": 2, "name": cfg['crumb'], "item": url}]})
-        if fname in ('cocina.html', 'jardin.html'):
+        if fname in ('cocina.html', 'hogar.html', 'jardin.html'):
             cat = fname.split('.')[0]
             graph.append(itemlist([p for p in products if p['category'] == cat], f"{CAT_LABEL[cat]} · catálogo mayorista BIVA"))
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
@@ -219,7 +220,7 @@ for fname in PAGES:
     if fname == 'index.html':
         t = replace_block(t, '<!-- STATIC-CATALOG:START', '<!-- STATIC-CATALOG:END -->',
                           noscript_catalog(products, 'Catálogo mayorista BIVA'), anchor_before='<div class="catalog-empty" hidden>')
-    elif fname in ('cocina.html', 'jardin.html'):
+    elif fname in ('cocina.html', 'hogar.html', 'jardin.html'):
         cat = fname.split('.')[0]
         t = replace_block(t, '<!-- STATIC-CATALOG:START', '<!-- STATIC-CATALOG:END -->',
                           noscript_catalog([x for x in products if x['category'] == cat], CAT_LABEL[cat] + ' por mayor'),
@@ -267,7 +268,7 @@ Sitemap: {BASE}/sitemap.xml
 lines = [
     '# BIVA', '',
     '> BIVA (BIVASIL) es una importadora y distribuidora mayorista argentina de artículos para el hogar: '
-    'utensilios de cocina, bazar, vajilla, organización y jardín. Base y depósito en Mar del Plata, '
+    'utensilios de cocina, bazar, vajilla, organización, hogar y deco, y jardín. Base y depósito en Mar del Plata, '
     'provincia de Buenos Aires. Vende solo a comercios (bazares, ferreterías, casas de cocina, tiendas de deco) '
     'y hace envíos a todo el país. Precios mayoristas a pedido.', '',
     '## Datos clave',
@@ -283,6 +284,7 @@ lines = [
     '## Páginas',
     f'- [Inicio y catálogo completo]({BASE}/)',
     f'- [Cocina y bazar]({BASE}/cocina.html)',
+    f'- [Hogar y deco]({BASE}/hogar.html)',
     f'- [Jardín]({BASE}/jardin.html)',
     f'- [Nosotros]({BASE}/nosotros.html)',
     f'- [Contacto]({BASE}/contacto.html)',
@@ -293,7 +295,7 @@ if POSTS:
     lines.append('## Últimas novedades')
     lines += [f'- {p["fecha"].isoformat()} · [{p["titulo"]}]({BASE}/novedades/{p["slug"]}/): {p["resumen"]}' for p in POSTS[:10]]
     lines.append('')
-for cat in ('cocina', 'jardin'):
+for cat in ('cocina', 'hogar', 'jardin'):
     lines.append(f'## Catálogo · {CAT_LABEL[cat]}')
     for p in products:
         if p['category'] != cat:
