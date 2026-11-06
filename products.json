@@ -2166,6 +2166,1166 @@
       "url": "/productos/juego-de-contenedores-organizador-transparente/"
     },
     {
+      "id": "bandeja-redonda-blanca",
+      "sku": "BV-COC-58",
+      "slug": "bandeja-redonda-blanca",
+      "name": "Bandeja Redonda · Blanca",
+      "shortDescription": "Bandeja redonda con base de madera y borde blanco con asas.",
+      "description": "Bandeja redonda con base de madera y borde blanco con asas laterales. Práctica para servir y decorativa sobre la mesa o el desayunador.",
+      "category": "cocina",
+      "tags": [
+        "bandeja",
+        "servir",
+        "deco",
+        "madera"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "servir",
+        "mesa",
+        "decoración"
+      ],
+      "materials": [
+        "madera"
+      ],
+      "features": [
+        "Asas laterales",
+        "Base de madera"
+      ],
+      "gallery": [
+        "images/p/bandeja-redonda-blanca-1.jpg"
+      ],
+      "thumb": "images/p/bandeja-redonda-blanca-sm.jpg",
+      "image": "images/p/bandeja-redonda-blanca-1.jpg",
+      "url": "/productos/bandeja-redonda-blanca/"
+    },
+    {
+      "id": "bandeja-redonda-negra",
+      "sku": "BV-COC-59",
+      "slug": "bandeja-redonda-negra",
+      "name": "Bandeja Redonda · Negra",
+      "shortDescription": "Bandeja redonda con base de madera y borde negro con asas.",
+      "description": "Bandeja redonda con base de madera y borde negro con asas laterales. Práctica para servir y decorativa sobre la mesa o el desayunador.",
+      "category": "cocina",
+      "tags": [
+        "bandeja",
+        "servir",
+        "deco",
+        "madera"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "servir",
+        "mesa",
+        "decoración"
+      ],
+      "materials": [
+        "madera"
+      ],
+      "features": [
+        "Asas laterales",
+        "Base de madera"
+      ],
+      "gallery": [
+        "images/p/bandeja-redonda-negra-1.jpg"
+      ],
+      "thumb": "images/p/bandeja-redonda-negra-sm.jpg",
+      "image": "images/p/bandeja-redonda-negra-1.jpg",
+      "url": "/productos/bandeja-redonda-negra/"
+    },
+    {
+      "id": "bowl-de-acero-con-medidor",
+      "sku": "BV-COC-60",
+      "slug": "bowl-de-acero-con-medidor",
+      "name": "Bowl de Acero · Con Medidor",
+      "shortDescription": "Bowl de acero inoxidable con marcas de medida en el interior.",
+      "description": "Bowl de acero inoxidable con escala de medida grabada en el interior, para mezclar y medir en un solo recipiente.",
+      "category": "cocina",
+      "tags": [
+        "bowl",
+        "acero",
+        "medidor",
+        "repostería"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "mezclar",
+        "medir",
+        "preparar"
+      ],
+      "materials": [
+        "acero inoxidable"
+      ],
+      "features": [
+        "Escala de medida interior"
+      ],
+      "gallery": [
+        "images/p/bowl-de-acero-con-medidor-1.jpg"
+      ],
+      "thumb": "images/p/bowl-de-acero-con-medidor-sm.jpg",
+      "image": "images/p/bowl-de-acero-con-medidor-1.jpg",
+      "url": "/productos/bowl-de-acero-con-medidor/"
+    },
+    {
+      "id": "canasto-metalico-asas-de-madera",
+      "sku": "BV-COC-61",
+      "slug": "canasto-metalico-asas-de-madera",
+      "name": "Canasto Metálico · Asas de Madera",
+      "shortDescription": "Canasto de malla metálica negra con asas de madera.",
+      "description": "Canasto de malla metálica negra con asas de madera. Ideal para ordenar alacenas, frutas y verduras o artículos de limpieza.",
+      "category": "cocina",
+      "tags": [
+        "canasto",
+        "organizador",
+        "metal",
+        "malla"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "frutas y verduras",
+        "organización"
+      ],
+      "materials": [
+        "metal",
+        "madera"
+      ],
+      "features": [
+        "Asas de madera",
+        "Malla metálica"
+      ],
+      "gallery": [
+        "images/p/canasto-metalico-asas-de-madera-1.jpg"
+      ],
+      "thumb": "images/p/canasto-metalico-asas-de-madera-sm.jpg",
+      "image": "images/p/canasto-metalico-asas-de-madera-1.jpg",
+      "url": "/productos/canasto-metalico-asas-de-madera/"
+    },
+    {
+      "id": "colador-de-acero-negro",
+      "sku": "BV-COC-62",
+      "slug": "colador-de-acero-negro",
+      "name": "Colador de Acero · Negro",
+      "shortDescription": "Colador de acero negro con asas laterales y base de apoyo.",
+      "description": "Colador de acero color negro con asas laterales y base de apoyo, para escurrir pastas, verduras y frutas.",
+      "category": "cocina",
+      "tags": [
+        "colador",
+        "escurridor",
+        "acero",
+        "negro"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "pastas",
+        "verduras",
+        "frutas"
+      ],
+      "materials": [
+        "acero"
+      ],
+      "features": [
+        "Asas laterales",
+        "Base de apoyo"
+      ],
+      "gallery": [
+        "images/p/colador-de-acero-negro-1.jpg"
+      ],
+      "thumb": "images/p/colador-de-acero-negro-sm.jpg",
+      "image": "images/p/colador-de-acero-negro-1.jpg",
+      "url": "/productos/colador-de-acero-negro/"
+    },
+    {
+      "id": "colador-extensible-para-bacha",
+      "sku": "BV-COC-63",
+      "slug": "colador-extensible-para-bacha",
+      "name": "Colador Extensible · Para Bacha",
+      "shortDescription": "Colador extensible que se apoya sobre la bacha, en tres colores.",
+      "description": "Colador extensible que se apoya sobre la bacha para lavar frutas y verduras o escurrir vajilla. Disponible en celeste, verde y rosa.",
+      "category": "cocina",
+      "tags": [
+        "colador",
+        "extensible",
+        "bacha",
+        "escurridor"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "frutas y verduras",
+        "vajilla"
+      ],
+      "materials": [],
+      "features": [
+        "Se extiende para apoyar sobre la bacha",
+        "Tres colores"
+      ],
+      "gallery": [
+        "images/p/colador-extensible-para-bacha-1.jpg"
+      ],
+      "thumb": "images/p/colador-extensible-para-bacha-sm.jpg",
+      "image": "images/p/colador-extensible-para-bacha-1.jpg",
+      "url": "/productos/colador-extensible-para-bacha/"
+    },
+    {
+      "id": "escurridor-nara",
+      "sku": "BV-COC-64",
+      "slug": "escurridor-nara",
+      "name": "Escurridor Nara",
+      "shortDescription": "Escurridor de platos compacto con separadores, portacubiertos y bandeja.",
+      "description": "Escurridor de platos compacto color gris, con separadores para platos, compartimento para cubiertos y bandeja recolectora.",
+      "category": "cocina",
+      "tags": [
+        "escurridor",
+        "platos",
+        "organizador"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla",
+        "cocinas chicas"
+      ],
+      "materials": [],
+      "features": [
+        "Separadores para platos",
+        "Portacubiertos",
+        "Bandeja recolectora"
+      ],
+      "gallery": [
+        "images/p/escurridor-nara-1.jpg"
+      ],
+      "thumb": "images/p/escurridor-nara-sm.jpg",
+      "image": "images/p/escurridor-nara-1.jpg",
+      "url": "/productos/escurridor-nara/"
+    },
+    {
+      "id": "escurridor-de-metal-blanco",
+      "sku": "BV-COC-65",
+      "slug": "escurridor-de-metal-blanco",
+      "name": "Escurridor de Metal · Blanco",
+      "shortDescription": "Escurridor de platos de metal blanco con asas de madera.",
+      "description": "Escurridor de platos de metal blanco con asas de madera, portacubiertos y bandeja recolectora.",
+      "category": "cocina",
+      "tags": [
+        "escurridor",
+        "platos",
+        "metal"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla"
+      ],
+      "materials": [
+        "metal",
+        "madera"
+      ],
+      "features": [
+        "Asas de madera",
+        "Portacubiertos",
+        "Bandeja recolectora"
+      ],
+      "gallery": [
+        "images/p/escurridor-de-metal-blanco-1.jpg"
+      ],
+      "thumb": "images/p/escurridor-de-metal-blanco-sm.jpg",
+      "image": "images/p/escurridor-de-metal-blanco-1.jpg",
+      "url": "/productos/escurridor-de-metal-blanco/"
+    },
+    {
+      "id": "escurridor-de-metal-negro",
+      "sku": "BV-COC-66",
+      "slug": "escurridor-de-metal-negro",
+      "name": "Escurridor de Metal · Negro",
+      "shortDescription": "Escurridor de platos de metal negro con asas de madera.",
+      "description": "Escurridor de platos de metal negro con asas de madera, portacubiertos y bandeja recolectora.",
+      "category": "cocina",
+      "tags": [
+        "escurridor",
+        "platos",
+        "metal"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla"
+      ],
+      "materials": [
+        "metal",
+        "madera"
+      ],
+      "features": [
+        "Asas de madera",
+        "Portacubiertos",
+        "Bandeja recolectora"
+      ],
+      "gallery": [
+        "images/p/escurridor-de-metal-negro-1.jpg"
+      ],
+      "thumb": "images/p/escurridor-de-metal-negro-sm.jpg",
+      "image": "images/p/escurridor-de-metal-negro-1.jpg",
+      "url": "/productos/escurridor-de-metal-negro/"
+    },
+    {
+      "id": "escurridor-de-silicona",
+      "sku": "BV-COC-67",
+      "slug": "escurridor-de-silicona",
+      "name": "Escurridor de Silicona",
+      "shortDescription": "Base de silicona acanalada para secar vajilla, color negro.",
+      "description": "Base de silicona acanalada color negro para apoyar y secar vajilla junto a la bacha.",
+      "category": "cocina",
+      "tags": [
+        "escurridor",
+        "silicona",
+        "secado"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla",
+        "mesada"
+      ],
+      "materials": [
+        "silicona"
+      ],
+      "features": [
+        "Superficie acanalada"
+      ],
+      "gallery": [
+        "images/p/escurridor-de-silicona-1.jpg"
+      ],
+      "thumb": "images/p/escurridor-de-silicona-sm.jpg",
+      "image": "images/p/escurridor-de-silicona-1.jpg",
+      "url": "/productos/escurridor-de-silicona/"
+    },
+    {
+      "id": "frasco-de-vidrio-redondo-750-ml",
+      "sku": "BV-COC-68",
+      "slug": "frasco-de-vidrio-redondo-750-ml",
+      "name": "Frasco de Vidrio Redondo · 750 ml",
+      "shortDescription": "Frasco de vidrio redondo de 750 ml con tapa de bambú.",
+      "description": "Frasco de vidrio redondo de 750 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "café",
+        "legumbres",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-redondo-750-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-redondo-750-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-redondo-750-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-redondo-750-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-redondo-950-ml",
+      "sku": "BV-COC-69",
+      "slug": "frasco-de-vidrio-redondo-950-ml",
+      "name": "Frasco de Vidrio Redondo · 950 ml",
+      "shortDescription": "Frasco de vidrio redondo de 950 ml con tapa de bambú.",
+      "description": "Frasco de vidrio redondo de 950 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "café",
+        "legumbres",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-redondo-950-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-redondo-950-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-redondo-950-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-redondo-950-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-redondo-1300-ml",
+      "sku": "BV-COC-70",
+      "slug": "frasco-de-vidrio-redondo-1300-ml",
+      "name": "Frasco de Vidrio Redondo · 1300 ml",
+      "shortDescription": "Frasco de vidrio redondo de 1300 ml con tapa de bambú.",
+      "description": "Frasco de vidrio redondo de 1300 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "café",
+        "legumbres",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-redondo-1300-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-redondo-1300-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-redondo-1300-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-redondo-1300-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-redondo-1600-ml",
+      "sku": "BV-COC-71",
+      "slug": "frasco-de-vidrio-redondo-1600-ml",
+      "name": "Frasco de Vidrio Redondo · 1600 ml",
+      "shortDescription": "Frasco de vidrio redondo de 1600 ml con tapa de bambú.",
+      "description": "Frasco de vidrio redondo de 1600 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "harinas",
+        "pastas",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-redondo-1600-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-redondo-1600-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-redondo-1600-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-redondo-1600-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-cuadrado-450-ml",
+      "sku": "BV-COC-72",
+      "slug": "frasco-de-vidrio-cuadrado-450-ml",
+      "name": "Frasco de Vidrio Cuadrado · 450 ml",
+      "shortDescription": "Frasco de vidrio cuadrado de 450 ml con tapa de bambú.",
+      "description": "Frasco de vidrio cuadrado de 450 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "especias",
+        "semillas"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-cuadrado-450-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-cuadrado-450-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-cuadrado-450-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-cuadrado-450-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-cuadrado-500-ml",
+      "sku": "BV-COC-73",
+      "slug": "frasco-de-vidrio-cuadrado-500-ml",
+      "name": "Frasco de Vidrio Cuadrado · 500 ml",
+      "shortDescription": "Frasco de vidrio cuadrado de 500 ml con tapa de bambú.",
+      "description": "Frasco de vidrio cuadrado de 500 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "especias",
+        "semillas"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-cuadrado-500-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-cuadrado-500-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-cuadrado-500-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-cuadrado-500-ml/"
+    },
+    {
+      "id": "frasco-de-vidrio-cuadrado-16-10-cm",
+      "sku": "BV-COC-74",
+      "slug": "frasco-de-vidrio-cuadrado-16-10-cm",
+      "name": "Frasco de Vidrio Cuadrado · 16 × 10 cm",
+      "shortDescription": "Frasco de vidrio cuadrado de 16 × 10 cm con tapa de bambú.",
+      "description": "Frasco de vidrio cuadrado de 16 × 10 cm con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "café",
+        "legumbres",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-cuadrado-16-10-cm-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-cuadrado-16-10-cm-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-cuadrado-16-10-cm-1.jpg",
+      "url": "/productos/frasco-de-vidrio-cuadrado-16-10-cm/"
+    },
+    {
+      "id": "frasco-de-vidrio-cuadrado-1850-ml",
+      "sku": "BV-COC-75",
+      "slug": "frasco-de-vidrio-cuadrado-1850-ml",
+      "name": "Frasco de Vidrio Cuadrado · 1850 ml",
+      "shortDescription": "Frasco de vidrio cuadrado de 1850 ml con tapa de bambú.",
+      "description": "Frasco de vidrio cuadrado de 1850 ml con tapa de bambú, para guardar y exhibir alimentos secos.",
+      "category": "cocina",
+      "tags": [
+        "frasco",
+        "vidrio",
+        "almacenamiento",
+        "bambú"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "alacena",
+        "harinas",
+        "pastas",
+        "cereales"
+      ],
+      "materials": [
+        "vidrio",
+        "bambú"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/frasco-de-vidrio-cuadrado-1850-ml-1.jpg"
+      ],
+      "thumb": "images/p/frasco-de-vidrio-cuadrado-1850-ml-sm.jpg",
+      "image": "images/p/frasco-de-vidrio-cuadrado-1850-ml-1.jpg",
+      "url": "/productos/frasco-de-vidrio-cuadrado-1850-ml/"
+    },
+    {
+      "id": "alfombra-de-secado-gris",
+      "sku": "BV-COC-76",
+      "slug": "alfombra-de-secado-gris",
+      "name": "Alfombra de Secado · Gris",
+      "shortDescription": "Alfombra absorbente para secar vajilla junto a la bacha.",
+      "description": "Alfombra absorbente color gris para apoyar y secar vajilla sobre la mesada, junto a la bacha.",
+      "category": "cocina",
+      "tags": [
+        "alfombra de secado",
+        "escurridor",
+        "mesada"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla",
+        "mesada"
+      ],
+      "materials": [],
+      "features": [
+        "Absorbente"
+      ],
+      "gallery": [
+        "images/p/alfombra-de-secado-gris-1.jpg"
+      ],
+      "thumb": "images/p/alfombra-de-secado-gris-sm.jpg",
+      "image": "images/p/alfombra-de-secado-gris-1.jpg",
+      "url": "/productos/alfombra-de-secado-gris/"
+    },
+    {
+      "id": "portarrollos-base-de-madera",
+      "sku": "BV-COC-77",
+      "slug": "portarrollos-base-de-madera",
+      "name": "Portarrollos · Base de Madera",
+      "shortDescription": "Portarrollos de cocina con varilla negra y base de madera.",
+      "description": "Portarrollos de cocina de pie, con varilla de metal negro y base de madera.",
+      "category": "cocina",
+      "tags": [
+        "portarrollos",
+        "rollo de cocina",
+        "madera"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "mesada",
+        "rollo de cocina"
+      ],
+      "materials": [
+        "metal",
+        "madera"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/portarrollos-base-de-madera-1.jpg"
+      ],
+      "thumb": "images/p/portarrollos-base-de-madera-sm.jpg",
+      "image": "images/p/portarrollos-base-de-madera-1.jpg",
+      "url": "/productos/portarrollos-base-de-madera/"
+    },
+    {
+      "id": "portarrollos-metal-negro",
+      "sku": "BV-COC-78",
+      "slug": "portarrollos-metal-negro",
+      "name": "Portarrollos · Metal Negro",
+      "shortDescription": "Portarrollos de cocina de metal negro.",
+      "description": "Portarrollos de cocina de pie, en metal negro con base calada.",
+      "category": "cocina",
+      "tags": [
+        "portarrollos",
+        "rollo de cocina",
+        "metal"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "mesada",
+        "rollo de cocina"
+      ],
+      "materials": [
+        "metal"
+      ],
+      "features": [],
+      "gallery": [
+        "images/p/portarrollos-metal-negro-1.jpg"
+      ],
+      "thumb": "images/p/portarrollos-metal-negro-sm.jpg",
+      "image": "images/p/portarrollos-metal-negro-1.jpg",
+      "url": "/productos/portarrollos-metal-negro/"
+    },
+    {
+      "id": "posavasos-hexagonal",
+      "sku": "BV-COC-79",
+      "slug": "posavasos-hexagonal",
+      "name": "Posavasos Hexagonal",
+      "shortDescription": "Posavasos hexagonales calados, en colores surtidos.",
+      "description": "Posavasos de diseño hexagonal calado, en colores surtidos, para proteger mesas y mesadas.",
+      "category": "cocina",
+      "tags": [
+        "posavasos",
+        "deco",
+        "mesa"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "mesa",
+        "living"
+      ],
+      "materials": [],
+      "features": [
+        "Colores surtidos"
+      ],
+      "gallery": [
+        "images/p/posavasos-hexagonal-1.jpg"
+      ],
+      "thumb": "images/p/posavasos-hexagonal-sm.jpg",
+      "image": "images/p/posavasos-hexagonal-1.jpg",
+      "url": "/productos/posavasos-hexagonal/"
+    },
+    {
+      "id": "servilletero-vienna",
+      "sku": "BV-COC-80",
+      "slug": "servilletero-vienna",
+      "name": "Servilletero Vienna",
+      "shortDescription": "Servilletero de metal negro con base de madera y rodillo.",
+      "description": "Servilletero de metal negro con base de madera y rodillo que mantiene las servilletas en su lugar.",
+      "category": "cocina",
+      "tags": [
+        "servilletero",
+        "mesa",
+        "madera"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "mesa",
+        "desayunador"
+      ],
+      "materials": [
+        "metal",
+        "madera"
+      ],
+      "features": [
+        "Rodillo sujetador"
+      ],
+      "gallery": [
+        "images/p/servilletero-vienna-1.jpg"
+      ],
+      "thumb": "images/p/servilletero-vienna-sm.jpg",
+      "image": "images/p/servilletero-vienna-1.jpg",
+      "url": "/productos/servilletero-vienna/"
+    },
+    {
+      "id": "set-nordico-cajas-de-madera",
+      "sku": "BV-COC-81",
+      "slug": "set-nordico-cajas-de-madera",
+      "name": "Set Nórdico · Cajas de Madera",
+      "shortDescription": "Set de bandeja y cajas organizadoras de madera.",
+      "description": "Set de bandeja y cajas organizadoras de madera con calados para tomarlas. Para ordenar alacenas, mesadas y ambientes.",
+      "category": "cocina",
+      "tags": [
+        "cajas",
+        "organizador",
+        "madera",
+        "set"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "organización",
+        "alacena",
+        "deco"
+      ],
+      "materials": [
+        "madera"
+      ],
+      "features": [
+        "Calados para tomar"
+      ],
+      "gallery": [
+        "images/p/set-nordico-cajas-de-madera-1.jpg"
+      ],
+      "thumb": "images/p/set-nordico-cajas-de-madera-sm.jpg",
+      "image": "images/p/set-nordico-cajas-de-madera-1.jpg",
+      "url": "/productos/set-nordico-cajas-de-madera/"
+    },
+    {
+      "id": "cesto-de-tela-rayado",
+      "sku": "BV-HOG-01",
+      "slug": "cesto-de-tela-rayado",
+      "name": "Cesto de Tela · Rayado",
+      "shortDescription": "Cesto de tela rayada con asas marrones.",
+      "description": "Cesto de tela con rayas finas y asas marrones. Para ropa, mantas o juguetes, y para ordenar cualquier ambiente.",
+      "category": "hogar",
+      "tags": [
+        "cesto",
+        "canasto",
+        "tela",
+        "organizador"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "ropa",
+        "mantas",
+        "organización"
+      ],
+      "materials": [
+        "tela"
+      ],
+      "features": [
+        "Asas para transportar"
+      ],
+      "gallery": [
+        "images/p/cesto-de-tela-rayado-1.jpg"
+      ],
+      "thumb": "images/p/cesto-de-tela-rayado-sm.jpg",
+      "image": "images/p/cesto-de-tela-rayado-1.jpg",
+      "url": "/productos/cesto-de-tela-rayado/"
+    },
+    {
+      "id": "cesto-de-tela-velvet",
+      "sku": "BV-HOG-02",
+      "slug": "cesto-de-tela-velvet",
+      "name": "Cesto de Tela · Velvet",
+      "shortDescription": "Cesto de tela texturada color crema con asas marrones.",
+      "description": "Cesto de tela texturada color crema con asas marrones. Para ropa, mantas o juguetes, y para ordenar cualquier ambiente.",
+      "category": "hogar",
+      "tags": [
+        "cesto",
+        "canasto",
+        "tela",
+        "organizador"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "ropa",
+        "mantas",
+        "organización"
+      ],
+      "materials": [
+        "tela"
+      ],
+      "features": [
+        "Asas para transportar"
+      ],
+      "gallery": [
+        "images/p/cesto-de-tela-velvet-1.jpg"
+      ],
+      "thumb": "images/p/cesto-de-tela-velvet-sm.jpg",
+      "image": "images/p/cesto-de-tela-velvet-1.jpg",
+      "url": "/productos/cesto-de-tela-velvet/"
+    },
+    {
+      "id": "difusor-de-aromas-acacia",
+      "sku": "BV-HOG-03",
+      "slug": "difusor-de-aromas-acacia",
+      "name": "Difusor de Aromas · Acacia",
+      "shortDescription": "Difusor de varillas con frasco de vidrio ahumado y tapa de acacia.",
+      "description": "Difusor de aromas de varillas con frasco de vidrio ahumado y tapa de acacia.",
+      "category": "hogar",
+      "tags": [
+        "difusor",
+        "aromas",
+        "deco",
+        "acacia"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "living",
+        "dormitorio",
+        "baño"
+      ],
+      "materials": [
+        "vidrio",
+        "acacia"
+      ],
+      "features": [
+        "Varillas difusoras"
+      ],
+      "gallery": [
+        "images/p/difusor-de-aromas-acacia-1.jpg"
+      ],
+      "thumb": "images/p/difusor-de-aromas-acacia-sm.jpg",
+      "image": "images/p/difusor-de-aromas-acacia-1.jpg",
+      "url": "/productos/difusor-de-aromas-acacia/"
+    },
+    {
+      "id": "difusor-de-aromas-cuadrado",
+      "sku": "BV-HOG-04",
+      "slug": "difusor-de-aromas-cuadrado",
+      "name": "Difusor de Aromas · Cuadrado",
+      "shortDescription": "Difusor de varillas con frasco cuadrado de vidrio texturado.",
+      "description": "Difusor de aromas de varillas con frasco cuadrado de vidrio texturado en tono verde oscuro.",
+      "category": "hogar",
+      "tags": [
+        "difusor",
+        "aromas",
+        "deco"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "living",
+        "dormitorio",
+        "baño"
+      ],
+      "materials": [
+        "vidrio"
+      ],
+      "features": [
+        "Varillas difusoras"
+      ],
+      "gallery": [
+        "images/p/difusor-de-aromas-cuadrado-1.jpg"
+      ],
+      "thumb": "images/p/difusor-de-aromas-cuadrado-sm.jpg",
+      "image": "images/p/difusor-de-aromas-cuadrado-1.jpg",
+      "url": "/productos/difusor-de-aromas-cuadrado/"
+    },
+    {
+      "id": "difusor-de-aromas-vita",
+      "sku": "BV-HOG-05",
+      "slug": "difusor-de-aromas-vita",
+      "name": "Difusor de Aromas · Vita",
+      "shortDescription": "Difusor de varillas naturales con frasco de vidrio y tapa de madera.",
+      "description": "Difusor de aromas con varillas naturales, frasco de vidrio transparente y tapa de madera.",
+      "category": "hogar",
+      "tags": [
+        "difusor",
+        "aromas",
+        "deco"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "living",
+        "dormitorio",
+        "baño"
+      ],
+      "materials": [
+        "vidrio",
+        "madera"
+      ],
+      "features": [
+        "Varillas difusoras"
+      ],
+      "gallery": [
+        "images/p/difusor-de-aromas-vita-1.jpg"
+      ],
+      "thumb": "images/p/difusor-de-aromas-vita-sm.jpg",
+      "image": "images/p/difusor-de-aromas-vita-1.jpg",
+      "url": "/productos/difusor-de-aromas-vita/"
+    },
+    {
+      "id": "difusor-de-aromas-cristal-negro",
+      "sku": "BV-HOG-06",
+      "slug": "difusor-de-aromas-cristal-negro",
+      "name": "Difusor de Aromas · Cristal Negro",
+      "shortDescription": "Difusor de varillas negras con frasco de cristal ahumado.",
+      "description": "Difusor de aromas de varillas negras con frasco de cristal ahumado.",
+      "category": "hogar",
+      "tags": [
+        "difusor",
+        "aromas",
+        "deco"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "living",
+        "dormitorio",
+        "baño"
+      ],
+      "materials": [
+        "cristal"
+      ],
+      "features": [
+        "Varillas difusoras"
+      ],
+      "gallery": [
+        "images/p/difusor-de-aromas-cristal-negro-1.jpg"
+      ],
+      "thumb": "images/p/difusor-de-aromas-cristal-negro-sm.jpg",
+      "image": "images/p/difusor-de-aromas-cristal-negro-1.jpg",
+      "url": "/productos/difusor-de-aromas-cristal-negro/"
+    },
+    {
+      "id": "dispenser-wolf-natural",
+      "sku": "BV-HOG-07",
+      "slug": "dispenser-wolf-natural",
+      "name": "Dispenser Wolf · Natural",
+      "shortDescription": "Dispenser de jabón con portaesponja integrado, color natural.",
+      "description": "Dispenser de jabón o detergente con portaesponja integrado y terminación texturada color natural.",
+      "category": "hogar",
+      "tags": [
+        "dispenser",
+        "jabón",
+        "detergente",
+        "portaesponja"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "cocina",
+        "baño"
+      ],
+      "materials": [],
+      "features": [
+        "Portaesponja integrado",
+        "Válvula dosificadora"
+      ],
+      "gallery": [
+        "images/p/dispenser-wolf-natural-1.jpg"
+      ],
+      "thumb": "images/p/dispenser-wolf-natural-sm.jpg",
+      "image": "images/p/dispenser-wolf-natural-1.jpg",
+      "url": "/productos/dispenser-wolf-natural/"
+    },
+    {
+      "id": "dispenser-wolf-negro",
+      "sku": "BV-HOG-08",
+      "slug": "dispenser-wolf-negro",
+      "name": "Dispenser Wolf · Negro",
+      "shortDescription": "Dispenser de jabón con portaesponja integrado, color negro.",
+      "description": "Dispenser de jabón o detergente con portaesponja integrado y terminación texturada color negro.",
+      "category": "hogar",
+      "tags": [
+        "dispenser",
+        "jabón",
+        "detergente",
+        "portaesponja"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "cocina",
+        "baño"
+      ],
+      "materials": [],
+      "features": [
+        "Portaesponja integrado",
+        "Válvula dosificadora"
+      ],
+      "gallery": [
+        "images/p/dispenser-wolf-negro-1.jpg"
+      ],
+      "thumb": "images/p/dispenser-wolf-negro-sm.jpg",
+      "image": "images/p/dispenser-wolf-negro-1.jpg",
+      "url": "/productos/dispenser-wolf-negro/"
+    },
+    {
       "id": "enrollador-manguera",
       "sku": "BV-JAR-01",
       "slug": "enrollador-de-manguera",

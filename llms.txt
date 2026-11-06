@@ -1,6 +1,6 @@
 # BIVA
 
-> BIVA (BIVASIL) es una importadora y distribuidora mayorista argentina de artículos para el hogar: utensilios de cocina, bazar, vajilla, organización y jardín. Base y depósito en Mar del Plata, provincia de Buenos Aires. Vende solo a comercios (bazares, ferreterías, casas de cocina, tiendas de deco) y hace envíos a todo el país. Precios mayoristas a pedido.
+> BIVA (BIVASIL) es una importadora y distribuidora mayorista argentina de artículos para el hogar: utensilios de cocina, bazar, vajilla, organización, hogar y deco, y jardín. Base y depósito en Mar del Plata, provincia de Buenos Aires. Vende solo a comercios (bazares, ferreterías, casas de cocina, tiendas de deco) y hace envíos a todo el país. Precios mayoristas a pedido.
 
 ## Datos clave
 - Modelo: B2B, solo mayoristas. No vende al consumidor final.
@@ -16,6 +16,7 @@
 ## Páginas
 - [Inicio y catálogo completo](https://bivasil.com/)
 - [Cocina y bazar](https://bivasil.com/cocina.html)
+- [Hogar y deco](https://bivasil.com/hogar.html)
 - [Jardín](https://bivasil.com/jardin.html)
 - [Nosotros](https://bivasil.com/nosotros.html)
 - [Contacto](https://bivasil.com/contacto.html)
@@ -83,6 +84,40 @@
 - [Tabla Redonda de Acacia · Con Asa](https://bivasil.com/productos/tabla-redonda-de-acacia-con-asa/) [BV-COC-55]: Tabla redonda de madera de acacia con asa integrada y orificio para colgar
 - [Rallador de Mano · Acero Inoxidable 304](https://bivasil.com/productos/rallador-de-mano-acero-inoxidable-304/) [BV-COC-56]: Rallador plano de acero inoxidable 304, mango tubular integrado y gancho de cuelgue
 - [Juego de Contenedores · Organizador Transparente](https://bivasil.com/productos/juego-de-contenedores-organizador-transparente/) [BV-COC-57]: Juego de cinco contenedores apilables de plástico transparente
+- [Bandeja Redonda · Blanca](https://bivasil.com/productos/bandeja-redonda-blanca/) [BV-COC-58]: Bandeja redonda con base de madera y borde blanco con asas
+- [Bandeja Redonda · Negra](https://bivasil.com/productos/bandeja-redonda-negra/) [BV-COC-59]: Bandeja redonda con base de madera y borde negro con asas
+- [Bowl de Acero · Con Medidor](https://bivasil.com/productos/bowl-de-acero-con-medidor/) [BV-COC-60]: Bowl de acero inoxidable con marcas de medida en el interior
+- [Canasto Metálico · Asas de Madera](https://bivasil.com/productos/canasto-metalico-asas-de-madera/) [BV-COC-61]: Canasto de malla metálica negra con asas de madera
+- [Colador de Acero · Negro](https://bivasil.com/productos/colador-de-acero-negro/) [BV-COC-62]: Colador de acero negro con asas laterales y base de apoyo
+- [Colador Extensible · Para Bacha](https://bivasil.com/productos/colador-extensible-para-bacha/) [BV-COC-63]: Colador extensible que se apoya sobre la bacha, en tres colores
+- [Escurridor Nara](https://bivasil.com/productos/escurridor-nara/) [BV-COC-64]: Escurridor de platos compacto con separadores, portacubiertos y bandeja
+- [Escurridor de Metal · Blanco](https://bivasil.com/productos/escurridor-de-metal-blanco/) [BV-COC-65]: Escurridor de platos de metal blanco con asas de madera
+- [Escurridor de Metal · Negro](https://bivasil.com/productos/escurridor-de-metal-negro/) [BV-COC-66]: Escurridor de platos de metal negro con asas de madera
+- [Escurridor de Silicona](https://bivasil.com/productos/escurridor-de-silicona/) [BV-COC-67]: Base de silicona acanalada para secar vajilla, color negro
+- [Frasco de Vidrio Redondo · 750 ml](https://bivasil.com/productos/frasco-de-vidrio-redondo-750-ml/) [BV-COC-68]: Frasco de vidrio redondo de 750 ml con tapa de bambú
+- [Frasco de Vidrio Redondo · 950 ml](https://bivasil.com/productos/frasco-de-vidrio-redondo-950-ml/) [BV-COC-69]: Frasco de vidrio redondo de 950 ml con tapa de bambú
+- [Frasco de Vidrio Redondo · 1300 ml](https://bivasil.com/productos/frasco-de-vidrio-redondo-1300-ml/) [BV-COC-70]: Frasco de vidrio redondo de 1300 ml con tapa de bambú
+- [Frasco de Vidrio Redondo · 1600 ml](https://bivasil.com/productos/frasco-de-vidrio-redondo-1600-ml/) [BV-COC-71]: Frasco de vidrio redondo de 1600 ml con tapa de bambú
+- [Frasco de Vidrio Cuadrado · 450 ml](https://bivasil.com/productos/frasco-de-vidrio-cuadrado-450-ml/) [BV-COC-72]: Frasco de vidrio cuadrado de 450 ml con tapa de bambú
+- [Frasco de Vidrio Cuadrado · 500 ml](https://bivasil.com/productos/frasco-de-vidrio-cuadrado-500-ml/) [BV-COC-73]: Frasco de vidrio cuadrado de 500 ml con tapa de bambú
+- [Frasco de Vidrio Cuadrado · 16 × 10 cm](https://bivasil.com/productos/frasco-de-vidrio-cuadrado-16-10-cm/) [BV-COC-74]: Frasco de vidrio cuadrado de 16 × 10 cm con tapa de bambú
+- [Frasco de Vidrio Cuadrado · 1850 ml](https://bivasil.com/productos/frasco-de-vidrio-cuadrado-1850-ml/) [BV-COC-75]: Frasco de vidrio cuadrado de 1850 ml con tapa de bambú
+- [Alfombra de Secado · Gris](https://bivasil.com/productos/alfombra-de-secado-gris/) [BV-COC-76]: Alfombra absorbente para secar vajilla junto a la bacha
+- [Portarrollos · Base de Madera](https://bivasil.com/productos/portarrollos-base-de-madera/) [BV-COC-77]: Portarrollos de cocina con varilla negra y base de madera
+- [Portarrollos · Metal Negro](https://bivasil.com/productos/portarrollos-metal-negro/) [BV-COC-78]: Portarrollos de cocina de metal negro
+- [Posavasos Hexagonal](https://bivasil.com/productos/posavasos-hexagonal/) [BV-COC-79]: Posavasos hexagonales calados, en colores surtidos
+- [Servilletero Vienna](https://bivasil.com/productos/servilletero-vienna/) [BV-COC-80]: Servilletero de metal negro con base de madera y rodillo
+- [Set Nórdico · Cajas de Madera](https://bivasil.com/productos/set-nordico-cajas-de-madera/) [BV-COC-81]: Set de bandeja y cajas organizadoras de madera
+
+## Catálogo · Hogar y deco
+- [Cesto de Tela · Rayado](https://bivasil.com/productos/cesto-de-tela-rayado/) [BV-HOG-01]: Cesto de tela rayada con asas marrones
+- [Cesto de Tela · Velvet](https://bivasil.com/productos/cesto-de-tela-velvet/) [BV-HOG-02]: Cesto de tela texturada color crema con asas marrones
+- [Difusor de Aromas · Acacia](https://bivasil.com/productos/difusor-de-aromas-acacia/) [BV-HOG-03]: Difusor de varillas con frasco de vidrio ahumado y tapa de acacia
+- [Difusor de Aromas · Cuadrado](https://bivasil.com/productos/difusor-de-aromas-cuadrado/) [BV-HOG-04]: Difusor de varillas con frasco cuadrado de vidrio texturado
+- [Difusor de Aromas · Vita](https://bivasil.com/productos/difusor-de-aromas-vita/) [BV-HOG-05]: Difusor de varillas naturales con frasco de vidrio y tapa de madera
+- [Difusor de Aromas · Cristal Negro](https://bivasil.com/productos/difusor-de-aromas-cristal-negro/) [BV-HOG-06]: Difusor de varillas negras con frasco de cristal ahumado
+- [Dispenser Wolf · Natural](https://bivasil.com/productos/dispenser-wolf-natural/) [BV-HOG-07]: Dispenser de jabón con portaesponja integrado, color natural
+- [Dispenser Wolf · Negro](https://bivasil.com/productos/dispenser-wolf-negro/) [BV-HOG-08]: Dispenser de jabón con portaesponja integrado, color negro
 
 ## Catálogo · Jardín
 - [Enrollador de manguera](https://bivasil.com/productos/enrollador-de-manguera/) [BV-JAR-01]: La manguera siempre fue un enredo. Ya no
