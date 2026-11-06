@@ -130,38 +130,6 @@
       "url": "/productos/set-espatulas/"
     },
     {
-      "id": "lamina-secado-silicona",
-      "sku": "BV-COC-07",
-      "slug": "lamina-de-secado-de-silicona",
-      "name": "Lámina de secado de Silicona",
-      "shortDescription": "Con rendijas especiales para escurrir el agua de manera sencilla",
-      "description": "Falta espacio para escurrir tu vajilla? Con esta lámina de silicona es sencillo agrandar tu espacio de secado y liberarlo cuando lo necesites",
-      "category": "cocina",
-      "tags": [
-        "cocina",
-        "silicona",
-        "lavado"
-      ],
-      "availability": "in_stock",
-      "published": true,
-      "imageFit": "cover",
-      "wholesaleOnly": true,
-      "priceOnRequest": true,
-      "useCases": [
-        "cocina diaria"
-      ],
-      "materials": [
-        "silicona alimentaria"
-      ],
-      "features": [],
-      "gallery": [
-        "images/p/lamina-de-secado-de-silicona-1.jpg"
-      ],
-      "thumb": "images/p/lamina-de-secado-de-silicona-sm.jpg",
-      "image": "images/p/lamina-de-secado-de-silicona-1.jpg",
-      "url": "/productos/lamina-de-secado-de-silicona/"
-    },
-    {
       "id": "guantes",
       "sku": "BV-COC-04",
       "slug": "guantes-termicos",
@@ -264,17 +232,17 @@
       "url": "/productos/lamina-para-hornear/"
     },
     {
-      "id": "enrollador-manguera",
-      "sku": "BV-JAR-01",
-      "slug": "enrollador-de-manguera",
-      "name": "Enrollador de manguera",
-      "shortDescription": "La manguera siempre fue un enredo. Ya no.",
-      "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa.",
-      "category": "jardin",
+      "id": "lamina-secado-silicona",
+      "sku": "BV-COC-07",
+      "slug": "lamina-de-secado-de-silicona",
+      "name": "Lámina de secado de Silicona",
+      "shortDescription": "Con rendijas especiales para escurrir el agua de manera sencilla",
+      "description": "Falta espacio para escurrir tu vajilla? Con esta lámina de silicona es sencillo agrandar tu espacio de secado y liberarlo cuando lo necesites",
+      "category": "cocina",
       "tags": [
-        "jardín",
-        "manguera",
-        "patio"
+        "cocina",
+        "silicona",
+        "lavado"
       ],
       "availability": "in_stock",
       "published": true,
@@ -282,25 +250,18 @@
       "wholesaleOnly": true,
       "priceOnRequest": true,
       "useCases": [
-        "patio",
-        "jardín",
-        "vivero",
-        "uso comercial costa"
+        "cocina diaria"
       ],
       "materials": [
-        "materiales resistentes a intemperie"
+        "silicona alimentaria"
       ],
-      "features": [
-        "Mecanismo simple — enrolla parejo, sin atascos",
-        "Materiales para sol, salitre y frío",
-        "Pensado para vender, no para mostrar"
-      ],
+      "features": [],
       "gallery": [
-        "images/p/enrollador-de-manguera-1.jpg"
+        "images/p/lamina-de-secado-de-silicona-1.jpg"
       ],
-      "thumb": "images/p/enrollador-de-manguera-sm.jpg",
-      "image": "images/p/enrollador-de-manguera-1.jpg",
-      "url": "/productos/enrollador-de-manguera/"
+      "thumb": "images/p/lamina-de-secado-de-silicona-sm.jpg",
+      "image": "images/p/lamina-de-secado-de-silicona-1.jpg",
+      "url": "/productos/lamina-de-secado-de-silicona/"
     },
     {
       "id": "tablas_corte_acacia",
@@ -2203,6 +2164,45 @@
       "thumb": "images/p/juego-de-contenedores-organizador-transparente-sm.jpg",
       "image": "images/p/juego-de-contenedores-organizador-transparente-1.jpg",
       "url": "/productos/juego-de-contenedores-organizador-transparente/"
+    },
+    {
+      "id": "enrollador-manguera",
+      "sku": "BV-JAR-01",
+      "slug": "enrollador-de-manguera",
+      "name": "Enrollador de manguera",
+      "shortDescription": "La manguera siempre fue un enredo. Ya no.",
+      "description": "Enrollador de manguera diseñado para el patio real, no para el showroom. Mecanismo simple que enrolla parejo, sin atascos. Materiales pensados para sol, salitre y frío de costa.",
+      "category": "jardin",
+      "tags": [
+        "jardín",
+        "manguera",
+        "patio"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "cover",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "patio",
+        "jardín",
+        "vivero",
+        "uso comercial costa"
+      ],
+      "materials": [
+        "materiales resistentes a intemperie"
+      ],
+      "features": [
+        "Mecanismo simple — enrolla parejo, sin atascos",
+        "Materiales para sol, salitre y frío",
+        "Pensado para vender, no para mostrar"
+      ],
+      "gallery": [
+        "images/p/enrollador-de-manguera-1.jpg"
+      ],
+      "thumb": "images/p/enrollador-de-manguera-sm.jpg",
+      "image": "images/p/enrollador-de-manguera-1.jpg",
+      "url": "/productos/enrollador-de-manguera/"
     }
   ]
 }
