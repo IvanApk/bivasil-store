@@ -72,7 +72,7 @@ jobs:
           mkdir -p _site
           rsync -a --delete \
             --exclude '.git' --exclude '.github' --exclude '_site' \
-            --exclude '_tools' --exclude '_fotos' --exclude '*.xlsx' --exclude '.huellas.json' \
+            --exclude '_tools' --exclude '_fotos' --exclude '_datos' --exclude '*.xlsx' --exclude '.huellas.json' \
             ./ _site/
           touch _site/.nojekyll
 

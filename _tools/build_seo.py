@@ -306,3 +306,17 @@ for cat in ('cocina', 'hogar', 'jardin'):
 (ROOT / 'llms.txt').write_text('\n'.join(lines), encoding='utf-8')
 
 print(f'OK · {len(products)} productos · {TODAY}')
+
+
+# _datos/productos.csv — lista de productos para el Excel de precios y pedidos (no se publica en la web)
+import csv as _csv
+_dd = ROOT / '_datos'
+_dd.mkdir(exist_ok=True)
+_CAT = {'cocina': 'Cocina', 'hogar': 'Hogar y Deco', 'jardin': 'Jardín'}
+_EST = {'in_stock': 'En stock', 'out_of_stock': 'Sin stock', 'pre_order': 'Próximo ingreso'}
+with open(_dd / 'productos.csv', 'w', newline='', encoding='utf-8-sig') as _fh:
+    _w = _csv.writer(_fh)
+    _w.writerow(['SKU', 'Nombre', 'Categoría', 'Estado', 'Publicado'])
+    for _p in data['products']:
+        _w.writerow([_p['sku'], _p['name'].strip(), _CAT.get(_p['category'], _p['category']),
+                     _EST.get(_p['availability'], 'En stock'), 'Sí' if _p.get('published', True) else 'No'])
