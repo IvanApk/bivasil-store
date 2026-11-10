@@ -3115,6 +3115,77 @@
       "url": "/productos/contenedores-de-vidrio-smart-lid/"
     },
     {
+      "id": "colador-de-mano-malla-de-acero",
+      "sku": "BV-COC-84",
+      "slug": "colador-de-mano-malla-de-acero",
+      "name": "Colador de Mano · Malla de Acero",
+      "shortDescription": "Colador de malla fina de acero inoxidable con mangos revestidos en violeta.",
+      "description": "Colador de mano con malla fina de acero inoxidable, aro de acero y mango largo con gancho de apoyo, ambos revestidos en color violeta. Para colar salsas, caldos, infusiones y espolvorear harina o azúcar.",
+      "category": "cocina",
+      "tags": [
+        "colador",
+        "malla",
+        "acero inoxidable",
+        "cocina"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "salsas",
+        "caldos",
+        "infusiones",
+        "repostería"
+      ],
+      "materials": [
+        "acero inoxidable"
+      ],
+      "features": [
+        "Malla fina",
+        "Gancho para apoyar sobre ollas y bowls",
+        "Mangos revestidos"
+      ],
+      "gallery": [],
+      "thumb": ""
+    },
+    {
+      "id": "escurridor-de-platos-microfibra",
+      "sku": "BV-COC-85",
+      "slug": "escurridor-de-platos-microfibra",
+      "name": "Escurridor de Platos · Microfibra",
+      "shortDescription": "Alfombra de microfibra con soportes para platos, tazas y cubiertos.",
+      "description": "Escurridor de platos compacto con alfombra absorbente de microfibra gris y soportes desmontables para platos, tazas y cubiertos. Se arma sobre la mesada y se guarda fácil.",
+      "category": "cocina",
+      "tags": [
+        "escurridor",
+        "platos",
+        "microfibra",
+        "secado"
+      ],
+      "availability": "in_stock",
+      "published": true,
+      "imageFit": "contain",
+      "wholesaleOnly": true,
+      "priceOnRequest": true,
+      "useCases": [
+        "vajilla",
+        "mesada",
+        "cocinas chicas"
+      ],
+      "materials": [
+        "microfibra"
+      ],
+      "features": [
+        "Alfombra absorbente de microfibra",
+        "Soportes desmontables",
+        "Portacubiertos"
+      ],
+      "gallery": [],
+      "thumb": ""
+    },
+    {
       "id": "cesto-de-tela-rayado",
       "sku": "BV-HOG-01",
       "slug": "cesto-de-tela-rayado",
