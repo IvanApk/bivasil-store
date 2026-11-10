@@ -3147,8 +3147,12 @@
         "Gancho para apoyar sobre ollas y bowls",
         "Mangos revestidos"
       ],
-      "gallery": [],
-      "thumb": ""
+      "gallery": [
+        "images/p/colador-de-mano-malla-de-acero-1.jpg"
+      ],
+      "thumb": "images/p/colador-de-mano-malla-de-acero-sm.jpg",
+      "image": "images/p/colador-de-mano-malla-de-acero-1.jpg",
+      "url": "/productos/colador-de-mano-malla-de-acero/"
     },
     {
       "id": "escurridor-de-platos-microfibra",
@@ -3182,8 +3186,12 @@
         "Soportes desmontables",
         "Portacubiertos"
       ],
-      "gallery": [],
-      "thumb": ""
+      "gallery": [
+        "images/p/escurridor-de-platos-microfibra-1.jpg"
+      ],
+      "thumb": "images/p/escurridor-de-platos-microfibra-sm.jpg",
+      "image": "images/p/escurridor-de-platos-microfibra-1.jpg",
+      "url": "/productos/escurridor-de-platos-microfibra/"
     },
     {
       "id": "cesto-de-tela-rayado",
